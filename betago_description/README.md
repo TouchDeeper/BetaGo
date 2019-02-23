@@ -1,15 +1,15 @@
-#Description Package for BetaGo 
+# Description Package for BetaGo 
 This is description packages for BetaGo.
 
-##File explanation
+## File explanation
 This section is used to explain what some files do.
 - launch/view_betago_rviz.launch: view betago in rviz.
 
-##Notes
+## Notes
 
 
-##Modify on other project used in BetaGo
-###ridgeback
+## Modify on other project used in BetaGo
+### ridgeback
 urdf/ridgeback/ridgeback.gazebo:
 ```
     <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
