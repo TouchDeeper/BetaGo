@@ -1,5 +1,5 @@
 <launch>
-  <rosparam command="load" file="$(find betago_description)/config/control.yaml" />
+  <rosparam command="load" file="$(find betago_control)/config/ridgeback/control.yaml" />
 
   <group if="$(optenv RIDGEBACK_CONTROL_EXTRAS 0)" >
     <rosparam command="load" file="$(env RIDGEBACK_CONTROL_EXTRAS_PATH)" />
