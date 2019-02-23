@@ -1,0 +1,16 @@
+<launch>
+    <arg name="dual_arm" default="true" />
+    <!-- Launch Gazebo ur_gazebo_controller -->
+    <include file="$(find betago_description)/launch/ridgeback/ridgeback_world.launch" />
+
+    <!-- ros_control arm launch file -->
+    <include file="$(find betago_gazebo)/launch/betago/betago_states_gazebo.launch" />   
+    <!-- ros_control trajectory control dof arm launch file -->
+    <include file="$(find betago_control)/launch/ur5/arm_trajectory_controller.launch">
+      <arg name="dual_arm" value="$(arg dual_arm)" />
+    </include>
+    <include file="$(find betago_control)/launch/allegro_hand/allegro_trajectory_controller.launch" />
+    <!-- moveit launch file -->
+    <include file="$(find ridgeback_ur_test)/launch/ridgeback_ur_moveit_planning_execution.launch" />
+
+</launch>

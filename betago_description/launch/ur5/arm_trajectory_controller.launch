@@ -1,0 +1,10 @@
+<launch>
+    <arg name="dual_arm" default="true" />
+    <rosparam file="$(find betago_control)/config/arm_controller.yaml" command="load"/>
+    <node unless="$(arg dual_arm)" name="arm_controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+          output="screen"  args="arm/left_ur_arm_controller arm/right_ur_arm_controller"/>
+    <!--node if="$(arg dual_arm)" name="arm_controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+          output="screen" args="arm/dual_ur_arm_controller arm/right_hand_controller arm/left_hand_controller"/-->
+    <node if="$(arg dual_arm)" name="arm_controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+          output="screen" args="arm/dual_ur_arm_controller "/>
+</launch>

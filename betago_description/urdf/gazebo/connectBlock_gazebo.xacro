@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+<xacro:property name="connectBlock_height" value="0.06" />
+    <xacro:macro name="connectBlock">
+	<link name="connectBlock_link">
+	    <visual>
+		<origin xyz="0 0 ${connectBlock_height/2}" rpy="0 0 0"/>
+		<geometry>
+		    <cylinder radius="${2*connectBlock_height}" length="${connectBlock_height}"/>
+		</geometry>
+		<material name="gray" />
+	    </visual>
+	</link>
+	<gazebo reference="connectBlock_link"><material>Gazebo/DarkGrey</material></gazebo>
+    </xacro:macro>
+
+</robot>

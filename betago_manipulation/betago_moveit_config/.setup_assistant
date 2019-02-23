@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: betago_description
+    relative_path: urdf/ridgeback/ridgeback.urdf.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/ridgeback.srdf
+  CONFIG:
+    author_name: BetaGo
+    author_email: 610690824@qq.com
+    generated_timestamp: 1550911563

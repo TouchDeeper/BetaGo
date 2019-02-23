@@ -1,0 +1,122 @@
+ridgeback:
+# MoveIt-specific simulation settings
+  moveit_sim_hw_interface:
+    joint_model_group: controllers_initial_group_
+    joint_model_group_pose: controllers_initial_pose_
+# Settings for ros_control control loop
+  generic_hw_control_loop:
+    loop_hz: 300
+    cycle_time_error_threshold: 0.01
+# Settings for ros_control hardware interface
+  hardware_interface:
+    joints:
+      - left_ur_arm_shoulder_pan_joint
+      - left_ur_arm_shoulder_lift_joint
+      - left_ur_arm_elbow_joint
+      - left_ur_arm_wrist_1_joint
+      - left_ur_arm_wrist_2_joint
+      - left_ur_arm_wrist_3_joint
+      - right_ur_arm_shoulder_pan_joint
+      - right_ur_arm_shoulder_lift_joint
+      - right_ur_arm_elbow_joint
+      - right_ur_arm_wrist_1_joint
+      - right_ur_arm_wrist_2_joint
+      - right_ur_arm_wrist_3_joint
+      - joint_0
+      - joint_1
+      - joint_2
+      - joint_3
+      - joint_12
+      - joint_13
+      - joint_14
+      - joint_15
+      - joint_4
+      - joint_5
+      - joint_6
+      - joint_7
+      - joint_8
+      - joint_9
+      - joint_10
+      - joint_11
+    sim_control_mode: 1  # 0: position, 1: velocity
+# Publish all joint states
+# Creates the /joint_states topic necessary in ROS
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+  controller_list:
+    - name: left_ur_arm_controller
+      action_ns: follow_joint_trajectory
+      default: True
+      type: FollowJointTrajectory
+      joints:
+        - left_ur_arm_shoulder_pan_joint
+        - left_ur_arm_shoulder_lift_joint
+        - left_ur_arm_elbow_joint
+        - left_ur_arm_wrist_1_joint
+        - left_ur_arm_wrist_2_joint
+        - left_ur_arm_wrist_3_joint
+    - name: right_ur_arm_controller
+      action_ns: follow_joint_trajectory
+      default: True
+      type: FollowJointTrajectory
+      joints:
+        - right_ur_arm_shoulder_pan_joint
+        - right_ur_arm_shoulder_lift_joint
+        - right_ur_arm_elbow_joint
+        - right_ur_arm_wrist_1_joint
+        - right_ur_arm_wrist_2_joint
+        - right_ur_arm_wrist_3_joint
+    - name: manipulator_controller
+      action_ns: follow_joint_trajectory
+      default: True
+      type: FollowJointTrajectory
+      joints:
+        - left_ur_arm_shoulder_pan_joint
+        - left_ur_arm_shoulder_lift_joint
+        - left_ur_arm_elbow_joint
+        - left_ur_arm_wrist_1_joint
+        - left_ur_arm_wrist_2_joint
+        - left_ur_arm_wrist_3_joint
+        - right_ur_arm_shoulder_pan_joint
+        - right_ur_arm_shoulder_lift_joint
+        - right_ur_arm_elbow_joint
+        - right_ur_arm_wrist_1_joint
+        - right_ur_arm_wrist_2_joint
+        - right_ur_arm_wrist_3_joint
+    - name: right_hand_1_controller
+      action_ns: follow_joint_trajectory
+      default: True
+      type: FollowJointTrajectory
+      joints:
+        - joint_0
+        - joint_1
+        - joint_2
+        - joint_3
+    - name: right_hand_2_controller
+      action_ns: follow_joint_trajectory
+      default: True
+      type: FollowJointTrajectory
+      joints:
+        - joint_12
+        - joint_13
+        - joint_14
+        - joint_15
+    - name: right_hand_3_controller
+      action_ns: follow_joint_trajectory
+      default: True
+      type: FollowJointTrajectory
+      joints:
+        - joint_4
+        - joint_5
+        - joint_6
+        - joint_7
+    - name: right_hand_4_controller
+      action_ns: follow_joint_trajectory
+      default: True
+      type: FollowJointTrajectory
+      joints:
+        - joint_8
+        - joint_9
+        - joint_10
+        - joint_11

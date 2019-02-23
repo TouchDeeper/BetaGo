@@ -1,0 +1,5 @@
+<launch>
+  <param name="use_gui" value="true"/>
+  <arg name="config" default="robot" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find betago_description)/rviz/$(arg config).rviz" />
+</launch>

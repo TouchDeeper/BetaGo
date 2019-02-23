@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<robot name="betago" xmlns:xacro="http://ros.org/wiki/xacro">
+    <xacro:include filename="$(find betago_description)/urdf/betago/ridgeback_dual_ur5_description.urdf.xacro" /> 
+        
+    <xacro:include filename="$(find betago_description)/urdf/allegro_hand/dual_allegro_hand.xacro" /> 
+        
+    
+</robot>

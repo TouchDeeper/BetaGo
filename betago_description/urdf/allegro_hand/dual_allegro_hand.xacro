@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<robot name="ur_allegro_ridgeback" xmlns:xacro="http://ros.org/wiki/xacro">
+    <xacro:include filename="$(find betago_description)/urdf/allegro_hand/allegro_hand_description_right.urdf" />
+    <!--xacro:include filename="$(find find betago_description)/urdf/allegro_hand/allegro_hand_description_left_tra.urdf" /-->
+    <joint name="connect_joint" type="fixed">
+	    <origin xyz="0 0 0.095" rpy="0 0 0"/>
+	    <parent link="right_ur_arm_tool0"/>
+	    <child link="palm_link"/>
+    </joint>
+    <!--joint name="connect_joint1" type="fixed">
+	    <origin xyz="0 0 0.095" rpy="0 0 0"/>
+	    <parent link="left_ur_arm_tool0"/>
+	    <child link="left_palm_link"/>
+    </joint-->
+</robot>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="limited" default="false"/>
+  <!-- 未改动之前的文件见ros路径下的share下的原文件-->
+  <param unless="$(arg limited)" name="robot_description" command="$(find xacro)/xacro --inorder '$(find betago_description)/urdf/ur5/ur5_robot.urdf.xacro'" />
+</launch>

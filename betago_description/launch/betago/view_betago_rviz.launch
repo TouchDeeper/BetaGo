@@ -1,0 +1,16 @@
+<launch>
+  <arg name="config" default="$(optenv RIDGEBACK_CONFIG empty)" />
+
+  <param name="use_gui" value="true"/>
+  <param name="robot_description"
+         command="$(find ridgeback_description)/scripts/env_run
+                  $(find ridgeback_description)/urdf/configs/$(arg config)
+                  $(find xacro)/xacro $(find betago_description)/urdf/ridgeback/ridgeback.urdf.xacro
+                  --inorder " />
+
+	<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find betago_description)/rviz/empty.rviz" />
+</launch>
