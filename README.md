@@ -18,6 +18,8 @@ export ROS_IP=192.168.131.100
 127.0.1.1	[your-computer-name]
 ```
 6.`rostopic list` in your desktop to see if the topics in the ridgeback have been send to your desktop. If receive the topic, the connection is valid.
+### step to login the ridgeback's pc by ssh
+1. ssh administrator@192.168.131.1
 ### Step to run the package
 - ur5 and allegro_hand are imported by environment variable RIDGEBACK_URDF_EXTRAS. RIDGEBACK_URDF_EXTRAS = your workspace path/src/betago_description/urdf/betago/ridgeback_urdf_extras.xacro
      - method1: set temporary environment variable:`export RIDGEBACK_URDF_EXTRAS=your workspace path/src/betago_description/urdf/betago/ridgeback_urdf_extras.xacro`
