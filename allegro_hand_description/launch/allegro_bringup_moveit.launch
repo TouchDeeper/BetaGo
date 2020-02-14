@@ -1,0 +1,13 @@
+<launch>
+    <!-- Launch Gazebo ur_gazebo_controller -->
+    <include file="$(find allegro_hand_description)/launch/allegro_empty_world.launch" />
+
+    <!-- ros_control arm launch file -->
+    <include file="$(find allegro_hand_description)/launch/allegro_gazebo_states.launch" />   
+    <!-- ros_control trajectory control dof arm launch file -->
+    <include file="$(find allegro_hand_description)/launch/allegro_trajectory_controller.launch" />
+
+    <!-- moveit launch file -->
+    <include file="$(find allegro_moveit_config)/launch/moveit_planning_execution.launch" />
+    <!--include file="$(find single_moveit_config)/launch/moveit_planning_execution.launch" /-->
+</launch>

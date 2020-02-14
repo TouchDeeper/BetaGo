@@ -1,0 +1,5 @@
+<launch>
+  <param name="robot_description"
+         command="$(find xacro)/xacro $(find allegro_hand_description)/allegro_hand_description_right_tra.urdf
+                  --inorder " />
+</launch>
