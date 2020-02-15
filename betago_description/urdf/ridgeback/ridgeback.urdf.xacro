@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <robot name="ridgeback" xmlns:xacro="http://ros.org/wiki/xacro">
-  <xacro:property name="PI" value="3.1415926535897931" />
+    <xacro:property name="PI" value="3.1415926535897931" />
+    <xacro:property name="M_PI" value="3.1415926535897931" />
 
   <xacro:property name="wheel_radius" value="0.0759" />
   <xacro:property name="wheel_width" value="0.0790" />
@@ -306,4 +307,14 @@
 
   <!-- Optional custom includes. -->
   <xacro:include filename="$(optenv RIDGEBACK_URDF_EXTRAS empty.urdf)" />
+  <!-- sensors -->
+  <xacro:include filename="$(find betago_description)/urdf/sensors/kinect.urdf.xacro" />
+  <sensor_kinect  parent="base_link"/>
+<!--  <xacro:include filename="$(find betago_description)/urdf/sensors/kinect_gazebo.xacro" />-->
+<!--  <xacro:kinect_camera prefix="kinect" />-->
+<!--  <joint name="camera_joint" type="fixed">-->
+<!--    <origin xyz="-0.087 0.0 1.1" rpy="0 0 0"/>-->
+<!--    <parent link="mid_mount"/>-->
+<!--    <child link="kinect_link" />-->
+<!--  </joint>-->
 </robot>
