@@ -5,7 +5,7 @@
   <arg name="world_name" default="$(find ridgeback_gazebo)/worlds/ridgeback_race.world" />
 
   <!-- Configuration of Ridgeback which you would like to simulate.
-       See ridgeback_description for details. -->
+       See ridgeback_description for details. base only has only front HoKuyo laser-->
   <arg name="config" default="$(optenv RIDGEBACK_CONFIG base)" />
 
   <!-- Launch Gazebo with the specified world -->
