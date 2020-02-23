@@ -24,6 +24,7 @@ This is navigation package for BetaGo.
  roslaunch betago_navigation rtabmap_sim_kinect_scan_odom.launch simulation:=true
  roslaunch betago_navigation rtabmap_rviz.launch
 ```
+![kinect + lidar + odom mapping result]()
 
 ## File explanation
 None
