@@ -7,15 +7,21 @@ This is navigation package for BetaGo.
 - The rest is the same as the tutorial said.
 ### rtabmap
 - only kinect
-```
+```asm
  roslaunch betago_gazebo betago_world.launch
- roslaunch betago_navigation rtabmap_mapping_kinect.launch simulation:=true
+ roslaunch betago_navigation rtabmap_sim_kinect_odom.launch simulation:=true
  roslaunch betago_navigation rtabmap_rviz.launch
 ```
-- kinect + lidar
-``` 
+- kinect + odom
+```asm
  roslaunch betago_gazebo betago_world.launch
- roslaunch betago_navigation rtabmap_mapping_kinect_scan.launch simulation:=true
+ roslaunch betago_navigation rtabmap_sim_only_kinect.launch simulation:=true
+ roslaunch betago_navigation rtabmap_rviz.launch
+```
+- kinect + lidar + odom
+```asm
+ roslaunch betago_gazebo betago_world.launch
+ roslaunch betago_navigation rtabmap_sim_kinect_scan_odom.launch simulation:=true
  roslaunch betago_navigation rtabmap_rviz.launch
 ```
 

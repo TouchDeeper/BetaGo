@@ -9,7 +9,7 @@
     <include file="$(find betago_control)/launch/ur5/arm_trajectory_controller.launch">
       <arg name="dual_arm" value="$(arg dual_arm)" />
     </include>
-    <include file="$(find betago_control)/launch/allegro_hand/allegro_trajectory_controller.launch" />
+<!--    <include file="$(find betago_control)/launch/allegro_hand/allegro_trajectory_controller.launch" />-->
     <!-- moveit launch file -->
     <include file="$(find betago_moveit_config)/launch/betago_moveit_planning_execution.launch" />
 

@@ -1,5 +1,10 @@
 # Manipulation Package for BetaGo 
 This is manipulation packages for BetaGo.
+## Usage
+```
+roslaunch betago_bringup betago_bringup_moveit.launch
+roslaunch betago_moveit_config moveit_rviz.launch
+```
 
 ## Step to construct the package for moveit+gazebo
 1. use moveit setup_assistant to construct the initial package.
