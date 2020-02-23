@@ -32,9 +32,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79ad5185-a615-4161-96b5-a3ffc365e309" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch" beforeDir="false" afterPath="$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_navigation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/betago_navigation/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.urdf.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.urdf.xacro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_description/urdf/ur5/ur.transmission.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/betago_description/urdf/ur5/ur.transmission.xacro" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/../build/" />
@@ -69,28 +68,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_control/config/ridgeback/control.yaml">
+        <entry file="file://$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.gazebo">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="29" selection-start-line="5" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="703">
+              <caret line="37" column="50" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.gazebo">
+        <entry file="file://$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.urdf.xacro">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-475">
-              <caret line="5" column="56" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="56" />
+            <state relative-caret-position="194">
+              <caret line="63" column="24" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.urdf.xacro">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/betago_description/urdf/sensors/kinect_gazebo.urdf.xacro">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="305" column="73" selection-start-line="305" selection-start-column="62" selection-end-line="305" selection-end-column="73" />
+            <state relative-caret-position="380">
+              <caret line="20" column="46" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -108,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/betago_description/urdf/betago/ridgeback_dual_ur5_description.urdf.xacro">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+              <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -116,22 +115,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/betago_description/urdf/ur5/ur5.urdf.xacro">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+            <state relative-caret-position="57">
+              <caret line="3" column="73" lean-forward="true" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="78" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_description/urdf/ur5/ur.gazebo.xacro">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_description/urdf/ur5/common.gazebo.xacro">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/betago_description/urdf/ur5/ur.transmission.xacro">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="53" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="53" />
+            <state relative-caret-position="347">
+              <caret line="66" column="86" selection-start-line="66" selection-start-column="86" selection-end-line="66" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -141,8 +135,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>front_rocker</find>
-      <find>trans</find>
       <find>transmiss</find>
+      <find>trans</find>
+      <find>transmission</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,12 +150,14 @@
         <option value="$PROJECT_DIR$/betago_manipulation/README.md" />
         <option value="$PROJECT_DIR$/betago_navigation/README.md" />
         <option value="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ridgeback.srdf" />
-        <option value="$PROJECT_DIR$/betago_description/urdf/ur5/ur.transmission.xacro" />
         <option value="$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch" />
+        <option value="$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.urdf.xacro" />
+        <option value="$PROJECT_DIR$/betago_description/urdf/ur5/ur.transmission.xacro" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
     <option name="y" value="-4" />
     <option name="width" value="1920" />
     <option name="height" value="1084" />
@@ -194,6 +191,13 @@
               <item name="betago_description" type="462c0819:PsiDirectoryNode" />
               <item name="urdf" type="462c0819:PsiDirectoryNode" />
               <item name="betago" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_description" type="462c0819:PsiDirectoryNode" />
+              <item name="urdf" type="462c0819:PsiDirectoryNode" />
+              <item name="sensors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
@@ -400,18 +404,17 @@
       <option name="presentableId" value="Default" />
       <updated>1582438619773</updated>
       <workItem from="1582438622375" duration="3211000" />
-      <workItem from="1582459982242" duration="7694000" />
+      <workItem from="1582459982242" duration="9391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10905000" />
+    <option name="totallyTimeSpent" value="12602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-4" width="1920" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25320512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25320512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -422,7 +425,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32142857" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32142857" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" />
@@ -504,13 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ur5/ur.transmission.xacro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_PLUGINS_DIR$/hatchery/lib/hatchery.zip!/edu/umontreal/hatchery/roslaunch/roslaunch.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -546,19 +542,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.gazebo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ur5/ur.gazebo.xacro">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/betago_description/urdf/ur5/common.gazebo.xacro">
       <provider selected="true" editor-type-id="text-editor">
@@ -567,20 +559,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ur5/ur.gazebo.xacro">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ur5/ur5.urdf.xacro">
+    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.gazebo">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+        <state relative-caret-position="703">
+          <caret line="37" column="50" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_description/urdf/betago/ridgeback_dual_ur5_description.urdf.xacro">
+    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.urdf.xacro">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        <state relative-caret-position="194">
+          <caret line="63" column="24" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_description/urdf/sensors/kinect_gazebo.urdf.xacro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -591,10 +587,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.urdf.xacro">
+    <entry file="file://$PROJECT_DIR$/betago_description/urdf/betago/ridgeback_dual_ur5_description.urdf.xacro">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="305" column="73" selection-start-line="305" selection-start-column="62" selection-end-line="305" selection-end-column="73" />
+        <state relative-caret-position="285">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ur5/ur5.urdf.xacro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="73" lean-forward="true" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ur5/ur.transmission.xacro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="66" column="86" selection-start-line="66" selection-start-column="86" selection-end-line="66" selection-end-column="86" />
         </state>
       </provider>
     </entry>
