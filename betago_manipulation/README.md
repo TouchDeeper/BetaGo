@@ -6,7 +6,7 @@ This is manipulation packages for BetaGo.
 roslaunch betago_moveit_config demo.launch
 ```
 The node graph:
-
+![only rviz node graph](https://github.com/TouchDeeper/BetaGo/blob/ztd/media/demo_graph.png)
 
 ### With Gazebo
 ```asm
