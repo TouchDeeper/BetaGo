@@ -1,18 +1,21 @@
 # Manipulation Package for BetaGo 
 This is manipulation packages for BetaGo.
 ## Usage
-### Only Rviz
+### Only Moveit!
 ```asm
 roslaunch betago_moveit_config demo.launch
 ```
 The node graph:
-![only rviz node graph](https://github.com/TouchDeeper/BetaGo/blob/ztd/media/demo_graph.png)
+![only moveit node graph](https://github.com/TouchDeeper/BetaGo/blob/ztd/media/demo_graph.png)
 
-### With Gazebo
+### Moveit! with Gazebo
 ```asm
 roslaunch betago_bringup betago_bringup_moveit.launch
 roslaunch betago_moveit_config moveit_rviz.launch
 ```
+![moveit with gazebo  node graph](https://github.com/TouchDeeper/BetaGo/blob/ztd/media/Gazebo_moveit_graph.png)
+
+The difference is `Only Moveit!` will create a fake joint state controller and a joint_state_publisher to publish /joint_states while in "Moveit + Gazebo", the real jointStateController will publish the /joint_states. 
 args of `betago_bringup_moveit.launch`:
 - `dual_arm:=(default:true/false)` : single-arm controller or dual-arm controller
 ## Step to construct the package for moveit+gazebo
