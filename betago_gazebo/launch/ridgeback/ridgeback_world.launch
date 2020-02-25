@@ -54,7 +54,7 @@
               -param robot_description
               -x 0
               -y 0
-              -z 3
+              -z 1
 
             " />
   <!--<node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model"
