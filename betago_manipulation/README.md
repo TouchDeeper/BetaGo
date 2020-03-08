@@ -5,6 +5,7 @@ This is manipulation packages for BetaGo.
 ```asm
 roslaunch betago_moveit_config demo.launch
 ```
+![demo](../media/demo_1.png)
 The node graph:
 ![only moveit node graph](../media/demo_graph.png)
 
