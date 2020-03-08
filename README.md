@@ -6,8 +6,15 @@ This repository is about the BetaGo robot maintained by South China University o
 sudo apt-get install ros-kinetic-moveit-ros-*
 sudo apt-get install ros-kinetic-moveit
 ```
-- ridgeback packages:`sudo apt-get install ros-kinetic-ridgeback*`
-
+- ridgeback packages:
+```
+sudo apt-get install ros-kinetic-ridgeback*
+```
+- UR5 packages:
+```
+sudo apt-get install ros-kinetic-ur-*
+sudo apt-get install ros-kinetic-ur5*
+```
 ## Usage
 create the workspace
 
@@ -18,7 +25,6 @@ clone this repositories and build
 ```
 git clone https://github.com/TouchDeeper/BetaGo.git src/
 cd src/
-git checkout -b ztd origin/ztd 
 cd ..
 catkin_make
 ```
