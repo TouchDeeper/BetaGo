@@ -24,8 +24,6 @@ clone this repositories and build
 
 ```
 git clone https://github.com/TouchDeeper/BetaGo.git src/
-cd src/
-cd ..
 catkin_make
 ```
 
