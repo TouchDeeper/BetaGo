@@ -4,7 +4,10 @@
 
   <!-- Remap follow_joint_trajectory -->
   <!--remap if="$(arg sim)" from="/follow_joint_trajectory" to="/left_ur_arm_controller/follow_joint_trajectory"/-->
-
+  <!-- Load the URDF, SRDF and other .yaml configuration files on the param server -->
+<!--  <include file="$(find betago_moveit_config)/launch/planning_context.launch">-->
+<!--    <arg name="load_robot_description" value="true"/>-->
+<!--  </include>-->
   <!-- Launch moveit -->
   <include file="$(find betago_moveit_config)/launch/move_group.launch">
     <arg name="debug" default="$(arg debug)" />

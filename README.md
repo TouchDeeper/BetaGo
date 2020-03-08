@@ -1,9 +1,39 @@
 # Overview
 This repository is about the BetaGo robot maintained by South China University of Technology [PEMT Laboratory](http://www.scut.edu.cn/pemt/).
 ## Dependencies
+- moveit-ros packages:
+```
+sudo apt-get install ros-kinetic-moveit-ros-*
+sudo apt-get install ros-kinetic-moveit
+```
 - ridgeback packages:`sudo apt-get install ros-kinetic-ridgeback*`
+
 ## Usage
-### Step to connect to the ridgeback by wired connection
+create the workspace
+
+`mkdir ~/BetaGo_ws && cd ~/BetaGo_ws`
+
+clone this repositories and build
+
+```
+git clone https://github.com/TouchDeeper/BetaGo.git src/
+cd src/
+git checkout -b ztd origin/ztd 
+cd ..
+catkin_make
+```
+
+### Simulation
+- ur5 and allegro_hand are imported by environment variable RIDGEBACK_URDF_EXTRAS. RIDGEBACK_URDF_EXTRAS = your workspace path/src/betago_description/urdf/betago/ridgeback_urdf_extras.xacro
+     - method1: set temporary environment variable:`export RIDGEBACK_URDF_EXTRAS=~/BetaGo_ws/src/betago_description/urdf/betago/ridgeback_urdf_extras.xacro`
+    - method2: set permanent environment variable:
+        1. terminal:`sudo gedit ~/.bashrc`
+        2. add `export RIDGEBACK_URDF_EXTRAS=~/BetaGo_ws/src/betago_description/urdf/betago/ridgeback_urdf_extras.xacro` in the end.
+        3. terminal:`source ~/.bashrc`
+        
+- Check if the model has been downloaded in `~/.Gazebo/`, if not, you need to download the model first and put it in `~/.Gazebo/`.  
+### Real robot
+#### Step to connect to the ridgeback by wired connection
 1. plug in the network cable.
 2. start the ridgeback, then push the E-STOP to release the lock. 
 3. set the wired connection in your desktop, see the [gif](https://github.com/TouchDeeper/BetaGo/blob/ztd/media/set_wire_network.gif).
