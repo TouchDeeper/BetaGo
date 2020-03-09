@@ -5,7 +5,6 @@ This is manipulation packages for BetaGo.
 ```asm
 roslaunch betago_moveit_config demo.launch
 ```
-![demo](../media/demo_1.png)
 The node graph:
 ![only moveit node graph](../media/demo_graph.png)
 
@@ -22,6 +21,10 @@ args of `betago_bringup_moveit.launch`:
 ## Step to construct the package for moveit+gazebo
 1. use moveit setup_assistant to construct the initial package.
 ![moveit_config_1.png](../media/moveit_config_1.png)
+![moveit_config_kinematics_1.png](../media/moveit_config_kinematics_1.png)
+![moveit_config_kinematics_2.png](../media/moveit_config_kinematics_2.png)
+![moveit_config_kinematics_3.png](../media/moveit_config_kinematics_3.png)
+
 ![moveit_config_2.png](../media/moveit_config_2.png)
 ![moveit_config_3.png](../media/moveit_config_3.png)
 
