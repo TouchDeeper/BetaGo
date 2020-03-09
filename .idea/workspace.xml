@@ -31,15 +31,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79ad5185-a615-4161-96b5-a3ffc365e309" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/moveit_config_kinematics_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/moveit_config_kinematics_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/moveit_config_kinematics_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/kinematics.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/kinematics.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/demo_1.png" beforeDir="false" />
-    </list>
+    <list default="true" id="79ad5185-a615-4161-96b5-a3ffc365e309" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/../build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +49,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
+            <state relative-caret-position="38">
+              <caret line="2" column="47" lean-forward="true" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/demo.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -72,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/betago_manipulation/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="304">
+              <first_editor relative-caret-position="475">
                 <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
               </first_editor>
               <second_editor />
@@ -214,6 +215,13 @@
               <item name="betago_manipulation" type="462c0819:PsiDirectoryNode" />
               <item name="betago_moveit_config" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_manipulation" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_moveit_config" type="462c0819:PsiDirectoryNode" />
+              <item name="launch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
@@ -416,15 +424,15 @@
       <workItem from="1583321236965" duration="4000" />
       <workItem from="1583663939299" duration="6231000" />
       <workItem from="1583678114293" duration="488000" />
-      <workItem from="1583730473178" duration="1649000" />
+      <workItem from="1583730473178" duration="3051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57899000" />
+    <option name="totallyTimeSpent" value="59301000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <frame x="-2944" y="-4" width="1920" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28846154" />
@@ -635,13 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/demo.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/planning_context.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -667,20 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="88" selection-start-line="6" selection-start-column="88" selection-end-line="6" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.urdf.xacro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -715,6 +702,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/media/demo_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ompl_planning.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2508" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/kinematics.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -722,21 +717,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ompl_planning.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2508" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/demo_1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/betago_manipulation/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="304">
+          <first_editor relative-caret-position="475">
             <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.urdf.xacro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="47" lean-forward="true" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/demo.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
