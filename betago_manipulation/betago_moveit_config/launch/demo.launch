@@ -8,6 +8,9 @@
   <!-- By default, we are not in debug mode -->
   <arg name="debug" default="false" />
 
+<!--  true when run betago_tutorials package-->
+  <arg name="betago_tutorial" default="false" />
+
   <!--
   By default, hide joint_state_publisher's GUI
 
@@ -45,7 +48,7 @@
 
   <!-- Run Rviz and load the default config to see the state of the move_group node -->
   <include file="$(find betago_moveit_config)/launch/moveit_rviz.launch">
-    <arg name="config" value="true"/>
+    <arg name="betago_tutorial" value="$(arg betago_tutorial)"/>
     <arg name="debug" value="$(arg debug)"/>
   </include>
 
