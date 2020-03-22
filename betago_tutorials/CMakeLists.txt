@@ -169,11 +169,17 @@ include_directories( "/usr/local/include/eigen3" )
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
-
+# move_group_interface_tutorial
 add_executable(move_group_interface_tutorial src/move_group_interface_tutorial.cpp)
 target_link_libraries(move_group_interface_tutorial ${catkin_LIBRARIES} ${Boost_LIBRARIES})
 #install(TARGETS move_group_interface_tutorial DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
+# robot_model_and_robot_state_tutorial
+add_executable(robot_model_and_robot_state_tutorial src/robot_model_and_robot_state_tutorial.cpp)
+target_link_libraries(robot_model_and_robot_state_tutorial ${catkin_LIBRARIES} ${Boost_LIBRARIES})
+
+add_executable(planning_scene_tutorial src/planning_scene_tutorial.cpp)
+target_link_libraries(planning_scene_tutorial ${catkin_LIBRARIES} ${Boost_LIBRARIES})
 #############
 ## Install ##
 #############
