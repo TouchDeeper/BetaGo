@@ -178,8 +178,21 @@ target_link_libraries(move_group_interface_tutorial ${catkin_LIBRARIES} ${Boost_
 add_executable(robot_model_and_robot_state_tutorial src/robot_model_and_robot_state_tutorial.cpp)
 target_link_libraries(robot_model_and_robot_state_tutorial ${catkin_LIBRARIES} ${Boost_LIBRARIES})
 
+# planning_scene_tutorial
 add_executable(planning_scene_tutorial src/planning_scene_tutorial.cpp)
 target_link_libraries(planning_scene_tutorial ${catkin_LIBRARIES} ${Boost_LIBRARIES})
+
+# planning_scene_ros_api_tutorial
+add_executable(planning_scene_ros_api_tutorial src/planning_scene_ros_api_tutorial.cpp)
+target_link_libraries(planning_scene_ros_api_tutorial ${catkin_LIBRARIES} ${Boost_LIBRARIES})
+
+# motion_planning_api_tutorial
+add_executable(motion_planning_api_tutorial src/motion_planning_api_tutorial.cpp)
+target_link_libraries(motion_planning_api_tutorial ${catkin_LIBRARIES} ${Boost_LIBRARIES})
+
+# motion_planning_pipeline_tutorial
+add_executable(motion_planning_pipeline_tutorial src/motion_planning_pipeline_tutorial.cpp)
+target_link_libraries(motion_planning_pipeline_tutorial ${catkin_LIBRARIES} ${Boost_LIBRARIES})
 #############
 ## Install ##
 #############
