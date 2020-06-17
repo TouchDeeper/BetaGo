@@ -15,15 +15,15 @@
       <config projectName="Project" targetName="moveit_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_py" />
       <config projectName="Project" targetName="bond_generate_messages_py" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_py" />
       <config projectName="Project" targetName="dynamic_reconfigure_gencfg" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="nodelet_generate_messages_cpp" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="topic_tools_generate_messages_eus" />
@@ -39,8 +39,8 @@
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="actionlib_generate_messages_eus" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="download_extra_data" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="std_srvs_generate_messages_cpp" />
@@ -62,7 +62,9 @@
       <config projectName="Project" targetName="actionlib_generate_messages_cpp" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="gmock_main" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="gtest_main" />
       <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_nodejs" />
@@ -71,12 +73,13 @@
       <config projectName="Project" targetName="tf_generate_messages_nodejs" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_nodejs" />
       <config projectName="Project" targetName="tf_generate_messages_eus" />
-      <config projectName="Project" targetName="topic_tools_generate_messages_nodejs" />
       <config projectName="Project" targetName="move_group_interface_tutorial" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_nodejs" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="std_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="graph_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="gtest" />
       <config projectName="Project" targetName="std_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="robot_model_and_robot_state_tutorial" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_cpp" />
@@ -88,6 +91,7 @@
       <config projectName="Project" targetName="tf_generate_messages_cpp" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_py" />
       <config projectName="Project" targetName="roscpp_generate_messages_eus" />
+      <config projectName="Project" targetName="gmock" />
       <config projectName="Project" targetName="doxygen" />
       <config projectName="Project" targetName="bond_generate_messages_eus" />
       <config projectName="Project" targetName="tests" />
@@ -95,15 +99,15 @@
       <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_py" />
       <config projectName="Project" targetName="graph_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="bond_generate_messages_lisp" />
       <config projectName="Project" targetName="std_srvs_generate_messages_py" />
+      <config projectName="Project" targetName="bond_generate_messages_lisp" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="pcl_ros_gencfg" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_cpp" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="run_tests" />
-      <config projectName="Project" targetName="nodelet_generate_messages_py" />
       <config projectName="Project" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="Project" targetName="nodelet_generate_messages_py" />
       <config projectName="Project" targetName="nodelet_generate_messages_eus" />
       <config projectName="Project" targetName="nodelet_generate_messages_lisp" />
       <config projectName="Project" targetName="nodelet_topic_tools_gencfg" />
@@ -121,8 +125,8 @@
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_py" />
       <config projectName="Project" targetName="motion_planning_pipeline_tutorial" />
       <config projectName="Project" targetName="tf_generate_messages_lisp" />
-      <config projectName="Project" targetName="nodelet_generate_messages_nodejs" />
       <config projectName="Project" targetName="graph_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="nodelet_generate_messages_nodejs" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_eus" />
@@ -138,15 +142,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79ad5185-a615-4161-96b5-a3ffc365e309" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/betago_tutorials/launch/motion_planning_api_tutorial.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/betago_tutorials/launch/motion_planning_pipeline_tutorial.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/betago_tutorials/launch/planning_scene_ros_api_tutorial.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/betago_tutorials/src/motion_planning_api_tutorial.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/betago_tutorials/src/motion_planning_pipeline_tutorial.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/betago_tutorials/src/planning_scene_ros_api_tutorial.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_tutorials/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/betago_tutorials/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_tutorials/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/betago_tutorials/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_navigation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/betago_navigation/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/../build/" />
@@ -162,12 +159,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/betago_tutorials/README.md">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/betago_navigation/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="518">
-                <caret line="50" column="67" selection-start-line="50" selection-start-column="67" selection-end-line="50" selection-end-column="67" />
+              <first_editor>
+                <caret selection-end-line="1" selection-end-column="38" />
               </first_editor>
               <second_editor />
             </state>
@@ -175,58 +172,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_tutorials/src/motion_planning_pipeline_tutorial.cpp">
+        <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-817">
-              <caret line="170" column="102" selection-start-line="170" selection-start-column="102" selection-end-line="170" selection-end-column="102" />
+            <state relative-caret-position="57">
+              <caret line="3" column="69" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_tutorials/launch/motion_planning_pipeline_tutorial.launch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_tutorials/src/robot_model_and_robot_state_tutorial.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="117" column="100" selection-start-line="117" selection-start-column="87" selection-end-line="117" selection-end-column="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_tutorials/src/planning_scene_tutorial.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="244" column="47" selection-start-line="244" selection-start-column="34" selection-end-line="244" selection-end-column="47" />
-              <folding>
-                <element signature="e#1878#1935#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_tutorials/src/motion_planning_api_tutorial.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2667">
-              <caret line="180" column="42" selection-start-line="180" selection-start-column="33" selection-end-line="180" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/moveit_rviz.launch">
+        <entry file="file://$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="36" />
+              <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/betago_description/launch/ridgeback/description.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="87" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.urdf.xacro">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="315" column="76" selection-start-line="315" selection-start-column="76" selection-end-line="315" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/betago_description/urdf/sensors/kinect.urdf.xacro">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="728">
+              <caret line="68" column="24" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/betago_calibration/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="114">
+                <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -234,7 +231,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/betago_tutorials/src/move_group_interface_tutorial.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="3686">
               <caret line="194" column="47" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="47" />
               <folding>
                 <element signature="e#1858#1919#0" expanded="true" />
@@ -255,7 +252,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/demo.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
+            <state relative-caret-position="950">
               <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="64" />
             </state>
           </provider>
@@ -301,7 +298,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/betago_navigation/README.md" />
         <option value="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ridgeback.srdf" />
         <option value="$PROJECT_DIR$/betago_description/urdf/ur5/ur.transmission.xacro" />
         <option value="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/controllers.yaml" />
@@ -330,11 +326,12 @@
         <option value="$PROJECT_DIR$/betago_tutorials/launch/motion_planning_pipeline_tutorial.launch" />
         <option value="$PROJECT_DIR$/betago_tutorials/src/motion_planning_pipeline_tutorial.cpp" />
         <option value="$PROJECT_DIR$/betago_tutorials/README.md" />
+        <option value="$PROJECT_DIR$/betago_navigation/README.md" />
+        <option value="$PROJECT_DIR$/betago_calibration/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
     <option name="y" value="-4" />
     <option name="width" value="1920" />
     <option name="height" value="1084" />
@@ -344,60 +341,63 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_calibration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="betago_manipulation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="betago_manipulation" type="462c0819:PsiDirectoryNode" />
-              <item name="betago_moveit_config" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_bringup" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="betago_manipulation" type="462c0819:PsiDirectoryNode" />
-              <item name="betago_moveit_config" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_bringup" type="462c0819:PsiDirectoryNode" />
               <item name="launch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="betago_tutorials" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="betago_tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="launch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="betago_tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_navigation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/betago_tutorials/launch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../LaserCameraCal_ws/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -585,6 +585,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="graph_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="graph_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -606,6 +616,16 @@
       </method>
     </configuration>
     <configuration name="graph_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="graph_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -1072,25 +1092,6 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application._catkin_empty_exported_target" />
-      <item itemvalue="CMake Application.clean_test_results" />
-      <item itemvalue="CMake Application.download_extra_data" />
-      <item itemvalue="CMake Application.doxygen" />
-      <item itemvalue="CMake Application.roscpp_generate_messages_cpp" />
-      <item itemvalue="CMake Application.roscpp_generate_messages_eus" />
-      <item itemvalue="CMake Application.roscpp_generate_messages_lisp" />
-      <item itemvalue="CMake Application.roscpp_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.roscpp_generate_messages_py" />
-      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_cpp" />
-      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_eus" />
-      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_lisp" />
-      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.run_tests" />
-      <item itemvalue="CMake Application.std_msgs_generate_messages_cpp" />
-      <item itemvalue="CMake Application.std_msgs_generate_messages_eus" />
-      <item itemvalue="CMake Application.std_msgs_generate_messages_lisp" />
-      <item itemvalue="CMake Application.std_msgs_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.std_msgs_generate_messages_py" />
       <item itemvalue="CMake Application.actionlib_generate_messages_cpp" />
       <item itemvalue="CMake Application.actionlib_generate_messages_eus" />
       <item itemvalue="CMake Application.actionlib_generate_messages_lisp" />
@@ -1106,6 +1107,9 @@
       <item itemvalue="CMake Application.bond_generate_messages_lisp" />
       <item itemvalue="CMake Application.bond_generate_messages_nodejs" />
       <item itemvalue="CMake Application.bond_generate_messages_py" />
+      <item itemvalue="CMake Application.clean_test_results" />
+      <item itemvalue="CMake Application.download_extra_data" />
+      <item itemvalue="CMake Application.doxygen" />
       <item itemvalue="CMake Application.dynamic_reconfigure_gencfg" />
       <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_cpp" />
       <item itemvalue="CMake Application.dynamic_reconfigure_generate_messages_eus" />
@@ -1157,6 +1161,17 @@
       <item itemvalue="CMake Application.planning_scene_ros_api_tutorial" />
       <item itemvalue="CMake Application.planning_scene_tutorial" />
       <item itemvalue="CMake Application.robot_model_and_robot_state_tutorial" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_cpp" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_eus" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_lisp" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_py" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.run_tests" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_lisp" />
@@ -1167,11 +1182,17 @@
       <item itemvalue="CMake Application.shape_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.shape_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.shape_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_py" />
       <item itemvalue="CMake Application.std_srvs_generate_messages_cpp" />
       <item itemvalue="CMake Application.std_srvs_generate_messages_eus" />
       <item itemvalue="CMake Application.std_srvs_generate_messages_lisp" />
       <item itemvalue="CMake Application.std_srvs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.std_srvs_generate_messages_py" />
+      <item itemvalue="CMake Application.tests" />
       <item itemvalue="CMake Application.tf2_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.tf2_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.tf2_msgs_generate_messages_lisp" />
@@ -1197,7 +1218,10 @@
       <item itemvalue="CMake Application.visualization_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.visualization_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.visualization_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.tests" />
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -1230,18 +1254,20 @@
       <workItem from="1584879616397" duration="599000" />
       <workItem from="1584880280331" duration="8577000" />
       <workItem from="1584966828510" duration="6042000" />
-      <workItem from="1584976368747" duration="1890000" />
+      <workItem from="1584976368747" duration="1934000" />
+      <workItem from="1585108526659" duration="16000" />
+      <workItem from="1592379104938" duration="3153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88110000" />
+    <option name="totallyTimeSpent" value="91323000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <frame x="-1920" y="-4" width="1920" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12286325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1252,7 +1278,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.26836735" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2622449" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005342" side_tool="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32959184" />
@@ -1290,20 +1316,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/betago_control/launch/betago/betago_states_gazebo.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_control/launch/ridgeback/control.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="77" selection-start-line="1" selection-start-column="77" selection-end-line="1" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/planning_pipeline.launch.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1336,16 +1348,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="86" lean-forward="true" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_navigation/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="380">
-            <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1385,20 +1387,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/media/demo_1.png" />
-    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.urdf.xacro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/betago_tutorial/launch/move_group_interface_tutorial.launch" />
     <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/betago_moveit_planning_execution.launch">
       <provider selected="true" editor-type-id="text-editor">
@@ -1481,13 +1469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/hatchery/lib/hatchery.zip!/edu/umontreal/hatchery/roslaunch/roslaunch.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/betago_tutorials/launch/robot_model_and_robot_state_tutorial.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1541,20 +1522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_description/launch/ridgeback/description.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="100" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/betago_tutorials/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1562,16 +1529,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/betago_tutorials/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="950">
+            <caret line="50" selection-start-line="50" selection-end-line="51" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_tutorials/src/motion_planning_pipeline_tutorial.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3230">
+          <caret line="170" column="102" selection-start-line="170" selection-start-column="102" selection-end-line="170" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_tutorials/launch/motion_planning_pipeline_tutorial.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_tutorials/src/robot_model_and_robot_state_tutorial.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2223">
+          <caret line="117" column="100" selection-start-line="117" selection-start-column="87" selection-end-line="117" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_tutorials/src/planning_scene_tutorial.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4636">
+          <caret line="244" column="47" selection-start-line="244" selection-start-column="34" selection-end-line="244" selection-end-column="47" />
+          <folding>
+            <element signature="e#1878#1935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/betago_tutorials/src/motion_planning_api_tutorial.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2667">
+        <state relative-caret-position="3420">
           <caret line="180" column="42" selection-start-line="180" selection-start-column="33" selection-end-line="180" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/moveit_rviz.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/betago_tutorials/src/move_group_interface_tutorial.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="3686">
           <caret line="194" column="47" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="47" />
           <folding>
             <element signature="e#1858#1919#0" expanded="true" />
@@ -1588,54 +1603,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/demo.launch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
+        <state relative-caret-position="950">
           <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/moveit_rviz.launch">
+    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="69" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="36" />
+          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_tutorials/src/planning_scene_tutorial.cpp">
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/hatchery/lib/hatchery.zip!/edu/umontreal/hatchery/roslaunch/roslaunch.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="244" column="47" selection-start-line="244" selection-start-column="34" selection-end-line="244" selection-end-column="47" />
-          <folding>
-            <element signature="e#1878#1935#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="232">
+          <caret line="257" column="12" selection-start-line="257" selection-start-column="12" selection-end-line="257" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_tutorials/src/robot_model_and_robot_state_tutorial.cpp">
+    <entry file="file://$PROJECT_DIR$/betago_description/launch/ridgeback/description.launch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="117" column="100" selection-start-line="117" selection-start-column="87" selection-end-line="117" selection-end-column="100" />
+        <state relative-caret-position="114">
+          <caret line="6" column="87" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_tutorials/launch/motion_planning_pipeline_tutorial.launch">
+    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.urdf.xacro">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        <state relative-caret-position="367">
+          <caret line="315" column="76" selection-start-line="315" selection-start-column="76" selection-end-line="315" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_tutorials/src/motion_planning_pipeline_tutorial.cpp">
+    <entry file="file://$PROJECT_DIR$/betago_description/urdf/sensors/kinect.urdf.xacro">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-817">
-          <caret line="170" column="102" selection-start-line="170" selection-start-column="102" selection-end-line="170" selection-end-column="102" />
+        <state relative-caret-position="728">
+          <caret line="68" column="24" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_tutorials/README.md">
+    <entry file="file://$PROJECT_DIR$/betago_navigation/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="518">
-            <caret line="50" column="67" selection-start-line="50" selection-start-column="67" selection-end-line="50" selection-end-column="67" />
+          <first_editor>
+            <caret selection-end-line="1" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_calibration/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="114">
+            <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
           </first_editor>
           <second_editor />
         </state>
