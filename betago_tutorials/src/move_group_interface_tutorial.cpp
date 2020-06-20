@@ -81,7 +81,7 @@ int main(int argc, char** argv)
   // The package MoveItVisualTools provides many capabilties for visualizing objects, robots,
   // and trajectories in RViz as well as debugging tools such as step-by-step introspection of a script
   namespace rvt = rviz_visual_tools;
-  moveit_visual_tools::MoveItVisualTools visual_tools("right_ur_arm_shoulder_pan_joint");
+  moveit_visual_tools::MoveItVisualTools visual_tools("right_ur_arm_base");
   visual_tools.deleteAllMarkers();
 
   // Remote control is an introspection tool that allows users to step through a high level script
@@ -114,13 +114,20 @@ int main(int argc, char** argv)
   // We can plan a motion for this group to a desired pose for the
   // end-effector.
   geometry_msgs::Pose target_pose1;
-  target_pose1.orientation.x = -0.5;
-  target_pose1.orientation.y = 0.5;
-  target_pose1.orientation.z = 0.5;
-  target_pose1.orientation.w = 0.5;
-  target_pose1.position.x = 0.3;
-  target_pose1.position.y = -0.008;
-  target_pose1.position.z = 1.18;
+//  target_pose1.orientation.x = -0.5;
+//  target_pose1.orientation.y = 0.5;
+//  target_pose1.orientation.z = 0.5;
+//  target_pose1.orientation.w = 0.5;
+//  target_pose1.position.x = 0.1;
+//  target_pose1.position.y = -0.008;
+//  target_pose1.position.z = 1.18;
+    target_pose1.orientation.x = 0;
+    target_pose1.orientation.y = 0;
+    target_pose1.orientation.z = 0;
+    target_pose1.orientation.w = 1;
+    target_pose1.position.x = -0.3;
+    target_pose1.position.y = 0;
+    target_pose1.position.z = 0.5;
   move_group.setPoseTarget(target_pose1);
 
   // Now, we call the planner to compute the plan and visualize it.
@@ -170,6 +177,12 @@ int main(int argc, char** argv)
   std::vector<double> joint_group_positions;
   current_state->copyJointGroupPositions(joint_model_group, joint_group_positions);
 
+  std::vector<std::string> joint_group = move_group.getActiveJoints();
+  assert(joint_group.size() == joint_group_positions.size());
+//    joint_model_group->printGroupInfo();
+    for (int j = 0; j < joint_group_positions.size(); ++j) {
+        std::cout<<joint_group[j]<<" angle: "<<joint_group_positions[j]<<std::endl;
+    }
   // Now, let's modify one of the joints, plan to the new joint space goal and visualize the plan.
   joint_group_positions[0] = -1.0;  // radians
   move_group.setJointValueTarget(joint_group_positions);
