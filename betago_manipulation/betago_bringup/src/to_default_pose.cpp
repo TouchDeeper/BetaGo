@@ -12,7 +12,6 @@
 #include "TdRosLib/arm_moveit.h"
 int main(int argc, char** argv)
 {
-    // TODO trajectory line visual problem
   ros::init(argc, argv, "to_default_pose");
   ros::NodeHandle node_handle;
   ros::AsyncSpinner spinner(1);

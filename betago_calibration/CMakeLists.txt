@@ -29,10 +29,10 @@ find_package(catkin REQUIRED COMPONENTS
 ## System dependencies are found with CMake's conventions
 find_package(Boost REQUIRED system filesystem date_time thread)
 
-set(TdRosLib_PATH "/home/wang/CLionProjects/TdRosLibrary")
-add_library(TdRosLib SHARED ${TdRosLib_PATH}/src/tool.cpp ${TdRosLib_PATH}/src/arm_moveit.cpp)
-target_link_libraries(TdRosLib PRIVATE ${catkin_LIBRARIES} ${Boost_LIBRARIES})
-include_directories(${TdRosLib_PATH}/include)
+#set(TdRosLib_PATH "/home/wang/CLionProjects/TdRosLibrary")
+#add_library(TdRosLib SHARED ${TdRosLib_PATH}/src/tool.cpp ${TdRosLib_PATH}/src/arm_moveit.cpp)
+#target_link_libraries(TdRosLib PRIVATE ${catkin_LIBRARIES} ${Boost_LIBRARIES})
+#include_directories(${TdRosLib_PATH}/include)
 
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
@@ -145,8 +145,8 @@ include_directories( "/usr/local/include/eigen3" )
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/betago_calibration.cpp
 # )
-add_executable(to_default_pose src/to_default_pose.cpp)
-target_link_libraries(to_default_pose ${catkin_LIBRARIES} ${Boost_LIBRARIES} TdRosLib)
+#add_executable(to_default_pose ../betago_navigation/src/to_default_pose.cpp)
+#target_link_libraries(to_default_pose ${catkin_LIBRARIES} ${Boost_LIBRARIES} TdRosLib)
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
