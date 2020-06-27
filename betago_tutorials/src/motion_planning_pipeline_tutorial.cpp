@@ -114,10 +114,17 @@ int main(int argc, char** argv)
   planning_interface::MotionPlanResponse res;
   geometry_msgs::PoseStamped pose;
   pose.header.frame_id = "right_ur_arm_base_link";
-  pose.pose.position.x = 0.3;
-  pose.pose.position.y = 0.0;
-  pose.pose.position.z = 0.75;
-  pose.pose.orientation.w = 1.0;
+//  pose.pose.position.x = -0.08;
+//  pose.pose.position.y = 0.09;
+//  pose.pose.position.z = 0.29;
+//  pose.pose.orientation.x = 0.69;
+//  pose.pose.orientation.y = 0.71;
+//  pose.pose.orientation.z = -0.18;
+//  pose.pose.orientation.w =-0.04;
+    pose.pose.position.x = 0.3;
+    pose.pose.position.y = 0.0;
+    pose.pose.position.z = 0.75;
+    pose.pose.orientation.w = 1.0;
 
   // A tolerance of 0.01 m is specified in position
   // and 0.01 radians in orientation
@@ -135,6 +142,7 @@ int main(int argc, char** argv)
   moveit_msgs::Constraints pose_goal =
       kinematic_constraints::constructGoalConstraints("right_ur_arm_tool0", pose, tolerance_pose, tolerance_angle);
   req.goal_constraints.push_back(pose_goal);
+  //TODO crash error
 
   // Now, call the pipeline and check whether planning was successful.
   planning_pipeline->generatePlan(planning_scene, req, res);

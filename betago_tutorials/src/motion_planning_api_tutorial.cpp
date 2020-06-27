@@ -70,7 +70,7 @@ int main(int argc, char** argv)
   //
   // .. _RobotModelLoader:
   //     http://docs.ros.org/indigo/api/moveit_ros_planning/html/classrobot__model__loader_1_1RobotModelLoader.html
-  const std::string PLANNING_GROUP = "right_ur_arm";
+  const std::string PLANNING_GROUP = "manipulator";
   robot_model_loader::RobotModelLoader robot_model_loader("robot_description");
   robot_model::RobotModelPtr robot_model = robot_model_loader.getModel();
   /* Create a RobotState and JointModelGroup to keep track of the current robot pose and planning group*/
@@ -82,7 +82,7 @@ int main(int argc, char** argv)
   planning_scene::PlanningScenePtr planning_scene(new planning_scene::PlanningScene(robot_model));
 
   // Configure a valid robot state
-  planning_scene->getCurrentStateNonConst().setToDefaultValues(joint_model_group, "ready");
+  planning_scene->getCurrentStateNonConst().setToDefaultValues(joint_model_group, "default");
 
   // We will now construct a loader to load a planner, by name.
   // Note that we are using the ROS pluginlib library here.

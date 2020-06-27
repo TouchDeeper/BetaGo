@@ -193,6 +193,9 @@ target_link_libraries(motion_planning_api_tutorial ${catkin_LIBRARIES} ${Boost_L
 # motion_planning_pipeline_tutorial
 add_executable(motion_planning_pipeline_tutorial src/motion_planning_pipeline_tutorial.cpp)
 target_link_libraries(motion_planning_pipeline_tutorial ${catkin_LIBRARIES} ${Boost_LIBRARIES})
+
+add_executable(betago_tf_listener src/betago_tf_listener.cpp)
+target_link_libraries(betago_tf_listener ${catkin_LIBRARIES})
 #############
 ## Install ##
 #############
