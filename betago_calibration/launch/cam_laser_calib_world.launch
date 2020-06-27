@@ -1,0 +1,7 @@
+<launch>
+    <arg name="dual_arm" default="false" />
+    <include file="$(find betago_bringup)/launch/betago_bringup_moveit.launch">
+      <arg name="dual_arm" value="$(arg dual_arm)" />
+    </include>
+
+</launch>

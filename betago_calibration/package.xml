@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>betago_bringup</name>
+  <name>betago_calibration</name>
   <version>0.0.0</version>
-  <description>The betago_bringup package</description>
+  <description>The betago_calibration package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
@@ -19,7 +19,7 @@
   <!-- Url tags are optional, but multiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
-  <!-- <url type="website">http://wiki.ros.org/betago_bringup</url> -->
+  <!-- <url type="website">http://wiki.ros.org/betago_calibration</url> -->
 
 
   <!-- Author tags are optional, multiple are allowed, one per tag -->
@@ -70,7 +70,6 @@
   <exec_depend>moveit_ros_perception</exec_depend>
   <exec_depend>interactive_markers</exec_depend>
   <exec_depend>geometric_shapes</exec_depend>
-
 
 
   <!-- The export tag contains other, unspecified, tags -->

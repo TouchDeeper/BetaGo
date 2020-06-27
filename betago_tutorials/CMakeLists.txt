@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(betago_bringup)
+project(betago_tutorials)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
  add_compile_options(-std=c++11)
@@ -7,46 +7,30 @@ project(betago_bringup)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED COMPONENTS
-        roscpp
-        rospy
-        std_msgs
-        interactive_markers
-        moveit_core
-        moveit_visual_tools
-        moveit_ros_planning
-        moveit_ros_planning_interface
-        pluginlib
-        geometric_shapes
-        #    pcl_ros
-        #    pcl_conversions
-        rosbag
-        tf2_ros
-        tf2_eigen
-        tf2_geometry_msgs
-        )
 
-## System dependencies are found with CMake's conventions
+find_package(catkin REQUIRED COMPONENTS
+  roscpp
+  rospy
+  std_msgs
+    interactive_markers
+    moveit_core
+    moveit_visual_tools
+    moveit_ros_planning
+    moveit_ros_planning_interface
+    pluginlib
+    geometric_shapes
+    pcl_ros
+    pcl_conversions
+    rosbag
+    tf2_ros
+    tf2_eigen
+    tf2_geometry_msgs
+)
 find_package(Boost REQUIRED system filesystem date_time thread)
 
-set(TdRosLib_PATH "/home/wang/CLionProjects/TdRosLibrary")
-add_library(TdRosLib SHARED ${TdRosLib_PATH}/src/tool.cpp ${TdRosLib_PATH}/src/arm_moveit.cpp)
-target_link_libraries(TdRosLib PRIVATE ${catkin_LIBRARIES} ${Boost_LIBRARIES})
-include_directories(${TdRosLib_PATH}/include)
-catkin_package(
-        INCLUDE_DIRS include
-        #  LIBRARIES betago_tutorials
-        CATKIN_DEPENDS roscpp rospy std_msgs moveit_core
-        moveit_visual_tools
-        moveit_ros_planning_interface
-        interactive_markers
-        #  DEPENDS EIGEN3
-)
-# add Eigen header files
-include_directories( "/usr/local/include/eigen3" )
+## System dependencies are found with CMake's conventions
+# find_package(Boost REQUIRED COMPONENTS system)
 
-add_executable(to_default_pose src/to_default_pose.cpp)
-target_link_libraries(to_default_pose ${catkin_LIBRARIES} ${Boost_LIBRARIES} TdRosLib)
 
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
@@ -101,7 +85,7 @@ target_link_libraries(to_default_pose ${catkin_LIBRARIES} ${Boost_LIBRARIES} TdR
 ## Generate added messages and services with any dependencies listed here
 # generate_messages(
 #   DEPENDENCIES
-#   std_msgs  # Or other packages containing msgs
+#   std_msgs
 # )
 
 ################################################
@@ -134,10 +118,13 @@ target_link_libraries(to_default_pose ${catkin_LIBRARIES} ${Boost_LIBRARIES} TdR
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES betago_bringup
-#  CATKIN_DEPENDS roscpp rospy stdmsgs
-#  DEPENDS system_lib
+  INCLUDE_DIRS include
+#  LIBRARIES betago_tutorials
+  CATKIN_DEPENDS roscpp rospy std_msgs moveit_core
+        moveit_visual_tools
+        moveit_ros_planning_interface
+        interactive_markers
+#  DEPENDS EIGEN3
 )
 
 ###########
@@ -150,10 +137,12 @@ include_directories(
 # include
   ${catkin_INCLUDE_DIRS}
 )
+# add Eigen header files
+include_directories( "/usr/local/include/eigen3" )
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/betago_bringup.cpp
+#   src/${PROJECT_NAME}/betago_tutorials.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -164,7 +153,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/betago_bringup_node.cpp)
+# add_executable(${PROJECT_NAME}_node src/betago_tutorials_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -180,7 +169,33 @@ include_directories(
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
+# move_group_interface_tutorial
+add_executable(move_group_interface_tutorial src/move_group_interface_tutorial.cpp)
+target_link_libraries(move_group_interface_tutorial ${catkin_LIBRARIES} ${Boost_LIBRARIES})
+#install(TARGETS move_group_interface_tutorial DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
+# robot_model_and_robot_state_tutorial
+add_executable(robot_model_and_robot_state_tutorial src/robot_model_and_robot_state_tutorial.cpp)
+target_link_libraries(robot_model_and_robot_state_tutorial ${catkin_LIBRARIES} ${Boost_LIBRARIES})
+
+# planning_scene_tutorial
+add_executable(planning_scene_tutorial src/planning_scene_tutorial.cpp)
+target_link_libraries(planning_scene_tutorial ${catkin_LIBRARIES} ${Boost_LIBRARIES})
+
+# planning_scene_ros_api_tutorial
+add_executable(planning_scene_ros_api_tutorial src/planning_scene_ros_api_tutorial.cpp)
+target_link_libraries(planning_scene_ros_api_tutorial ${catkin_LIBRARIES} ${Boost_LIBRARIES})
+
+# motion_planning_api_tutorial
+add_executable(motion_planning_api_tutorial src/motion_planning_api_tutorial.cpp)
+target_link_libraries(motion_planning_api_tutorial ${catkin_LIBRARIES} ${Boost_LIBRARIES})
+
+# motion_planning_pipeline_tutorial
+add_executable(motion_planning_pipeline_tutorial src/motion_planning_pipeline_tutorial.cpp)
+target_link_libraries(motion_planning_pipeline_tutorial ${catkin_LIBRARIES} ${Boost_LIBRARIES})
+
+add_executable(betago_tf_listener src/betago_tf_listener.cpp)
+target_link_libraries(betago_tf_listener ${catkin_LIBRARIES})
 #############
 ## Install ##
 #############
@@ -195,11 +210,18 @@ include_directories(
 #   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 # )
 
-## Mark executables and/or libraries for installation
-# install(TARGETS ${PROJECT_NAME} ${PROJECT_NAME}_node
+## Mark executables for installation
+## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_executables.html
+# install(TARGETS ${PROJECT_NAME}_node
+#   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+# )
+
+## Mark libraries for installation
+## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_libraries.html
+# install(TARGETS ${PROJECT_NAME}
 #   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-#   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+#   RUNTIME DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION}
 # )
 
 ## Mark cpp header files for installation
@@ -221,7 +243,7 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_betago_bringup.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_betago_tutorials.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()

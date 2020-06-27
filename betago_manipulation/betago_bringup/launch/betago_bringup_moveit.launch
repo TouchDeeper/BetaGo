@@ -13,4 +13,12 @@
     <!-- moveit launch file -->
     <include file="$(find betago_moveit_config)/launch/betago_moveit_planning_execution.launch" />
 
+    <!--  to default pose-->
+<!--    <arg name="node_start_delay" default="6.0" />-->
+<!--    <node name="to_default_pose" pkg="betago_bringup" type="to_default_pose" respawn="false" output="screen" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' " >-->
+    <node name="to_default_pose" pkg="betago_bringup" type="to_default_pose" respawn="false" output="screen" >
+        <rosparam command="load" file="$(find betago_moveit_config)/config/kinematics.yaml"/>
+        <param name="/planning_plugin" value="ompl_interface/OMPLPlanner"/>
+        <rosparam command="load" file="$(find betago_moveit_config)/config/ompl_planning.yaml"/>
+    </node>
 </launch>
