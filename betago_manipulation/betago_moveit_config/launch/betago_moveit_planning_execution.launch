@@ -10,7 +10,8 @@
 
   <!-- Load the URDF, SRDF and other .yaml configuration files on the param server -->
   <include file="$(find betago_moveit_config)/launch/planning_context.launch">
-    <arg name="load_robot_description" value="true"/>
+<!--    we have load robot_description in description.launch, here is no need to load robot description-->
+    <arg name="load_robot_description" value="false"/>
   </include>
 
   <!-- Remap follow_joint_trajectory -->
@@ -27,7 +28,7 @@
 <!--  <include file="$(find betago_moveit_config)/launch/moveit_rviz.launch"/>-->
   <!-- We do not have a robot connected, so publish fake joint states -->
   <!--node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
-    <param name="/use_gui" value="false"/> 
+    <param name="/use_gui" value="false"/>
     <rosparam param="/source_list">[/arm/joint_states]</rosparam>
   </node-->
   <!-- If database loading was enabled, start mongodb as well -->

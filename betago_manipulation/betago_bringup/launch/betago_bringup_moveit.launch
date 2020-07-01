@@ -4,7 +4,7 @@
     <include file="$(find betago_gazebo)/launch/ridgeback/ridgeback_world.launch" />
 
     <!-- ros_control arm launch file -->
-    <include file="$(find betago_control)/launch/betago/betago_states_gazebo.launch" />   
+    <include file="$(find betago_control)/launch/betago/betago_states_gazebo.launch" />
     <!-- ros_control trajectory control dof arm launch file -->
     <include file="$(find betago_control)/launch/ur5/arm_trajectory_controller.launch">
       <arg name="dual_arm" value="$(arg dual_arm)" />
