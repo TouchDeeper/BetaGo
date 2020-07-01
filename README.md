@@ -1,7 +1,10 @@
 # Overview
 This repository is about the BetaGo robot maintained by South China University of Technology [PEMT Laboratory](http://www.scut.edu.cn/pemt/).
+
 ![BetaGo](media/BetaGo.gif)
+
 ![rtabmap](media/rtabmap.gif)
+
 ![BetaGo](media/moveit+gazebo.gif)
 
 ## Dependencies
