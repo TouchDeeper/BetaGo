@@ -22,6 +22,11 @@ sudo apt-get install ros-kinetic-ridgeback*
 sudo apt-get install ros-kinetic-ur-*
 sudo apt-get install ros-kinetic-ur5*
 ```
+
+- [TdRosLib](https://github.com/TouchDeeper/TdRosLib)
+
+Clone the TdRosLib to your path, and modify the path in [this line](https://github.com/TouchDeeper/BetaGo/blob/d622e6610427a00c21e55e944fb27b1148e0630c/betago_manipulation/betago_bringup/CMakeLists.txt#L32) of CMakeLists.txt.
+
 ## Usage
 create the workspace
 
