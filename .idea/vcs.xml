@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gazebo-pkgs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/general-message-pkgs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/td_ros" vcs="Git" />
   </component>
 </project>

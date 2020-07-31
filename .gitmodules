@@ -1,0 +1,9 @@
+[submodule "td_ros"]
+	path = td_ros
+	url = https://github.com/TouchDeeper/td_ros.git
+[submodule "general-message-pkgs"]
+	path = general-message-pkgs
+	url = https://github.com/JenniferBuehler/general-message-pkgs.git
+[submodule "gazebo-pkgs"]
+	path = gazebo-pkgs
+	url = https://github.com/JenniferBuehler/gazebo-pkgs.git
