@@ -70,7 +70,7 @@ int main(int argc, char** argv)
   //
   // .. _RobotModelLoader:
   //     http://docs.ros.org/indigo/api/moveit_ros_planning/html/classrobot__model__loader_1_1RobotModelLoader.html
-  const std::string PLANNING_GROUP = "manipulator";
+  const std::string PLANNING_GROUP = "right_ur_arm";
   robot_model_loader::RobotModelLoader robot_model_loader("robot_description");
   robot_model::RobotModelPtr robot_model = robot_model_loader.getModel();
   /* Create a RobotState and JointModelGroup to keep track of the current robot pose and planning group*/

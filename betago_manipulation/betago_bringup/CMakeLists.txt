@@ -24,29 +24,20 @@ find_package(catkin REQUIRED COMPONENTS
         tf2_ros
         tf2_eigen
         tf2_geometry_msgs
+        td_ros
         )
 
 ## System dependencies are found with CMake's conventions
 find_package(Boost REQUIRED system filesystem date_time thread)
 
-set(TdRosLib_PATH "/home/wang/CLionProjects/TdRosLibrary")
-add_library(TdRosLib SHARED ${TdRosLib_PATH}/src/tool.cpp ${TdRosLib_PATH}/src/arm_moveit.cpp)
-target_link_libraries(TdRosLib PRIVATE ${catkin_LIBRARIES} ${Boost_LIBRARIES})
-include_directories(${TdRosLib_PATH}/include)
-catkin_package(
-        INCLUDE_DIRS include
-        #  LIBRARIES betago_tutorials
-        CATKIN_DEPENDS roscpp rospy std_msgs moveit_core
-        moveit_visual_tools
-        moveit_ros_planning_interface
-        interactive_markers
-        #  DEPENDS EIGEN3
-)
-# add Eigen header files
-include_directories( "/usr/local/include/eigen3" )
+#set(TdRosLib_PATH "/home/wang/CLionProjects/TdRosLibrary")
+#add_library(td_ros SHARED ${TdRosLib_PATH}/src/tool.cpp ${TdRosLib_PATH}/src/arm_moveit.cpp)
+#target_link_libraries(td_ros PRIVATE ${catkin_LIBRARIES} ${Boost_LIBRARIES})
+#include_directories(${TdRosLib_PATH}/include)
 
-add_executable(to_default_pose src/to_default_pose.cpp)
-target_link_libraries(to_default_pose ${catkin_LIBRARIES} ${Boost_LIBRARIES} TdRosLib)
+
+
+
 
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
@@ -133,11 +124,21 @@ target_link_libraries(to_default_pose ${catkin_LIBRARIES} ${Boost_LIBRARIES} TdR
 ## LIBRARIES: libraries you create in this project that dependent projects also need
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
-catkin_package(
+#catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES betago_bringup
 #  CATKIN_DEPENDS roscpp rospy stdmsgs
 #  DEPENDS system_lib
+#)
+catkin_package(
+        INCLUDE_DIRS include #include is the inclue in the package
+        #  LIBRARIES betago_tutorials
+        CATKIN_DEPENDS roscpp rospy std_msgs moveit_core
+        moveit_visual_tools
+        moveit_ros_planning_interface
+        interactive_markers
+        #        td_ros
+        #  DEPENDS EIGEN3
 )
 
 ###########
@@ -147,9 +148,11 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
+ include
   ${catkin_INCLUDE_DIRS}
 )
+# add Eigen header files
+include_directories( "/usr/local/include/eigen3" )
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
@@ -162,6 +165,8 @@ include_directories(
 # add_dependencies(${PROJECT_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
+add_executable(to_default_pose src/to_default_pose.cpp)
+target_link_libraries(to_default_pose ${catkin_LIBRARIES} ${Boost_LIBRARIES})
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/betago_bringup_node.cpp)

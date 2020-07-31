@@ -58,9 +58,10 @@
   <build_depend>interactive_markers</build_depend>
   <build_depend>geometric_shapes</build_depend>
   <build_depend>moveit_visual_tools</build_depend>
-  <build_export_depend>roscpp</build_export_depend>
-  <build_export_depend>rospy</build_export_depend>
-  <build_export_depend>std_msgs</build_export_depend>
+  <build_depend>td_ros</build_depend>
+<!--  <build_export_depend>roscpp</build_export_depend>-->
+<!--  <build_export_depend>rospy</build_export_depend>-->
+<!--  <build_export_depend>std_msgs</build_export_depend>-->
   <exec_depend>roscpp</exec_depend>
   <exec_depend>rospy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
@@ -70,6 +71,7 @@
   <exec_depend>moveit_ros_perception</exec_depend>
   <exec_depend>interactive_markers</exec_depend>
   <exec_depend>geometric_shapes</exec_depend>
+  <exec_depend>td_ros</exec_depend>
 
 
 

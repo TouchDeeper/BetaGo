@@ -9,7 +9,7 @@
 
 #include <moveit_visual_tools/moveit_visual_tools.h>
 
-#include "TdRosLib/arm_moveit.h"
+#include <td_ros/arm_moveit.h>
 int main(int argc, char** argv)
 {
   ros::init(argc, argv, "to_default_pose");

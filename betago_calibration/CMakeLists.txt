@@ -24,16 +24,22 @@ find_package(catkin REQUIRED COMPONENTS
     tf2_ros
     tf2_eigen
     tf2_geometry_msgs
+     td_ros
 )
 
 ## System dependencies are found with CMake's conventions
 find_package(Boost REQUIRED system filesystem date_time thread)
 
-#set(TdRosLib_PATH "/home/wang/CLionProjects/TdRosLibrary")
-#add_library(TdRosLib SHARED ${TdRosLib_PATH}/src/tool.cpp ${TdRosLib_PATH}/src/arm_moveit.cpp)
-#target_link_libraries(TdRosLib PRIVATE ${catkin_LIBRARIES} ${Boost_LIBRARIES})
-#include_directories(${TdRosLib_PATH}/include)
+#TdLib
+set(TdLib_DIR "/home/wang/CLionProjects/TdLibrary/install/lib/CMake/TdLib/")
+find_package(TdLib REQUIRED)
+include_directories(${TdLib_INCLUDE_DIRS})
+MESSAGE(STATUS "TdLib_INCLUDE_DIRS = " ${TdLib_INCLUDE_DIRS})
 
+
+find_package(gazebo REQUIRED)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${GAZEBO_CXX_FLAGS}")
+link_directories(${GAZEBO_LIBRARY_DIRS})
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
 ## See http://ros.org/doc/api/catkin/html/user_guide/setup_dot_py.html
@@ -126,6 +132,8 @@ catkin_package(
        moveit_visual_tools
        moveit_ros_planning_interface
        interactive_markers
+        gazebo_ros
+        td_ros
         #  DEPENDS EIGEN3
 )
 
@@ -136,8 +144,9 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
+  include
   ${catkin_INCLUDE_DIRS}
+  ${GAZEBO_INCLUDE_DIRS}
 )
 # add Eigen header files
 include_directories( "/usr/local/include/eigen3" )
@@ -146,7 +155,7 @@ include_directories( "/usr/local/include/eigen3" )
 #   src/${PROJECT_NAME}/betago_calibration.cpp
 # )
 #add_executable(to_default_pose ../betago_navigation/src/to_default_pose.cpp)
-#target_link_libraries(to_default_pose ${catkin_LIBRARIES} ${Boost_LIBRARIES} TdRosLib)
+#target_link_libraries(to_default_pose ${catkin_LIBRARIES} ${Boost_LIBRARIES} td_ros)
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
@@ -171,7 +180,10 @@ include_directories( "/usr/local/include/eigen3" )
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
-
+add_library(calibration src/Calibration.cpp)
+target_link_libraries(calibration ${catkin_LIBRARIES} TdLib)
+add_executable(cam_laser_calibration_node src/run_cam_laser_calibration.cpp)
+target_link_libraries(cam_laser_calibration_node ${catkin_LIBRARIES} calibration  ${GAZEBO_LIBRARIES})
 #############
 ## Install ##
 #############
