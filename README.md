@@ -23,9 +23,13 @@ sudo apt-get install ros-kinetic-ur-*
 sudo apt-get install ros-kinetic-ur5*
 ```
 
-- [td_ros](https://github.com/TouchDeeper/td_ros)
+- [td_ros](https://github.com/TouchDeeper/td_ros):
 
-Clone the TdRosLib to your path, and modify the path in [this line](https://github.com/TouchDeeper/BetaGo/blob/d622e6610427a00c21e55e944fb27b1148e0630c/betago_manipulation/betago_bringup/CMakeLists.txt#L32) of CMakeLists.txt.
+we add the td_ros directly by submodule.
+
+- [TdLib](https://github.com/TouchDeeper/TdLib):
+
+modify all the `TdLib_DIR` in the CMakeLists.txt to your case.
 
 ## Usage
 create the workspace
@@ -35,7 +39,7 @@ create the workspace
 clone this repositories and build
 
 ```
-git clone https://github.com/TouchDeeper/BetaGo.git src/
+git clone --recursive git@github.com:TouchDeeper/BetaGo.git src/
 catkin_make
 ```
 
