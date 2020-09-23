@@ -18,11 +18,10 @@
       <config projectName="Project" targetName="nodelet_generate_messages_nodejs" />
       <config projectName="Project" targetName="doxygen" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
       <config projectName="Project" targetName="nodelet_generate_messages_eus" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_py" />
       <config projectName="Project" targetName="bond_generate_messages_nodejs" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_nodejs" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_py" />
       <config projectName="Project" targetName="graph_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_nodejs" />
@@ -38,17 +37,17 @@
       <config projectName="Project" targetName="sensor_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="moveit_ros_planning_gencfg" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_py" />
       <config projectName="Project" targetName="bond_generate_messages_cpp" />
       <config projectName="Project" targetName="actionlib_generate_messages_py" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="planning_scene_ros_api_tutorial" />
+      <config projectName="Project" targetName="tf_generate_messages_lisp" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_cpp" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_py" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="run_tests" />
       <config projectName="Project" targetName="actionlib_generate_messages_cpp" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_eus" />
@@ -92,6 +91,7 @@
       <config projectName="Project" targetName="topic_tools_generate_messages_nodejs" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_py" />
       <config projectName="Project" targetName="move_group_interface_tutorial" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_eus" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_lisp" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_nodejs" />
@@ -116,7 +116,7 @@
       <config projectName="Project" targetName="octomap_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="TdRosLib" />
       <config projectName="Project" targetName="std_srvs_generate_messages_lisp" />
-      <config projectName="Project" targetName="run_tests" />
+      <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="pcl_ros_gencfg" />
@@ -127,7 +127,7 @@
       <config projectName="Project" targetName="shape_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_py" />
       <config projectName="Project" targetName="moveit_ros_manipulation_gencfg" />
-      <config projectName="Project" targetName="tf_generate_messages_lisp" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_nodejs" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
       <config projectName="Project" targetName="bond_generate_messages_eus" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_nodejs" />
@@ -135,7 +135,7 @@
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="actionlib_generate_messages_nodejs" />
       <config projectName="Project" targetName="robot_model_and_robot_state_tutorial" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_eus" />
+      <config projectName="Project" targetName="planning_scene_ros_api_tutorial" />
       <config projectName="Project" targetName="graph_msgs_generate_messages_py" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_eus" />
     </generated>
@@ -148,7 +148,8 @@
   <component name="ChangeListManager">
     <list default="true" id="79ad5185-a615-4161-96b5-a3ffc365e309" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_navigation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/betago_navigation/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_odom.launch" beforeDir="false" afterPath="$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_odom.launch" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/../build/" />
@@ -168,11 +169,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/betago_navigation/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="259">
-                <caret line="29" column="46" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="46" />
+              <first_editor relative-caret-position="342">
+                <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="48" />
               </first_editor>
               <second_editor />
             </state>
@@ -180,17 +181,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_calibration/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_scan_odom.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+            <state relative-caret-position="254">
+              <caret line="98" column="76" selection-start-line="98" selection-start-column="76" selection-end-line="98" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_calibration/src/Calibration.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_odom.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="104" column="56" lean-forward="true" selection-start-line="104" selection-start-column="56" selection-end-line="104" selection-end-column="56" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -263,7 +268,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>limit</find>
       <find>ridgeback_moveit_controller_manager.launch</find>
       <find>moveit_controller_manager</find>
       <find>rviz_tutorial</find>
@@ -293,6 +297,7 @@
       <find>to_de</find>
       <find>betago_navigation</find>
       <find>TdLib</find>
+      <find>Grid</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -310,20 +315,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/betago_tutorials/src/planning_scene_tutorial.cpp" />
         <option value="$PROJECT_DIR$/betago_tutorials/launch/planning_scene_tutorial.launch" />
         <option value="$PROJECT_DIR$/betago_tutorials/src/planning_scene_ros_api_tutorial.cpp" />
         <option value="$PROJECT_DIR$/betago_tutorials/launch/planning_scene_ros_api_tutorial.launch" />
         <option value="$PROJECT_DIR$/betago_tutorials/launch/motion_planning_api_tutorial.launch" />
         <option value="$PROJECT_DIR$/betago_tutorials/launch/motion_planning_pipeline_tutorial.launch" />
-        <option value="$PROJECT_DIR$/betago_navigation/README.md" />
         <option value="$PROJECT_DIR$/betago_calibration/README.md" />
         <option value="$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch" />
         <option value="$PROJECT_DIR$/betago_control/config/arm_controller.yaml" />
         <option value="$PROJECT_DIR$/betago_tutorials/src/move_group_interface_tutorial.cpp" />
         <option value="$USER_HOME$/CLionProjects/TdRosLibrary/include/TdRosLib/arm_moveit.h" />
         <option value="$PROJECT_DIR$/betago_calibration/src/to_default_pose.cpp" />
-        <option value="$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_scan_odom.launch" />
         <option value="$PROJECT_DIR$/betago_navigation/package.xml" />
         <option value="$PROJECT_DIR$/betago_navigation/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch" />
@@ -361,6 +363,9 @@
         <option value="$PROJECT_DIR$/test_package/src/test.cpp" />
         <option value="$PROJECT_DIR$/betago_tutorials/src/motion_planning_api_tutorial.cpp" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_scan_odom.launch" />
+        <option value="$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_odom.launch" />
+        <option value="$PROJECT_DIR$/betago_navigation/README.md" />
       </list>
     </option>
   </component>
@@ -392,14 +397,20 @@
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="td_ros" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_manipulation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="td_ros" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="launch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -412,7 +423,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../pose_estimation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -1339,18 +1350,18 @@
       <workItem from="1596192126107" duration="749000" />
       <workItem from="1596283316053" duration="3000" />
       <workItem from="1596637959351" duration="44000" />
-      <workItem from="1600693077000" duration="2807000" />
+      <workItem from="1600693077000" duration="3787000" />
+      <workItem from="1600846521227" duration="542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155288000" />
+    <option name="totallyTimeSpent" value="156810000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49557522" visible="true" weight="0.17948718" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49557522" visible="true" weight="0.18162394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50442475" side_tool="true" weight="0.15384616" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1361,7 +1372,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23061225" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23061225" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005342" side_tool="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32959184" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.3183716" />
@@ -1410,20 +1421,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/betago_tutorials/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_tutorials/package.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/betago_control/config/ridgeback/control.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-786" />
@@ -1465,16 +1462,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/CLionProjects/TdRosLibrary/README.md" />
-    <entry file="file://$PROJECT_DIR$/betago_navigation/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="494">
-            <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/planning_context.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1623,6 +1610,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-159">
+            <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_calibration/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3515">
+          <caret line="185" column="80" selection-start-line="185" selection-start-column="69" selection-end-line="185" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/betago_calibration/src/Calibration.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1678,18 +1682,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_scan_odom.launch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        <state relative-caret-position="254">
+          <caret line="98" column="76" selection-start-line="98" selection-start-column="76" selection-end-line="98" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_odom.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="104" column="56" lean-forward="true" selection-start-line="104" selection-start-column="56" selection-end-line="104" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_navigation/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="259">
-            <caret line="29" column="46" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="46" />
+          <first_editor relative-caret-position="342">
+            <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="48" />
           </first_editor>
           <second_editor />
         </state>
