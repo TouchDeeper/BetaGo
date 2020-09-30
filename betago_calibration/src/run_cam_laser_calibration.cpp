@@ -10,6 +10,6 @@ int main(int argc, char** argv){
     Calibration calibr("kalibr_tag");
     calibr.SetMultiplePoseofCalibrBoard();
 //    calibr.SpawnCalibrBoard();
-    ros::spin();
+//    ros::spin();
     return 0;
 }
