@@ -1,3 +1,8 @@
 <launch>
+    <node name="sdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+          args="
+          -file $(env GAZEBO_MODEL_PATH)/kalibr_tag/model.sdf
+          -sdf
+          -model Kalibr_tag "/>
     <node name="rviz" pkg="rviz" type="rviz" args="-d $(find betago_calibration)/rviz/calib.rviz" />
 </launch>

@@ -15,67 +15,56 @@ public:
     Calibration(const std::string& calibr_board_name){
         calibr_board_name_ = calibr_board_name;
         pose_pub_ = nh_.advertise<gazebo_msgs::ModelState>("/gazebo/set_model_state", 10);
+        init_euler_ = {3.14,-1.5708,3.14};
+        init_pos_ = {5.54,-0.02,0.5};
+
     }
     void SpawnCalibrBoard(){
         std::string sdf_path = ros::package::getPath("betago_calibration") +"/kalibr_tag/model.sdf";
-        tdros::SpawnModel(nh_,sdf_path,calibr_board_name_);
+        SpawnModel(nh_,sdf_path,calibr_board_name_, init_pos_);
     }
-    void SetMultiplePoseofCalibrBoard(){
-        
-//        gazebo::physics::WorldPtr world= gazebo::physics::get_world("default");
-//        gazebo::physics::ModelPtr model = world->GetModel(calibr_board_name_);
-//        if(!model){
-//            ROS_ERROR("no %s exist in gazebo",calibr_board_name_.c_str());
-//        }
-        //z:0.4-0.64,取0.5
-        //pitch 0,-0.67,0 3.14,-1.5708,3.14 3.14,-1.16,3.14
-//        std::vector<double> translate_euler = {5.54,-0.02,0.5, 0.0,-0.67,0.0};
-        std::vector<double> translate_euler = {5.54,-0.02,0.5, 3.14,-1.5708,3.14};
-        Sophus::SE3d pose =  td::EulerTranslatetoSE3(translate_euler);
-        Eigen::Vector3d euler1 = {0.0,-0.67,0.0};
-        Eigen::Vector3d euler2 = {3.14,-1.5708,3.14};
-        Eigen::Vector3d euler3 = {3.14,-1.16,3.14};
-        Eigen::Matrix3d R1 = td::EulerToRotation(euler1);
-        Eigen::Matrix3d R2 = td::EulerToRotation(euler2);
-        Eigen::Matrix3d R3 = td::EulerToRotation(euler3);
-        Eigen::Matrix3d R21 = R2.transpose() * R1;
-        Eigen::Matrix3d R23 = R2.transpose() * R3;
-        Eigen::Vector3d euler21 = td::RotationToEulerAngle(R21);
-        Eigen::Vector3d euler23 = td::RotationToEulerAngle(R23);
-        std::cout<<euler21.transpose()<<" "<<euler23.transpose()<<std::endl;
-        std::vector<double> min_max(2);
+    void SetMultiplePoseofCalibrBoard();
 
-        min_max[0] = euler21[1];
-        min_max[1] = euler23[1];
-        std::cout<<"Random choose"<<std::endl;
-        Eigen::Vector3d _euler2n = euler21;
-        for(int i=0;i<10;i++){
-            _euler2n[1] = td::UniformSampling(min_max[0],min_max[1]);
-            std::cout<<_euler2n[1]<<std::endl;
-            Eigen::Matrix3d _R2n = td::EulerToRotation(_euler2n);
-            Eigen::Matrix3d _Rn = R2 * _R2n;
-            Eigen::Vector3d _eulern = td::RotationToEulerAngle(_Rn);
-            std::vector<double> translate_euler_n = translate_euler;
-            translate_euler_n[3] = _eulern[0];
-            translate_euler_n[4] = _eulern[1];
-            translate_euler_n[5] = _eulern[2];
-            Sophus::SE3d posen =  td::EulerTranslatetoSE3(translate_euler_n);
-            tdros::SetPosition(pose_pub_,calibr_board_name_,posen,60,80);
-            ros::Duration(1).sleep();
-
+private:
+    /**
+     * return the min and max of the incremental euler angle based on euler2 along i axis
+     * @param i 0 for Z, 1 for Y, 2 for X
+     * @param euler1 bound euler angle
+     * @param euler2 base euler angel
+     * @param euler3 another bound euler angle
+     * @return [min, max]
+     */
+    std::vector<double> EulerRange(int i, Eigen::Vector3d &euler1, Eigen::Vector3d &euler2, Eigen::Vector3d &euler3);
+    void SpawnModel(ros::NodeHandle& nh, const std::string& path, const std::string& model_name, const Eigen::Vector3d& position){
+        std::ifstream file;
+        file.open(path);
+        if(!file){
+            std::cout<<"can't open "<<path<<std::endl;
+            exit(-1);
+        }
+        gazebo_msgs::SpawnModel model;
+        ros::ServiceClient client_spwn = nh.serviceClient< gazebo_msgs::SpawnModel> ("/gazebo/spawn_urdf_model");
+        if (file.is_open()) {
+            std::string line;
+            while (std::getline(file, line)) {
+                model.request.model_xml+=line;
+            }
+            file.close();
         }
 
-
-//        Eigen::Matrix3d _R21 = td::EulerToRotation(euler21);
-//        Eigen::Matrix3d _R23 = td::EulerToRotation(euler23);
-//        Eigen::Matrix3d _Rn = R2 * _R21;
-//        Eigen::Vector3d _eulern = td::RotationToEulerAngle(_Rn);
-//        std::cout<<_eulern<<std::endl;
-//        tdros::SetPosition(pose_pub_,calibr_board_name_,pose,60,80);
+        model.request.model_name = model_name;
+        model.request.initial_pose.position.x = position[0];
+        model.request.initial_pose.position.y = position[1];
+        model.request.initial_pose.position.z = position[2];
+        client_spwn.call(model);
     }
     ros::NodeHandle nh_;
     ros::Publisher pose_pub_;
     std::string calibr_board_name_;
+    Eigen::Vector3d init_euler_;
+    Eigen::Vector3d init_pos_;
+public:
+    EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
 };
 
 
