@@ -2,109 +2,109 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="betago_calibration" targetName="actionlib_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="shape_msgs_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="moveit_msgs_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="moveit_ros_manipulation_gencfg" />
-      <config projectName="betago_calibration" targetName="tf_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="topic_tools_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="geometry_msgs_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="sensor_msgs_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="actionlib_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="std_msgs_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="std_msgs_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="graph_msgs_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="roscpp_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="std_srvs_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="shape_msgs_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="graph_msgs_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="visualization_msgs_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="gmock" />
-      <config projectName="betago_calibration" targetName="tf2_msgs_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="rosgraph_msgs_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="object_recognition_msgs_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="geometry_msgs_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="visualization_msgs_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="sensor_msgs_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="tf_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="tf2_msgs_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="trajectory_msgs_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="doxygen" />
-      <config projectName="betago_calibration" targetName="geometry_msgs_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="moveit_ros_planning_gencfg" />
-      <config projectName="betago_calibration" targetName="shape_msgs_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="topic_tools_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="octomap_msgs_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="std_msgs_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="calibration" />
-      <config projectName="betago_calibration" targetName="object_recognition_msgs_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="moveit_msgs_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="actionlib_msgs_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="roscpp_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="topic_tools_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="geometry_msgs_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="cam_laser_calibration_node" />
-      <config projectName="betago_calibration" targetName="geometry_msgs_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="rosgraph_msgs_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="std_msgs_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="run_tests" />
-      <config projectName="betago_calibration" targetName="sensor_msgs_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="graph_msgs_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="tf_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="octomap_msgs_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="trajectory_msgs_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="actionlib_msgs_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="octomap_msgs_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="tf_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="std_msgs_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="actionlib_msgs_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="rosgraph_msgs_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="topic_tools_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="visualization_msgs_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="rosgraph_msgs_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="tf2_msgs_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="object_recognition_msgs_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="actionlib_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="download_extra_data" />
-      <config projectName="betago_calibration" targetName="object_recognition_msgs_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="moveit_msgs_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="actionlib_msgs_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="actionlib_msgs_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="rosgraph_msgs_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="gtest_main" />
       <config projectName="betago_calibration" targetName="sensor_msgs_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="tests" />
-      <config projectName="betago_calibration" targetName="sensor_msgs_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="graph_msgs_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="roscpp_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="std_srvs_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="shape_msgs_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="tf2_msgs_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="std_srvs_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="roscpp_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="tf_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="moveit_msgs_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="actionlib_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="octomap_msgs_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="topic_tools_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="tf_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="actionlib_generate_messages_cpp" />
+      <config projectName="betago_calibration" targetName="tf_generate_messages_nodejs" />
+      <config projectName="betago_calibration" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="betago_calibration" targetName="tf2_msgs_generate_messages_nodejs" />
+      <config projectName="betago_calibration" targetName="octomap_msgs_generate_messages_cpp" />
+      <config projectName="betago_calibration" targetName="topic_tools_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="actionlib_msgs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="download_extra_data" />
+      <config projectName="betago_calibration" targetName="topic_tools_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="actionlib_msgs_generate_messages_nodejs" />
+      <config projectName="betago_calibration" targetName="actionlib_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="moveit_ros_manipulation_gencfg" />
+      <config projectName="betago_calibration" targetName="cam_laser_calibration_node" />
+      <config projectName="betago_calibration" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="object_recognition_msgs_generate_messages_nodejs" />
+      <config projectName="betago_calibration" targetName="doxygen" />
+      <config projectName="betago_calibration" targetName="moveit_msgs_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="actionlib_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="octomap_msgs_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="actionlib_msgs_generate_messages_cpp" />
       <config projectName="betago_calibration" targetName="trajectory_msgs_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="actionlib_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="octomap_msgs_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="clean_test_results" />
-      <config projectName="betago_calibration" targetName="moveit_msgs_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="visualization_msgs_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="graph_msgs_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="roscpp_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="trajectory_msgs_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="betago_calibration" targetName="topic_tools_generate_messages_cpp" />
+      <config projectName="betago_calibration" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="tf_generate_messages_lisp" />
       <config projectName="betago_calibration" targetName="shape_msgs_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="object_recognition_msgs_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="trajectory_msgs_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="visualization_msgs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="topic_tools_generate_messages_nodejs" />
+      <config projectName="betago_calibration" targetName="actionlib_generate_messages_nodejs" />
+      <config projectName="betago_calibration" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="roscpp_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="visualization_msgs_generate_messages_nodejs" />
+      <config projectName="betago_calibration" targetName="calibration" />
+      <config projectName="betago_calibration" targetName="trajectory_msgs_generate_messages_cpp" />
+      <config projectName="betago_calibration" targetName="actionlib_msgs_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="moveit_msgs_generate_messages_nodejs" />
+      <config projectName="betago_calibration" targetName="std_msgs_generate_messages_nodejs" />
       <config projectName="betago_calibration" targetName="tf2_msgs_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="gtest" />
+      <config projectName="betago_calibration" targetName="std_srvs_generate_messages_nodejs" />
+      <config projectName="betago_calibration" targetName="tf_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="topic_tools_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="roscpp_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="shape_msgs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="trajectory_msgs_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="tf2_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="geometry_msgs_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="clean_test_results" />
+      <config projectName="betago_calibration" targetName="tf2_msgs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="tf_generate_messages_cpp" />
+      <config projectName="betago_calibration" targetName="geometry_msgs_generate_messages_nodejs" />
+      <config projectName="betago_calibration" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="betago_calibration" targetName="tf2_msgs_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="graph_msgs_generate_messages_nodejs" />
+      <config projectName="betago_calibration" targetName="std_srvs_generate_messages_cpp" />
+      <config projectName="betago_calibration" targetName="object_recognition_msgs_generate_messages_cpp" />
+      <config projectName="betago_calibration" targetName="object_recognition_msgs_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="shape_msgs_generate_messages_nodejs" />
       <config projectName="betago_calibration" targetName="gmock_main" />
-      <config projectName="betago_calibration" targetName="std_srvs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="gtest_main" />
+      <config projectName="betago_calibration" targetName="tests" />
+      <config projectName="betago_calibration" targetName="run_tests" />
       <config projectName="betago_calibration" targetName="std_srvs_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="sensor_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="object_recognition_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="graph_msgs_generate_messages_cpp" />
+      <config projectName="betago_calibration" targetName="std_srvs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="trajectory_msgs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="visualization_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="betago_calibration" targetName="graph_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="visualization_msgs_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="visualization_msgs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="std_srvs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="octomap_msgs_generate_messages_nodejs" />
+      <config projectName="betago_calibration" targetName="graph_msgs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="moveit_msgs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="actionlib_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="betago_calibration" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="betago_calibration" targetName="visualization_msgs_generate_messages_cpp" />
+      <config projectName="betago_calibration" targetName="shape_msgs_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="gtest" />
+      <config projectName="betago_calibration" targetName="trajectory_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="moveit_ros_planning_gencfg" />
+      <config projectName="betago_calibration" targetName="shape_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="actionlib_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="betago_calibration" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="betago_calibration" targetName="object_recognition_msgs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="moveit_msgs_generate_messages_cpp" />
+      <config projectName="betago_calibration" targetName="std_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="moveit_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="octomap_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="octomap_msgs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="graph_msgs_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="gmock" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -114,12 +114,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9bd8f98-3af3-40e1-84fc-4b01170a32b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/betago_calibration/Calibration.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/betago_calibration/Calibration.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch/cam_laser_calib_world.launch" beforeDir="false" afterPath="$PROJECT_DIR$/launch/cam_laser_calib_world.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch/rviz.launch" beforeDir="false" afterPath="$PROJECT_DIR$/launch/rviz.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calibration.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calibration.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/run_cam_laser_calibration.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/run_cam_laser_calibration.cpp" afterDir="false" />
     </list>
@@ -146,11 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calibration.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="51" column="125" selection-start-line="51" selection-end-line="51" selection-end-column="125" />
+            <state relative-caret-position="434">
+              <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -158,8 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/betago_calibration/Calibration.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-107">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="1471">
+              <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
               <folding>
                 <element signature="e#121#145#0" expanded="true" />
               </folding>
@@ -170,8 +166,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/run_cam_laser_calibration.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="190">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="e#37#61#0" expanded="true" />
               </folding>
@@ -182,7 +178,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/CLionProjects/TdLibrary/install/include/TdLibrary/slam_tool/motion_transformation.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="323">
               <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
             </state>
           </provider>
@@ -192,20 +188,20 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="114">
-                <caret line="6" column="106" selection-start-line="6" selection-start-column="106" selection-end-line="6" selection-end-column="106" />
+              <first_editor relative-caret-position="133">
+                <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="226">
-                <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+              <first_editor relative-caret-position="855">
+                <caret line="45" column="14" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -233,7 +229,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kalibr_tag/model.sdf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
+            <state relative-caret-position="627">
               <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
             </state>
           </provider>
@@ -256,13 +252,13 @@
         <option value="$PROJECT_DIR$/kalibr_tag/model.sdf" />
         <option value="$PROJECT_DIR$/package.xml" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/Calibration.cpp" />
-        <option value="$PROJECT_DIR$/src/run_cam_laser_calibration.cpp" />
-        <option value="$PROJECT_DIR$/include/betago_calibration/Calibration.h" />
         <option value="$PROJECT_DIR$/launch/cam_laser_calib_world.launch" />
         <option value="$PROJECT_DIR$/launch/rviz.launch" />
         <option value="$PROJECT_DIR$/../README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/run_cam_laser_calibration.cpp" />
+        <option value="$PROJECT_DIR$/include/betago_calibration/Calibration.h" />
+        <option value="$PROJECT_DIR$/src/Calibration.cpp" />
       </list>
     </option>
   </component>
@@ -290,19 +286,6 @@
               <item name="betago_calibration" type="b2602c69:ProjectViewProjectNode" />
               <item name="betago_calibration" type="47feb1d3:ProjectViewModuleNode" />
               <item name="betago_calibration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="betago_calibration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="betago_calibration" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="betago_calibration" type="462c0819:PsiDirectoryNode" />
-              <item name="kalibr_tag" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="betago_calibration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="betago_calibration" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="betago_calibration" type="462c0819:PsiDirectoryNode" />
-              <item name="kalibr_tag" type="462c0819:PsiDirectoryNode" />
-              <item name="materials" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="betago_calibration" type="b2602c69:ProjectViewProjectNode" />
@@ -888,15 +871,11 @@
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.gmock" />
-      <item itemvalue="CMake Application.gmock_main" />
       <item itemvalue="CMake Application.graph_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.graph_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.graph_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.graph_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.graph_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.gtest" />
-      <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="CMake Application.moveit_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.moveit_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.moveit_msgs_generate_messages_lisp" />
@@ -971,6 +950,10 @@
       <item itemvalue="CMake Application.visualization_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.visualization_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.visualization_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -995,18 +978,20 @@
       <workItem from="1601020086368" duration="2949000" />
       <workItem from="1601123225874" duration="5298000" />
       <workItem from="1601470184423" duration="5830000" />
-      <workItem from="1601552980788" duration="9040000" />
+      <workItem from="1601552980788" duration="9342000" />
+      <workItem from="1601603604175" duration="25000" />
+      <workItem from="1601603636910" duration="2759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50780000" />
+    <option name="totallyTimeSpent" value="53866000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-4" width="1920" height="1084" extended-state="6" />
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49925926" visible="true" weight="0.08440171" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49925926" visible="true" weight="0.086538464" />
       <window_info id="Structure" order="1" sideWeight="0.50074077" side_tool="true" weight="0.08012821" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1017,11 +1002,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31428573" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29897958" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.30204082" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="CMake" order="11" visible="true" weight="0.29285714" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3377551" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1031,17 +1016,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/include/betago_calibration/Calibration.h</url>
-          <line>44</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///opt/ros/kinetic/include/ros/publisher.h">
@@ -1151,10 +1125,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kalibr_tag/model.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../betago_manipulation/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/CLionProjects/TdLibrary/install/include/TdLibrary/slam_tool/motion_transformation.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="323">
           <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="855">
+            <caret line="45" column="14" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/launch/rviz.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kalibr_tag/model.sdf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/launch/cam_laser_calib_world.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -1167,80 +1193,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/run_cam_laser_calibration.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="e#37#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calibration.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="51" column="125" selection-start-line="51" selection-end-line="51" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kalibr_tag/model.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/betago_calibration/Calibration.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-107">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="1471">
+          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
           <folding>
             <element signature="e#121#145#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../betago_manipulation/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kalibr_tag/model.sdf">
+    <entry file="file://$PROJECT_DIR$/src/Calibration.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/launch/cam_laser_calib_world.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/launch/rviz.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="6" column="106" selection-start-line="6" selection-start-column="106" selection-end-line="6" selection-end-column="106" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="226">
-            <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="434">
+          <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
         </state>
       </provider>
     </entry>

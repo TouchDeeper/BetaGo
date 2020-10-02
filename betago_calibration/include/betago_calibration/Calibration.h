@@ -24,7 +24,7 @@ public:
         SpawnModel(nh_,sdf_path,calibr_board_name_, init_pos_);
     }
     void SetMultiplePoseofCalibrBoard();
-
+    void PutCalibinInitPose();
 private:
     /**
      * return the min and max of the incremental euler angle based on euler2 along i axis

@@ -8,7 +8,8 @@ int main(int argc, char** argv){
     ros::init(argc,argv,"cam_laser_calibr_node");
 
     Calibration calibr("kalibr_tag");
-//    calibr.SetMultiplePoseofCalibrBoard();
+    calibr.PutCalibinInitPose();
+    calibr.SetMultiplePoseofCalibrBoard();
 //    calibr.SpawnCalibrBoard();
 //    ros::spin();
     return 0;

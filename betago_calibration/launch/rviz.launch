@@ -3,6 +3,6 @@
           args="
           -file $(env GAZEBO_MODEL_PATH)/kalibr_tag/model.sdf
           -sdf
-          -model Kalibr_tag "/>
+          -model kalibr_tag "/>
     <node name="rviz" pkg="rviz" type="rviz" args="-d $(find betago_calibration)/rviz/calib.rviz" />
 </launch>
