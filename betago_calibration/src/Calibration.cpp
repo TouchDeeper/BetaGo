@@ -5,7 +5,7 @@
 #include "betago_calibration/Calibration.h"
 void Calibration::SetMultiplePoseofCalibrBoard(){
 
-    std::vector<double> translate_euler = {5.54,-0.02,0.5, 3.14,-1.5708,3.14};
+    std::vector<double> translate_euler = {1.54,-0.02,0.5, 3.14,-1.5708,3.14};
     Sophus::SE3d pose =  td::EulerTranslatetoSE3(translate_euler);
     Eigen::Vector3d eulerZ1 = {-1.57,-1.09,1.57};
     Eigen::Vector3d eulerZ3 = {1.567,-0.977,-1.57};
@@ -15,8 +15,8 @@ void Calibration::SetMultiplePoseofCalibrBoard(){
     Eigen::Vector3d eulerX3 = {0.02,-1.5708,-0.62};
     std::vector<std::vector<double>> min_max(6,std::vector<double>(2));
 
-    min_max[0][0] = 5.54;
-    min_max[0][1] = 6.53;
+    min_max[0][0] = 1.54;
+    min_max[0][1] = 2.53;
     min_max[1][0] = -0.88;
     min_max[1][1] = 0.92;
     //z is fixed

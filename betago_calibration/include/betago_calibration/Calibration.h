@@ -16,7 +16,7 @@ public:
         calibr_board_name_ = calibr_board_name;
         pose_pub_ = nh_.advertise<gazebo_msgs::ModelState>("/gazebo/set_model_state", 10);
         init_euler_ = {3.14,-1.5708,3.14};
-        init_pos_ = {5.54,-0.02,0.5};
+        init_pos_ = {1.54,-0.02,0.5};
 
     }
     void SpawnCalibrBoard(){

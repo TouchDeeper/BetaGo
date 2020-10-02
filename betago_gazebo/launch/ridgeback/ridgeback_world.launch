@@ -2,7 +2,7 @@
   <arg name="use_sim_time" default="true" />
   <arg name="gui" default="true" />
   <arg name="headless" default="false" />
-  <arg name="world_name" default="$(find ridgeback_gazebo)/worlds/ridgeback_race.world" />
+  <arg name="world_name" default="worlds/empty.world" />
 
   <!-- Configuration of Ridgeback which you would like to simulate.
        See ridgeback_description for details. base only has only front HoKuyo laser-->
@@ -47,14 +47,14 @@
   </rosparam>
 
   <!-- Spawn Ridgeback -->
+  <!-- a small z will cause the arm unstable, don't know why -->
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model"
-        args="-unpause
-              -urdf
+        args="-urdf
               -model ridgeback
               -param robot_description
-              -x 4
+              -x 0
               -y 0
-              -z 2
+              -z 3
 
             " />
   <!--<node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model"
