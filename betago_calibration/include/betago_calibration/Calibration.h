@@ -10,6 +10,9 @@
 #include <TdLibrary/slam_tool/motion_transformation.h>
 #include <TdLibrary/tool/random_tool.hpp>
 #include <gazebo/physics/physics.hh>
+#include <image_transport/image_transport.h>
+#include <rosbag/bag.h>
+void imageCallback(const sensor_msgs::ImageConstPtr& msg, rosbag::Bag& bag);
 class Calibration {
 public:
     Calibration(const std::string& calibr_board_name){
@@ -17,6 +20,8 @@ public:
         pose_pub_ = nh_.advertise<gazebo_msgs::ModelState>("/gazebo/set_model_state", 10);
         init_euler_ = {3.14,-1.5708,3.14};
         init_pos_ = {1.54,-0.02,0.5};
+        bag_.open("test.bag", rosbag::bagmode::Write);
+        topic_name_ = "camera/rgb/image_raw";
 
     }
     void SpawnCalibrBoard(){
@@ -58,11 +63,16 @@ private:
         model.request.initial_pose.position.z = position[2];
         client_spwn.call(model);
     }
+    void recordBag(const ros::NodeHandle &nh, const std::string& topic, rosbag::Bag& bag);
+
     ros::NodeHandle nh_;
     ros::Publisher pose_pub_;
     std::string calibr_board_name_;
     Eigen::Vector3d init_euler_;
     Eigen::Vector3d init_pos_;
+    rosbag::Bag bag_;
+    std::string topic_name_;
+
 public:
     EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
 };

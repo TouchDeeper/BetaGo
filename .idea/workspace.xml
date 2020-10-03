@@ -6,33 +6,33 @@
       <config projectName="Project" targetName="tf2_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="gmock" />
       <config projectName="Project" targetName="path_navigation_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="control_msgs_generate_messages_py" />
       <config projectName="Project" targetName="nodelet_generate_messages_py" />
       <config projectName="Project" targetName="roscpp_generate_messages_cpp" />
       <config projectName="Project" targetName="gazebo_test_tools_genlisp" />
       <config projectName="Project" targetName="gtest_main" />
       <config projectName="Project" targetName="object_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="graph_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="to_default_pose" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="planning_scene_tutorial" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="object_msgs_gencpp" />
       <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionAction" />
       <config projectName="Project" targetName="gazebo_test_tools_gencpp" />
       <config projectName="Project" targetName="tf_generate_messages_eus" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="tf_generate_messages_lisp" />
-      <config projectName="Project" targetName="nodelet_generate_messages_nodejs" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
       <config projectName="Project" targetName="doxygen" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="_object_msgs_generate_messages_check_deps_ObjectPose" />
+      <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
       <config projectName="Project" targetName="nodelet_generate_messages_eus" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_py" />
       <config projectName="Project" targetName="bond_generate_messages_nodejs" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="graph_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="fake_object_recognizer_cmd" />
-      <config projectName="Project" targetName="gazebo_test_tools_generate_messages_eus" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="gazebo_test_tools" />
       <config projectName="Project" targetName="graph_msgs_generate_messages_eus" />
@@ -46,37 +46,31 @@
       <config projectName="Project" targetName="geometry_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionActionResult" />
-      <config projectName="Project" targetName="gazebo_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="set_gazebo_physics_client" />
-      <config projectName="Project" targetName="moveit_ros_planning_gencfg" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="path_navigation_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="object_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="_object_msgs_generate_messages_check_deps_RegisterObject" />
       <config projectName="Project" targetName="bond_generate_messages_cpp" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="_gazebo_test_tools_generate_messages_check_deps_RecognizeGazeboObject" />
       <config projectName="Project" targetName="actionlib_generate_messages_py" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_py" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="actionlib_generate_messages_lisp" />
       <config projectName="Project" targetName="gazebo_test_tools_generate_messages_lisp" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="object_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="gazebo_test_tools_generate_messages_py" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_lisp" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_py" />
       <config projectName="Project" targetName="register_object_client" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="graph_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="run_tests" />
+      <config projectName="Project" targetName="control_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="actionlib_generate_messages_cpp" />
       <config projectName="Project" targetName="object_msgs_gennodejs" />
-      <config projectName="Project" targetName="gazebo_test_tools_generate_messages" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="object_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="object_msgs_genlisp" />
+      <config projectName="Project" targetName="graph_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="std_msgs_generate_messages_py" />
       <config projectName="Project" targetName="gazebo_test_tools_gennodejs" />
@@ -86,27 +80,28 @@
       <config projectName="Project" targetName="tf_generate_messages_cpp" />
       <config projectName="Project" targetName="gazebo_object_info" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="object_msgs_generate_messages" />
       <config projectName="Project" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
       <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionActionFeedback" />
-      <config projectName="Project" targetName="to_default_pose" />
       <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionGoal" />
       <config projectName="Project" targetName="gazebo_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="control_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="_catkin_empty_exported_target" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="nodelet_topic_tools_gencfg" />
+      <config projectName="Project" targetName="_catkin_empty_exported_target" />
+      <config projectName="Project" targetName="run_tests" />
       <config projectName="Project" targetName="motion_planning_pipeline_tutorial" />
       <config projectName="Project" targetName="cam_laser_calibration_node" />
       <config projectName="Project" targetName="gazebo_test_tools_generate_messages_cpp" />
       <config projectName="Project" targetName="bond_generate_messages_lisp" />
       <config projectName="Project" targetName="object_msgs_geneus" />
       <config projectName="Project" targetName="graph_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="shape_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="object_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="cube_spawner" />
       <config projectName="Project" targetName="gazebo_ros_gencfg" />
       <config projectName="Project" targetName="nodelet_generate_messages_cpp" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="gazebo_test_tools_generate_messages_eus" />
       <config projectName="Project" targetName="object_tf_broadcaster_node" />
       <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionResult" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_nodejs" />
@@ -118,7 +113,7 @@
       <config projectName="Project" targetName="nodelet_generate_messages_lisp" />
       <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
       <config projectName="Project" targetName="gazebo_test_tools_genpy" />
-      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionActionGoal" />
+      <config projectName="Project" targetName="gazebo_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="std_srvs_generate_messages_cpp" />
       <config projectName="Project" targetName="gmock_main" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_lisp" />
@@ -132,33 +127,33 @@
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionFeedback" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="tf_generate_messages_nodejs" />
       <config projectName="Project" targetName="tests" />
-      <config projectName="Project" targetName="pcl_ros_gencfg" />
-      <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionActionGoal" />
       <config projectName="Project" targetName="motion_planning_api_tutorial" />
-      <config projectName="Project" targetName="shape_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="gazebo_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="_object_msgs_generate_messages_check_deps_Object" />
       <config projectName="Project" targetName="gazebo_test_tools_generate_messages_nodejs" />
-      <config projectName="Project" targetName="path_navigation_msgs_genlisp" />
+      <config projectName="Project" targetName="_object_msgs_generate_messages_check_deps_ObjectPose" />
       <config projectName="Project" targetName="topic_tools_generate_messages_nodejs" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_py" />
       <config projectName="Project" targetName="move_group_interface_tutorial" />
       <config projectName="Project" targetName="fake_object_recognizer" />
+      <config projectName="Project" targetName="trajectory_msgs_generate_messages_py" />
       <config projectName="Project" targetName="gazebo_map_publisher" />
       <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionFeedback" />
       <config projectName="Project" targetName="path_navigation_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="tf_generate_messages_py" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
-      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_lisp" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionActionFeedback" />
-      <config projectName="Project" targetName="_object_msgs_generate_messages_check_deps_RegisterObject" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_py" />
       <config projectName="Project" targetName="td_ros" />
-      <config projectName="Project" targetName="path_navigation_msgs_gencpp" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_lisp" />
+      <config projectName="Project" targetName="object_msgs_gencpp" />
       <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionAction" />
       <config projectName="Project" targetName="roscpp_generate_messages_py" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_py" />
@@ -166,58 +161,63 @@
       <config projectName="Project" targetName="std_srvs_generate_messages_nodejs" />
       <config projectName="Project" targetName="topic_tools_generate_messages_py" />
       <config projectName="Project" targetName="roscpp_generate_messages_eus" />
-      <config projectName="Project" targetName="topic_tools_generate_messages_lisp" />
-      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionActionGoal" />
       <config projectName="Project" targetName="gazebo_grasp_fix" />
       <config projectName="Project" targetName="fake_object_recognizer_node" />
+      <config projectName="Project" targetName="gazebo_test_tools_generate_messages" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_py" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="control_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="dynamic_reconfigure_gencfg" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="object_msgs_tools" />
-      <config projectName="Project" targetName="control_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="actionlib_generate_messages_lisp" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="gazebo_version_helpers" />
       <config projectName="Project" targetName="object_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="path_navigation_msgs_genpy" />
-      <config projectName="Project" targetName="bond_generate_messages_py" />
+      <config projectName="Project" targetName="path_navigation_msgs_gencpp" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="topic_tools_generate_messages_cpp" />
+      <config projectName="Project" targetName="actionlib_generate_messages_eus" />
+      <config projectName="Project" targetName="bond_generate_messages_py" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_cpp" />
+      <config projectName="Project" targetName="moveit_ros_planning_gencfg" />
       <config projectName="Project" targetName="std_srvs_generate_messages_lisp" />
       <config projectName="Project" targetName="calibration" />
-      <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="Project" targetName="trajectory_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionActionResult" />
+      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="gazebo_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_py" />
-      <config projectName="Project" targetName="tf_generate_messages_py" />
+      <config projectName="Project" targetName="nav_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionActionGoal" />
+      <config projectName="Project" targetName="nodelet_generate_messages_nodejs" />
       <config projectName="Project" targetName="download_extra_data" />
       <config projectName="Project" targetName="control_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionActionResult" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="trajectory_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="moveit_ros_manipulation_gencfg" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_nodejs" />
+      <config projectName="Project" targetName="tf_generate_messages_lisp" />
       <config projectName="Project" targetName="path_navigation_msgs_generate_messages" />
-      <config projectName="Project" targetName="actionlib_generate_messages_eus" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="pcl_ros_gencfg" />
       <config projectName="Project" targetName="bond_generate_messages_eus" />
       <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionResult" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="path_navigation_msgs_genlisp" />
       <config projectName="Project" targetName="gazebo_request_object_info" />
-      <config projectName="Project" targetName="trajectory_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_py" />
       <config projectName="Project" targetName="actionlib_generate_messages_nodejs" />
       <config projectName="Project" targetName="robot_model_and_robot_state_tutorial" />
-      <config projectName="Project" targetName="nav_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_cpp" />
       <config projectName="Project" targetName="planning_scene_ros_api_tutorial" />
       <config projectName="Project" targetName="graph_msgs_generate_messages_py" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_eus" />
@@ -230,15 +230,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79ad5185-a615-4161-96b5-a3ffc365e309" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/betago_navigation/launch/navigation_world.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/betago_calibration/include/betago_calibration/Calibration.h" beforeDir="false" afterPath="$PROJECT_DIR$/betago_calibration/include/betago_calibration/Calibration.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch" beforeDir="false" afterPath="$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_calibration/launch/rviz.launch" beforeDir="false" afterPath="$PROJECT_DIR$/betago_calibration/launch/rviz.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/betago_calibration/src/Calibration.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/betago_calibration/src/Calibration.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch" beforeDir="false" afterPath="$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_navigation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/betago_navigation/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/../build/" />
@@ -258,18 +252,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="1216">
               <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
             </state>
           </provider>
@@ -278,8 +263,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/betago_calibration/include/betago_calibration/Calibration.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="285">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="e#121#145#0" expanded="true" />
               </folding>
@@ -287,7 +272,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
@@ -299,17 +284,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/betago_calibration/src/run_cam_laser_calibration.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="209">
               <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/betago_calibration/src/Calibration.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="57" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="57" />
+            <state relative-caret-position="352">
+              <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -317,8 +302,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/betago_calibration/launch/rviz.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -328,7 +313,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="399">
-                <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+                <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -451,10 +436,10 @@
         <option value="$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch" />
         <option value="$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch" />
         <option value="$PROJECT_DIR$/betago_navigation/README.md" />
+        <option value="$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch" />
+        <option value="$PROJECT_DIR$/betago_calibration/launch/rviz.launch" />
         <option value="$PROJECT_DIR$/betago_calibration/include/betago_calibration/Calibration.h" />
         <option value="$PROJECT_DIR$/betago_calibration/src/Calibration.cpp" />
-        <option value="$PROJECT_DIR$/betago_calibration/launch/rviz.launch" />
-        <option value="$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch" />
       </list>
     </option>
   </component>
@@ -546,7 +531,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/betago_navigation/launch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../LaserCameraCal_ws/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -1686,7 +1671,25 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application._catkin_empty_exported_target" />
-      <item itemvalue="CMake Application.calibration" />
+      <item itemvalue="CMake Application._gazebo_test_tools_generate_messages_check_deps_RecognizeGazeboObject" />
+      <item itemvalue="CMake Application._object_msgs_generate_messages_check_deps_ObjectInfo" />
+      <item itemvalue="CMake Application._object_msgs_generate_messages_check_deps_ObjectPose" />
+      <item itemvalue="CMake Application._object_msgs_generate_messages_check_deps_Object" />
+      <item itemvalue="CMake Application._object_msgs_generate_messages_check_deps_RegisterObject" />
+      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_PathExecutionActionFeedback" />
+      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_PathExecutionActionGoal" />
+      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_PathExecutionActionResult" />
+      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_PathExecutionAction" />
+      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_PathExecutionFeedback" />
+      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_PathExecutionGoal" />
+      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_PathExecutionResult" />
+      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionActionFeedback" />
+      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionActionGoal" />
+      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionActionResult" />
+      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionAction" />
+      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionFeedback" />
+      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionGoal" />
+      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionResult" />
       <item itemvalue="CMake Application.actionlib_generate_messages_cpp" />
       <item itemvalue="CMake Application.actionlib_generate_messages_eus" />
       <item itemvalue="CMake Application.actionlib_generate_messages_lisp" />
@@ -1697,19 +1700,21 @@
       <item itemvalue="CMake Application.actionlib_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.actionlib_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.actionlib_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.control_msgs_generate_messages_cpp" />
-      <item itemvalue="CMake Application.control_msgs_generate_messages_eus" />
-      <item itemvalue="CMake Application.control_msgs_generate_messages_lisp" />
-      <item itemvalue="CMake Application.control_msgs_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.control_msgs_generate_messages_py" />
       <item itemvalue="CMake Application.betago_tf_listener" />
       <item itemvalue="CMake Application.bond_generate_messages_cpp" />
       <item itemvalue="CMake Application.bond_generate_messages_eus" />
       <item itemvalue="CMake Application.bond_generate_messages_lisp" />
       <item itemvalue="CMake Application.bond_generate_messages_nodejs" />
       <item itemvalue="CMake Application.bond_generate_messages_py" />
+      <item itemvalue="CMake Application.calibration" />
       <item itemvalue="CMake Application.cam_laser_calibration_node" />
       <item itemvalue="CMake Application.clean_test_results" />
+      <item itemvalue="CMake Application.control_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.control_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.control_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.control_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.control_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.cube_spawner" />
       <item itemvalue="CMake Application.download_extra_data" />
       <item itemvalue="CMake Application.doxygen" />
       <item itemvalue="CMake Application.dynamic_reconfigure_gencfg" />
@@ -1721,11 +1726,15 @@
       <item itemvalue="CMake Application.fake_object_recognizer" />
       <item itemvalue="CMake Application.fake_object_recognizer_cmd" />
       <item itemvalue="CMake Application.fake_object_recognizer_node" />
+      <item itemvalue="CMake Application.gazebo_grasp_fix" />
+      <item itemvalue="CMake Application.gazebo_map_publisher" />
       <item itemvalue="CMake Application.gazebo_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.gazebo_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.gazebo_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.gazebo_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.gazebo_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.gazebo_object_info" />
+      <item itemvalue="CMake Application.gazebo_request_object_info" />
       <item itemvalue="CMake Application.gazebo_ros_gencfg" />
       <item itemvalue="CMake Application.gazebo_test_tools" />
       <item itemvalue="CMake Application.gazebo_test_tools_gencpp" />
@@ -1739,28 +1748,13 @@
       <item itemvalue="CMake Application.gazebo_test_tools_genlisp" />
       <item itemvalue="CMake Application.gazebo_test_tools_gennodejs" />
       <item itemvalue="CMake Application.gazebo_test_tools_genpy" />
-      <item itemvalue="CMake Application.set_gazebo_physics_client" />
+      <item itemvalue="CMake Application.gazebo_version_helpers" />
+      <item itemvalue="CMake Application.gazebo_world_plugin_loader" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.geometry_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.nav_msgs_generate_messages_cpp" />
-      <item itemvalue="CMake Application.nav_msgs_generate_messages_eus" />
-      <item itemvalue="CMake Application.nav_msgs_generate_messages_lisp" />
-      <item itemvalue="CMake Application.nav_msgs_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.nav_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.path_navigation_msgs_gencpp" />
-      <item itemvalue="CMake Application.path_navigation_msgs_generate_messages" />
-      <item itemvalue="CMake Application.path_navigation_msgs_generate_messages_cpp" />
-      <item itemvalue="CMake Application.path_navigation_msgs_generate_messages_eus" />
-      <item itemvalue="CMake Application.path_navigation_msgs_generate_messages_lisp" />
-      <item itemvalue="CMake Application.path_navigation_msgs_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.path_navigation_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.path_navigation_msgs_geneus" />
-      <item itemvalue="CMake Application.path_navigation_msgs_genlisp" />
-      <item itemvalue="CMake Application.path_navigation_msgs_gennodejs" />
-      <item itemvalue="CMake Application.path_navigation_msgs_genpy" />
       <item itemvalue="CMake Application.gmock" />
       <item itemvalue="CMake Application.gmock_main" />
       <item itemvalue="CMake Application.graph_msgs_generate_messages_cpp" />
@@ -1780,22 +1774,51 @@
       <item itemvalue="CMake Application.moveit_msgs_generate_messages_py" />
       <item itemvalue="CMake Application.moveit_ros_manipulation_gencfg" />
       <item itemvalue="CMake Application.moveit_ros_planning_gencfg" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.nav_msgs_generate_messages_py" />
       <item itemvalue="CMake Application.nodelet_generate_messages_cpp" />
       <item itemvalue="CMake Application.nodelet_generate_messages_eus" />
       <item itemvalue="CMake Application.nodelet_generate_messages_lisp" />
       <item itemvalue="CMake Application.nodelet_generate_messages_nodejs" />
       <item itemvalue="CMake Application.nodelet_generate_messages_py" />
       <item itemvalue="CMake Application.nodelet_topic_tools_gencfg" />
+      <item itemvalue="CMake Application.object_msgs_gencpp" />
+      <item itemvalue="CMake Application.object_msgs_generate_messages" />
+      <item itemvalue="CMake Application.object_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.object_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.object_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.object_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.object_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.object_msgs_geneus" />
+      <item itemvalue="CMake Application.object_msgs_genlisp" />
+      <item itemvalue="CMake Application.object_msgs_gennodejs" />
+      <item itemvalue="CMake Application.object_msgs_genpy" />
+      <item itemvalue="CMake Application.object_msgs_tools" />
       <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.object_recognition_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.object_tf_broadcaster_node" />
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.octomap_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.path_navigation_msgs_gencpp" />
+      <item itemvalue="CMake Application.path_navigation_msgs_generate_messages" />
+      <item itemvalue="CMake Application.path_navigation_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.path_navigation_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.path_navigation_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.path_navigation_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.path_navigation_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.path_navigation_msgs_geneus" />
+      <item itemvalue="CMake Application.path_navigation_msgs_genlisp" />
+      <item itemvalue="CMake Application.path_navigation_msgs_gennodejs" />
+      <item itemvalue="CMake Application.path_navigation_msgs_genpy" />
       <item itemvalue="CMake Application.pcl_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.pcl_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.pcl_msgs_generate_messages_lisp" />
@@ -1804,6 +1827,7 @@
       <item itemvalue="CMake Application.pcl_ros_gencfg" />
       <item itemvalue="CMake Application.planning_scene_ros_api_tutorial" />
       <item itemvalue="CMake Application.planning_scene_tutorial" />
+      <item itemvalue="CMake Application.register_object_client" />
       <item itemvalue="CMake Application.robot_model_and_robot_state_tutorial" />
       <item itemvalue="CMake Application.roscpp_generate_messages_cpp" />
       <item itemvalue="CMake Application.roscpp_generate_messages_eus" />
@@ -1821,28 +1845,12 @@
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.sensor_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.set_gazebo_physics_client" />
       <item itemvalue="CMake Application.shape_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.shape_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.shape_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.shape_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.shape_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.object_msgs_tools" />
-      <item itemvalue="CMake Application.object_tf_broadcaster_node" />
-      <item itemvalue="CMake Application.register_object_client" />
-      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_PathExecutionAction" />
-      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_PathExecutionActionFeedback" />
-      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_PathExecutionActionGoal" />
-      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_PathExecutionActionResult" />
-      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_PathExecutionFeedback" />
-      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_PathExecutionGoal" />
-      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_PathExecutionResult" />
-      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionAction" />
-      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionActionFeedback" />
-      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionActionGoal" />
-      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionActionResult" />
-      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionFeedback" />
-      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionGoal" />
-      <item itemvalue="CMake Application._path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionResult" />
       <item itemvalue="CMake Application.std_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.std_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.std_msgs_generate_messages_lisp" />
@@ -1853,6 +1861,7 @@
       <item itemvalue="CMake Application.std_srvs_generate_messages_lisp" />
       <item itemvalue="CMake Application.std_srvs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.std_srvs_generate_messages_py" />
+      <item itemvalue="CMake Application.td_ros" />
       <item itemvalue="CMake Application.tests" />
       <item itemvalue="CMake Application.tf2_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.tf2_msgs_generate_messages_eus" />
@@ -1864,23 +1873,6 @@
       <item itemvalue="CMake Application.tf_generate_messages_lisp" />
       <item itemvalue="CMake Application.tf_generate_messages_nodejs" />
       <item itemvalue="CMake Application.tf_generate_messages_py" />
-      <item itemvalue="CMake Application.gazebo_version_helpers" />
-      <item itemvalue="CMake Application.gazebo_world_plugin_loader" />
-      <item itemvalue="CMake Application._object_msgs_generate_messages_check_deps_Object" />
-      <item itemvalue="CMake Application._object_msgs_generate_messages_check_deps_ObjectInfo" />
-      <item itemvalue="CMake Application._object_msgs_generate_messages_check_deps_ObjectPose" />
-      <item itemvalue="CMake Application._object_msgs_generate_messages_check_deps_RegisterObject" />
-      <item itemvalue="CMake Application.object_msgs_gencpp" />
-      <item itemvalue="CMake Application.object_msgs_generate_messages" />
-      <item itemvalue="CMake Application.object_msgs_generate_messages_cpp" />
-      <item itemvalue="CMake Application.object_msgs_generate_messages_eus" />
-      <item itemvalue="CMake Application.object_msgs_generate_messages_lisp" />
-      <item itemvalue="CMake Application.object_msgs_generate_messages_nodejs" />
-      <item itemvalue="CMake Application.object_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.object_msgs_geneus" />
-      <item itemvalue="CMake Application.object_msgs_genlisp" />
-      <item itemvalue="CMake Application.object_msgs_gennodejs" />
-      <item itemvalue="CMake Application.object_msgs_genpy" />
       <item itemvalue="CMake Application.to_default_pose" />
       <item itemvalue="CMake Application.topic_tools_generate_messages_cpp" />
       <item itemvalue="CMake Application.topic_tools_generate_messages_eus" />
@@ -1892,18 +1884,11 @@
       <item itemvalue="CMake Application.trajectory_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.trajectory_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.trajectory_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.td_ros" />
       <item itemvalue="CMake Application.visualization_msgs_generate_messages_cpp" />
       <item itemvalue="CMake Application.visualization_msgs_generate_messages_eus" />
       <item itemvalue="CMake Application.visualization_msgs_generate_messages_lisp" />
       <item itemvalue="CMake Application.visualization_msgs_generate_messages_nodejs" />
       <item itemvalue="CMake Application.visualization_msgs_generate_messages_py" />
-      <item itemvalue="CMake Application.gazebo_grasp_fix" />
-      <item itemvalue="CMake Application.gazebo_map_publisher" />
-      <item itemvalue="CMake Application.gazebo_object_info" />
-      <item itemvalue="CMake Application.gazebo_request_object_info" />
-      <item itemvalue="CMake Application._gazebo_test_tools_generate_messages_check_deps_RecognizeGazeboObject" />
-      <item itemvalue="CMake Application.cube_spawner" />
       <item itemvalue="ROS Launch.launch" />
     </list>
   </component>
@@ -1977,12 +1962,14 @@
       <workItem from="1600939676676" duration="612000" />
       <workItem from="1600948886706" duration="2840000" />
       <workItem from="1601606929735" duration="4821000" />
-      <workItem from="1601627780663" duration="5242000" />
+      <workItem from="1601627780663" duration="5392000" />
+      <workItem from="1601736991001" duration="837000" />
+      <workItem from="1601739555340" duration="1911000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171569000" />
+    <option name="totallyTimeSpent" value="174467000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1995,8 +1982,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49557522" visible="true" weight="0.1923077" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49557522" visible="true" weight="0.1965812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50442475" side_tool="true" weight="0.15384616" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2007,7 +1995,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.21020408" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.30204082" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005342" side_tool="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32959184" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.31779662" />
@@ -2056,14 +2044,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/betago_calibration/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/model.sdf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-230" />
@@ -2284,10 +2264,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_navigation/launch/navigation_world.launch">
+    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="92" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
+        <state relative-caret-position="76">
+          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_calibration/src/run_cam_laser_calibration.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_calibration/launch/rviz.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_navigation/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="399">
+            <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -2298,34 +2316,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_navigation/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="399">
-            <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/betago_navigation/launch/navigation_world.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="92" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch">
+    <entry file="file:///opt/ros/kinetic/include/rosbag/bag.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+        <state relative-caret-position="219">
+          <caret line="181" column="4" selection-start-line="181" selection-start-column="4" selection-end-line="181" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/betago_calibration/include/betago_calibration/Calibration.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="285">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="e#121#145#0" expanded="true" />
           </folding>
@@ -2334,29 +2342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/betago_calibration/src/Calibration.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/src/run_cam_laser_calibration.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/launch/rviz.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="352">
+          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
         </state>
       </provider>
     </entry>

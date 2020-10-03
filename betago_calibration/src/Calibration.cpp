@@ -46,6 +46,7 @@ void Calibration::SetMultiplePoseofCalibrBoard(){
 
         Sophus::SE3d posen =  td::EulerTranslatetoSE3(translate_euler_n);
         tdros::SetPosition(pose_pub_,calibr_board_name_,posen,60,80);
+        recordBag(nh_,topic_name_,bag_);
         ros::Duration(1).sleep();
 
     }
@@ -54,6 +55,16 @@ void Calibration::SetMultiplePoseofCalibrBoard(){
 void Calibration::PutCalibinInitPose() {
     Sophus::SE3d init_pose = td::EulerTranslatetoSE3(init_euler_,init_pos_);
     tdros::SetPosition(pose_pub_,calibr_board_name_,init_pose,60,80);
+}
+
+void Calibration::recordBag(const ros::NodeHandle &nh, const std::string& topic, rosbag::Bag& bag) {
+    image_transport::ImageTransport it(nh);
+    image_transport::Subscriber sub_image = it.subscribe("camera/rgb/image_raw", 1, boost::bind(imageCallback,_1,std::ref(bag)));//you must hold on the sub object until you want to unsubscribe.
+}
+
+void imageCallback(const sensor_msgs::ImageConstPtr& msg, rosbag::Bag& bag)
+{
+    bag.write("/camera/rgb/image_raw",ros::Time::now(),msg);
 }
 
 std::vector<double> Calibration::EulerRange(int i, Eigen::Vector3d &euler1, Eigen::Vector3d &euler2, Eigen::Vector3d &euler3) {
