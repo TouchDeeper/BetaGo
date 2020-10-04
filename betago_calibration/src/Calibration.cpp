@@ -27,7 +27,7 @@ void Calibration::SetMultiplePoseofCalibrBoard(){
     std::cout<<"Random choose"<<std::endl;
 
     Eigen::Matrix3d R2 = td::EulerToRotation(init_euler_);
-    for(int i=0;i<10;i++){
+    for(int i=0;i<16;i++){
         std::vector<double> translate_euler_n = translate_euler;
         for (int j = 0; j < 2; ++j) {
             translate_euler[j] = td::UniformSampling(min_max[j][0],min_max[j][1]);
@@ -57,14 +57,42 @@ void Calibration::PutCalibinInitPose() {
     tdros::SetPosition(pose_pub_,calibr_board_name_,init_pose,60,80);
 }
 
-void Calibration::recordBag(const ros::NodeHandle &nh, const std::string& topic, rosbag::Bag& bag) {
-    image_transport::ImageTransport it(nh);
-    image_transport::Subscriber sub_image = it.subscribe("camera/rgb/image_raw", 1, boost::bind(imageCallback,_1,std::ref(bag)));//you must hold on the sub object until you want to unsubscribe.
+void Calibration::recordBag(ros::NodeHandle &nh, const std::string& topic, rosbag::Bag& bag) {
+//    image_transport::ImageTransport it(nh);
+//    image_transport::Subscriber sub_image = it.subscribe("/camera/rgb/image_raw", 1, boost::bind(imageCallback,_1,std::ref(bag)));//you must hold on the sub object until you want to unsubscribe.
+    bool flag_image = true;
+    bool flag_scan = true;
+    ros::Subscriber sub_image = nh.subscribe<sensor_msgs::Image>("/camera/rgb/image_raw", 1, boost::bind(imageCallback,_1,flag_image));//you must hold on the sub object until you want to unsubscribe.
+    ros::Subscriber sub_scan = nh.subscribe<sensor_msgs::LaserScan>("/front/scan", 1, boost::bind(scanCallback,_1,flag_scan));//you must hold on the sub object until you want to unsubscribe.
+    flag_image = false;
+    flag_scan = false;
+    int i=0;
+    ros::Rate loop_rate(10);
+    while(ros::ok() && i<5)
+    {
+        ros::spinOnce();
+        i++;
+        loop_rate.sleep();
+    }
 }
 
-void imageCallback(const sensor_msgs::ImageConstPtr& msg, rosbag::Bag& bag)
+void Calibration::imageCallback(const sensor_msgs::ImageConstPtr& msg, bool& flag)
 {
-    bag.write("/camera/rgb/image_raw",ros::Time::now(),msg);
+    if(flag){
+        ROS_INFO("receive image");
+        bag_.write("/camera/rgb/image_raw",ros::Time::now(),*msg);
+        flag = false;// a pose save an image
+    }
+
+}
+void Calibration::scanCallback(const sensor_msgs::LaserScanConstPtr& msg, bool& flag)
+{
+    if(flag){
+        ROS_INFO("receive scan");
+        bag_.write("/front/scan",ros::Time::now(),*msg);
+        flag = false;// a pose save an image
+    }
+
 }
 
 std::vector<double> Calibration::EulerRange(int i, Eigen::Vector3d &euler1, Eigen::Vector3d &euler2, Eigen::Vector3d &euler3) {

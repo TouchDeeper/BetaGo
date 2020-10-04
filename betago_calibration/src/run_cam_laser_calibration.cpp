@@ -4,12 +4,18 @@
 #include <td_ros/tool.h>
 #include <betago_calibration/Calibration.h>
 #include <gazebo/Server.hh>
+void ImageCallback(const sensor_msgs::ImageConstPtr& msg)
+{
+    ROS_INFO("receive image");
+//    bag_.write("/camera/rgb/image_raw",ros::Time::now(),*msg);
+}
 int main(int argc, char** argv){
     ros::init(argc,argv,"cam_laser_calibr_node");
-
-    Calibration calibr("kalibr_tag");
+    ros::NodeHandle nh;
+    Calibration calibr("kalibr_tag", nh);
     calibr.PutCalibinInitPose();
     calibr.SetMultiplePoseofCalibrBoard();
+//    ros::Subscriber sub_image = nh.subscribe("/camera/rgb/image_raw", 1, ImageCallback);//you must hold on the sub object until you want to unsubscribe.
 //    calibr.SpawnCalibrBoard();
 //    ros::spin();
     return 0;

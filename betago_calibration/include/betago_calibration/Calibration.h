@@ -11,16 +11,20 @@
 #include <TdLibrary/tool/random_tool.hpp>
 #include <gazebo/physics/physics.hh>
 #include <image_transport/image_transport.h>
+#include <sensor_msgs/LaserScan.h>
 #include <rosbag/bag.h>
-void imageCallback(const sensor_msgs::ImageConstPtr& msg, rosbag::Bag& bag);
+
 class Calibration {
 public:
-    Calibration(const std::string& calibr_board_name){
+    Calibration(const std::string& calibr_board_name, ros::NodeHandle &nh){
+        nh_ = nh;
         calibr_board_name_ = calibr_board_name;
         pose_pub_ = nh_.advertise<gazebo_msgs::ModelState>("/gazebo/set_model_state", 10);
         init_euler_ = {3.14,-1.5708,3.14};
         init_pos_ = {1.54,-0.02,0.5};
-        bag_.open("test.bag", rosbag::bagmode::Write);
+        std::string bag_path = ros::package::getPath("betago_calibration") + "/test.bag";
+        if(!bag_.isOpen())
+            bag_.open(bag_path, rosbag::bagmode::Write);
         topic_name_ = "camera/rgb/image_raw";
 
     }
@@ -30,6 +34,8 @@ public:
     }
     void SetMultiplePoseofCalibrBoard();
     void PutCalibinInitPose();
+    static void imageCallback(const sensor_msgs::ImageConstPtr& msg, bool& flag);
+    static void scanCallback(const sensor_msgs::LaserScanConstPtr& msg, bool& flag);
 private:
     /**
      * return the min and max of the incremental euler angle based on euler2 along i axis
@@ -63,19 +69,20 @@ private:
         model.request.initial_pose.position.z = position[2];
         client_spwn.call(model);
     }
-    void recordBag(const ros::NodeHandle &nh, const std::string& topic, rosbag::Bag& bag);
+    void recordBag(ros::NodeHandle &nh, const std::string& topic, rosbag::Bag& bag);
 
     ros::NodeHandle nh_;
     ros::Publisher pose_pub_;
     std::string calibr_board_name_;
     Eigen::Vector3d init_euler_;
     Eigen::Vector3d init_pos_;
-    rosbag::Bag bag_;
+    static rosbag::Bag bag_;
     std::string topic_name_;
 
 public:
     EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
 };
+rosbag::Bag Calibration::bag_;
 
 
 #endif //BETAGO_CALIBRATION_CALIBRATION_H
