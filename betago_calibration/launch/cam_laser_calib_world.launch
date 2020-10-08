@@ -1,8 +1,5 @@
 <launch>
     <arg name="dual_arm" default="true" />
-    <include file="$(find betago_bringup)/launch/betago_bringup_moveit.launch">
-        <arg name="dual_arm" value="$(arg dual_arm)" />
-    </include>
     <node name="sdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
           args="
           -file $(env GAZEBO_MODEL_PATH)/kalibr_tag/model.sdf
@@ -11,4 +8,8 @@
           -x 1.54
           -y -0.02
           -z 0.5"/>
+    <include file="$(find betago_bringup)/launch/betago_bringup_moveit.launch">
+        <arg name="dual_arm" value="$(arg dual_arm)" />
+    </include>
+
 </launch>
