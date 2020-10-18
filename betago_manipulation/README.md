@@ -79,7 +79,7 @@ In `name` tag,enter the `JointTrajectoryController` you set.
 10. create `betago_bringup_moveit.launch`
 ![betago_bringup_moveit.launch](../media/betago_bringup_moveit.png)
 
-this launh file is mainly used to find `ridgeback_world.launch`, `betago_states_gazebo.launch`, `arm_trajectory_controller.launch` and `betago_moveit_planning_executation.launch`.
+this launch file is mainly used to find `ridgeback_world.launch`, `betago_states_gazebo.launch`, `arm_trajectory_controller.launch` and `betago_moveit_planning_executation.launch`.
 
 
 
