@@ -29,21 +29,24 @@ args of `betago_bringup_moveit.launch`:
 ![moveit_config_3.png](../media/moveit_config_3.png)
 
 2. copy the betago_moveit_planning_executation.launch to betago_moveit_config/launch and change the content to suit your model.
-![betago_moveit_planning_execution](https://github.com/xietianyu20163705/XTY/blob/main/images/betago_moveit_planning_execution.png)
+![betago_moveit_planning_execution](../media/betago_moveit_planning_execution.png)
 
 This launch file is mainly used to start `move_group.launch` ,`moveit_rivz.launch`.
 
 move_group.launch can start `node move_group` and `trajectory_execution.launch`which is used to find `ridgeback_moveit_controller_manager.launch.xml`.
 
-3. copy the controllers.yaml to betago_moveit_config/config and change the content to suit your model.
-![controllers.yaml](https://github.com/xietianyu20163705/XTY/blob/main/images/controllers.png)
-
-This yaml file is mainly used to start `follow joint trajectory`，which is used to connect gazebo and rivz.
-
-4. copy the content in the launch/ridgeback_moveit_controller_manager.launch.xml to the same file in your package.
-![ridgeback_moveit_controller_manager](https://github.com/xietianyu20163705/XTY/blob/main/images/ridgeback_moveit_controller_manager.png)
+3. copy the content in the launch/ridgeback_moveit_controller_manager.launch.xml to the same file in your package.
+![ridgeback_moveit_controller_manager](../media/ridgeback_moveit_controller_manager.png)
 
 This launch file is mainly used to find `controllers.yaml`
+
+4. copy the controllers.yaml to betago_moveit_config/config and change the content to suit your model.
+![controllers.yaml](../media/controllers.png)
+
+In <name> tag,enter the `JointTrajectoryController` you set
+<action_ns> and <type> tag are mainly used to start `follow joint trajectory`，which is used to connect gazebo and rivz.
+
+
 
 
 ## File explanation
