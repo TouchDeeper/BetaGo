@@ -57,7 +57,7 @@ this launch is mainly used to load `arm_controller.yaml` and call `arm_controlle
 ![arm_controller.yaml](../media/dual_ur_arm_controller.png)
 ![arm_controller.yaml](../media/left_right_controller.png)
 
-set the controller name, type `effort_controllers/JointTrajectoryController` 
+set the controller name: `dual_ur_arm_controller`,`left_ur_arm_controller` and `right_ur_arm_controller`, type: `effort_controllers/JointTrajectoryController` 
 
 set the joint list, constraints and pid gains.
 
