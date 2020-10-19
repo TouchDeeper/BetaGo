@@ -29,26 +29,31 @@ args of `betago_bringup_moveit.launch`:
 ![moveit_config_3.png](../media/moveit_config_3.png)
 
 2. create `ridgeback_world.launch`
+
 ![ridgeback_world.launch](../media/ridgeback_world.png)
 
 this launch file is mainly used to find `empty.launch`,load `robot_description` and call `urdf_spawner`
 
 3. create `betago_states_gazebo.launch`
+
 ![betago_states_gazebo.launch](../media/betago_states_gazebo.png)
 
 this launch file is mainly used to load `joint_state_controller.yaml`,call `joint_controller_spawner` to start joint_state_controller and call `robot_state_publisher` to publish tf.
 
 4. `joint_state_controller.yaml`
+
 ![joint_state_controller.yaml](../media/joint_state_controller.png)
 
 This controller is used to monitor the state of the robot and set the publish rate to 50.
 
 5. create `arm_trajectory_controller.launch`
+
 ![arm_trajectory_controller.launch](../media/arm_trajectory_controller.png)
 
 this launch is mainly used to load `arm_controller.yaml` and call `arm_controller_spawner` to start `JointTrajectoryController`
 
 6. `arm_controller.yaml`
+
 ![arm_controller.yaml](../media/dual_ur_arm_controller.png)
 ![arm_controller.yaml](../media/left_right_controller.png)
 
