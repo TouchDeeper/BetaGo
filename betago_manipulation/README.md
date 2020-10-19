@@ -77,7 +77,7 @@ This launch file is mainly used to find `controllers.yaml`
 9. copy the controllers.yaml to betago_moveit_config/config and change the content to suit your model.
 ![controllers.yaml](../media/controllers.png)
 
-In `name` tag,enter the `JointTrajectoryController` you set.
+In `name` tag, enter the controller you set in `arm_controller.yaml`.
   
 `action_ns` and `type` tag are mainly used to start `follow joint trajectory`，which is used to connect gazebo and rivz.
 
