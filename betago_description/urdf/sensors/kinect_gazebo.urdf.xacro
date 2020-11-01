@@ -2,7 +2,7 @@
 <robot name="kinect_gazebo" xmlns:xacro="http://ros.org/wiki/xacro">
   <!-- Microsoft Kinect / ASUS Xtion PRO Live for simulation -->
   <xacro:macro name="betago_sim_3dsensor">
-    <gazebo reference="camera_link">  
+    <gazebo reference="camera_link">
       <sensor type="depth" name="camera">
         <always_on>true</always_on>
         <update_rate>20.0</update_rate>
@@ -35,7 +35,7 @@
           <distortion_t1>0.0</distortion_t1>
           <distortion_t2>0.0</distortion_t2>
           <pointCloudCutoff>0.4</pointCloudCutoff>
-          <focalLength>516</focalLength>
+<!-- the default horizontal FOV is 60 degree (1.04 rad), according to focal length = width/(2*tan(HFOV/2)), the focal length should be 554.6  -->
         </plugin>
       </sensor>
     </gazebo>

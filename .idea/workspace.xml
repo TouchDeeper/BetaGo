@@ -6,36 +6,35 @@
       <config projectName="Project" targetName="tf2_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="gmock" />
       <config projectName="Project" targetName="path_navigation_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="control_msgs_generate_messages_py" />
       <config projectName="Project" targetName="nodelet_generate_messages_py" />
       <config projectName="Project" targetName="roscpp_generate_messages_cpp" />
       <config projectName="Project" targetName="gazebo_test_tools_genlisp" />
       <config projectName="Project" targetName="gtest_main" />
       <config projectName="Project" targetName="object_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="to_default_pose" />
-      <config projectName="Project" targetName="pcl_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="graph_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="planning_scene_tutorial" />
-      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionFeedback" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="object_msgs_gencpp" />
       <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionAction" />
       <config projectName="Project" targetName="gazebo_test_tools_gencpp" />
       <config projectName="Project" targetName="tf_generate_messages_eus" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="tf_generate_messages_lisp" />
       <config projectName="Project" targetName="nodelet_generate_messages_nodejs" />
       <config projectName="Project" targetName="doxygen" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="_object_msgs_generate_messages_check_deps_ObjectPose" />
       <config projectName="Project" targetName="nodelet_generate_messages_eus" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_py" />
       <config projectName="Project" targetName="bond_generate_messages_nodejs" />
-      <config projectName="Project" targetName="actionlib_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="graph_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="octomap_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="fake_object_recognizer_cmd" />
-      <config projectName="Project" targetName="shape_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="gazebo_test_tools_generate_messages_eus" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionActionFeedback" />
+      <config projectName="Project" targetName="gazebo_test_tools" />
       <config projectName="Project" targetName="graph_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="gazebo_msgs_generate_messages_cpp" />
@@ -44,80 +43,83 @@
       <config projectName="Project" targetName="betago_tf_listener" />
       <config projectName="Project" targetName="control_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="path_navigation_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionActionResult" />
+      <config projectName="Project" targetName="gazebo_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="set_gazebo_physics_client" />
-      <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="trajectory_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="moveit_ros_planning_gencfg" />
       <config projectName="Project" targetName="path_navigation_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="object_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="bond_generate_messages_cpp" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="_gazebo_test_tools_generate_messages_check_deps_RecognizeGazeboObject" />
       <config projectName="Project" targetName="actionlib_generate_messages_py" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_py" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="planning_scene_ros_api_tutorial" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_cpp" />
+      <config projectName="Project" targetName="actionlib_generate_messages_lisp" />
+      <config projectName="Project" targetName="gazebo_test_tools_generate_messages_lisp" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="gazebo_test_tools_generate_messages_py" />
-      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionResult" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_lisp" />
+      <config projectName="Project" targetName="actionlib_msgs_generate_messages_py" />
       <config projectName="Project" targetName="register_object_client" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="dynamic_reconfigure_gencfg" />
+      <config projectName="Project" targetName="graph_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="run_tests" />
       <config projectName="Project" targetName="actionlib_generate_messages_cpp" />
       <config projectName="Project" targetName="object_msgs_gennodejs" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="gazebo_test_tools_generate_messages" />
       <config projectName="Project" targetName="object_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="object_msgs_genlisp" />
-      <config projectName="Project" targetName="graph_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="std_msgs_generate_messages_py" />
       <config projectName="Project" targetName="gazebo_test_tools_gennodejs" />
       <config projectName="Project" targetName="gazebo_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="fake_object_recognizer_node" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="gazebo_world_plugin_loader" />
       <config projectName="Project" targetName="tf_generate_messages_cpp" />
       <config projectName="Project" targetName="gazebo_object_info" />
-      <config projectName="Project" targetName="actionlib_generate_messages_lisp" />
+      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="object_msgs_generate_messages" />
       <config projectName="Project" targetName="std_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionActionFeedback" />
+      <config projectName="Project" targetName="to_default_pose" />
       <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionGoal" />
       <config projectName="Project" targetName="gazebo_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="nodelet_topic_tools_gencfg" />
+      <config projectName="Project" targetName="control_msgs_generate_messages_py" />
       <config projectName="Project" targetName="_catkin_empty_exported_target" />
-      <config projectName="Project" targetName="run_tests" />
+      <config projectName="Project" targetName="nodelet_topic_tools_gencfg" />
       <config projectName="Project" targetName="motion_planning_pipeline_tutorial" />
       <config projectName="Project" targetName="cam_laser_calibration_node" />
       <config projectName="Project" targetName="gazebo_test_tools_generate_messages_cpp" />
       <config projectName="Project" targetName="bond_generate_messages_lisp" />
       <config projectName="Project" targetName="object_msgs_geneus" />
       <config projectName="Project" targetName="graph_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="robot_model_and_robot_state_tutorial" />
-      <config projectName="Project" targetName="shape_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="object_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="cube_spawner" />
       <config projectName="Project" targetName="gazebo_ros_gencfg" />
       <config projectName="Project" targetName="nodelet_generate_messages_cpp" />
-      <config projectName="Project" targetName="gazebo_test_tools_generate_messages_eus" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
       <config projectName="Project" targetName="object_tf_broadcaster_node" />
-      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionResult" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="std_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="bond_generate_messages_eus" />
       <config projectName="Project" targetName="gtest" />
       <config projectName="Project" targetName="path_navigation_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_py" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="nodelet_generate_messages_lisp" />
       <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
-      <config projectName="Project" targetName="gazebo_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="gazebo_test_tools_genpy" />
+      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionActionGoal" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_cpp" />
       <config projectName="Project" targetName="gmock_main" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="gazebo_test_tools_geneus" />
@@ -125,120 +127,110 @@
       <config projectName="Project" targetName="topic_tools_generate_messages_eus" />
       <config projectName="Project" targetName="object_msgs_genpy" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_eus" />
       <config projectName="Project" targetName="path_navigation_msgs_gennodejs" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionFeedback" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="tf_generate_messages_nodejs" />
       <config projectName="Project" targetName="tests" />
+      <config projectName="Project" targetName="pcl_ros_gencfg" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="motion_planning_api_tutorial" />
-      <config projectName="Project" targetName="gazebo_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionResult" />
+      <config projectName="Project" targetName="shape_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="_object_msgs_generate_messages_check_deps_Object" />
       <config projectName="Project" targetName="gazebo_test_tools_generate_messages_nodejs" />
-      <config projectName="Project" targetName="_object_msgs_generate_messages_check_deps_ObjectPose" />
+      <config projectName="Project" targetName="path_navigation_msgs_genlisp" />
       <config projectName="Project" targetName="topic_tools_generate_messages_nodejs" />
-      <config projectName="Project" targetName="octomap_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="pcl_msgs_generate_messages_py" />
       <config projectName="Project" targetName="move_group_interface_tutorial" />
       <config projectName="Project" targetName="fake_object_recognizer" />
-      <config projectName="Project" targetName="gazebo_test_tools_generate_messages_lisp" />
       <config projectName="Project" targetName="gazebo_map_publisher" />
-      <config projectName="Project" targetName="gazebo_test_tools" />
+      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionFeedback" />
       <config projectName="Project" targetName="path_navigation_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="tf_generate_messages_py" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_lisp" />
-      <config projectName="Project" targetName="path_navigation_msgs_generate_messages" />
-      <config projectName="Project" targetName="sensor_msgs_generate_messages_cpp" />
-      <config projectName="Project" targetName="gazebo_world_plugin_loader" />
+      <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionActionFeedback" />
+      <config projectName="Project" targetName="_object_msgs_generate_messages_check_deps_RegisterObject" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_py" />
       <config projectName="Project" targetName="td_ros" />
-      <config projectName="Project" targetName="topic_tools_generate_messages_lisp" />
-      <config projectName="Project" targetName="object_msgs_gencpp" />
+      <config projectName="Project" targetName="path_navigation_msgs_gencpp" />
+      <config projectName="Project" targetName="sensor_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionAction" />
       <config projectName="Project" targetName="roscpp_generate_messages_py" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_py" />
       <config projectName="Project" targetName="_object_msgs_generate_messages_check_deps_ObjectInfo" />
       <config projectName="Project" targetName="std_srvs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_py" />
       <config projectName="Project" targetName="roscpp_generate_messages_eus" />
+      <config projectName="Project" targetName="topic_tools_generate_messages_lisp" />
+      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionActionGoal" />
       <config projectName="Project" targetName="gazebo_grasp_fix" />
-      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_TransformPathExecutionActionGoal" />
-      <config projectName="Project" targetName="gazebo_test_tools_generate_messages" />
+      <config projectName="Project" targetName="fake_object_recognizer_node" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_py" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="control_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="gazebo_test_tools_genpy" />
+      <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="dynamic_reconfigure_gencfg" />
       <config projectName="Project" targetName="tf2_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="object_msgs_tools" />
       <config projectName="Project" targetName="control_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_cpp" />
+      <config projectName="Project" targetName="tf2_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="gazebo_version_helpers" />
       <config projectName="Project" targetName="object_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="path_navigation_msgs_genpy" />
-      <config projectName="Project" targetName="path_navigation_msgs_gencpp" />
+      <config projectName="Project" targetName="bond_generate_messages_py" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="topic_tools_generate_messages_cpp" />
-      <config projectName="Project" targetName="bond_generate_messages_py" />
       <config projectName="Project" targetName="moveit_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="octomap_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="moveit_ros_planning_gencfg" />
+      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_cpp" />
       <config projectName="Project" targetName="std_srvs_generate_messages_lisp" />
       <config projectName="Project" targetName="calibration" />
       <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="object_recognition_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="pcl_ros_gencfg" />
+      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionActionResult" />
       <config projectName="Project" targetName="pcl_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
-      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionActionGoal" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="gazebo_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="std_srvs_generate_messages_py" />
+      <config projectName="Project" targetName="tf_generate_messages_py" />
       <config projectName="Project" targetName="download_extra_data" />
       <config projectName="Project" targetName="control_msgs_generate_messages_eus" />
-      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionActionResult" />
-      <config projectName="Project" targetName="_object_msgs_generate_messages_check_deps_RegisterObject" />
+      <config projectName="Project" targetName="shape_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_py" />
       <config projectName="Project" targetName="moveit_ros_manipulation_gencfg" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_nodejs" />
-      <config projectName="Project" targetName="tf_generate_messages_lisp" />
-      <config projectName="Project" targetName="tf2_msgs_generate_messages_py" />
-      <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="path_navigation_msgs_generate_messages" />
       <config projectName="Project" targetName="actionlib_generate_messages_eus" />
-      <config projectName="Project" targetName="topic_tools_generate_messages_py" />
-      <config projectName="Project" targetName="object_recognition_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="bond_generate_messages_eus" />
+      <config projectName="Project" targetName="_path_navigation_msgs_generate_messages_check_deps_PathExecutionResult" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="std_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="path_navigation_msgs_genlisp" />
       <config projectName="Project" targetName="gazebo_request_object_info" />
-      <config projectName="Project" targetName="std_srvs_generate_messages_py" />
+      <config projectName="Project" targetName="trajectory_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="actionlib_generate_messages_nodejs" />
-      <config projectName="Project" targetName="cube_spawner" />
+      <config projectName="Project" targetName="robot_model_and_robot_state_tutorial" />
       <config projectName="Project" targetName="nav_msgs_generate_messages_lisp" />
-      <config projectName="Project" targetName="dynamic_reconfigure_generate_messages_eus" />
+      <config projectName="Project" targetName="planning_scene_ros_api_tutorial" />
       <config projectName="Project" targetName="graph_msgs_generate_messages_py" />
       <config projectName="Project" targetName="visualization_msgs_generate_messages_eus" />
     </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCATKIN_DEVEL_PREFIX:PATH=/home/wang/imta_project/BetaGo/BetaGo_ws/devel" GENERATION_DIR="$PROJECT_DIR$/../build" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCATKIN_DEVEL_PREFIX:PATH=/home/wang/imta_project/BetaGo/BetaGo_ws/devel" GENERATION_DIR="$PROJECT_DIR$/../build" BUILD_OPTIONS="-j 3" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79ad5185-a615-4161-96b5-a3ffc365e309" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/betago_calibration/kalibr_tag/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/betago_calibration/kalibr_tag/april_6x6_80x80cm.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/betago_calibration/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/betago_calibration/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/scripts/mark.material" beforeDir="false" afterPath="$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/scripts/mark.material" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/textures/april_6x6_80x80cm_A0_cut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_calibration/kalibr_tag/model.config" beforeDir="false" afterPath="$PROJECT_DIR$/betago_calibration/kalibr_tag/model.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch" beforeDir="false" afterPath="$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_description/urdf/sensors/kinect_gazebo.urdf.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/betago_description/urdf/sensors/kinect_gazebo.urdf.xacro" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/../build/" />
@@ -258,19 +250,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_description/urdf/sensors/kinect_gazebo.urdf.xacro">
+        <entry file="file://$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_only_kinect.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+            <state relative-caret-position="266">
+              <caret line="59" column="82" selection-start-line="59" selection-start-column="82" selection-end-line="59" selection-end-column="82" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch">
+        <entry file="file://$PROJECT_DIR$/betago_navigation/launch/navigation_world.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="14" />
+            <state relative-caret-position="57">
+              <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ompl_planning.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5554" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/betago_navigation/launch/3dsensor.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -279,52 +287,20 @@
         <entry file="file://$PROJECT_DIR$/betago_calibration/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="304">
-                <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="227" />
+              <first_editor relative-caret-position="513">
+                <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/april_6x6_80x80cm.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/model.sdf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/model.config">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/scripts/mark.material">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/betago_navigation/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="399">
-                <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+              <first_editor relative-caret-position="152">
+                <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="76" />
               </first_editor>
               <second_editor />
             </state>
@@ -332,19 +308,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_description/launch/ridgeback/description.launch">
+        <entry file="file://$PROJECT_DIR$/betago_control/launch/betago/betago_states_gazebo.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
+            <state relative-caret-position="38">
+              <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_navigation/launch/navigation_world.launch">
+        <entry file="file://$PROJECT_DIR$/betago_navigation/launch/include/3dsensor/kinect.launch.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="92" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
+            <state relative-caret-position="-171" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/betago_description/urdf/sensors/kinect_gazebo.urdf.xacro">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -353,27 +336,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>moveit_controller_manager</find>
-      <find>rviz_tutorial</find>
-      <find>left</find>
-      <find>left_</find>
-      <find>right_ur</find>
-      <find>base</find>
-      <find>right_ur_arm</find>
-      <find>right_ur_arm_</find>
-      <find>panda</find>
-      <find>betago_tutorial</find>
-      <find>my_plan</find>
-      <find>success</find>
-      <find>right</find>
-      <find>RIDGEBACK_FRONT_HOKUYO_LASER</find>
-      <find>end</find>
-      <find>header</find>
-      <find>RIDGEBACK_CONTROL_EXTRAS_PATH</find>
-      <find>RIDGEBACK_CONFIG</find>
-      <find>soph</find>
-      <find>Sophus</find>
-      <find>betago_calibration</find>
       <find>object_msgs_tools</find>
       <find>set(TdRosLib_PATH</find>
       <find>TdRosLib</find>
@@ -383,12 +345,34 @@
       <find>TdLib</find>
       <find>Grid</find>
       <find>kinect</find>
+      <find>roll</find>
+      <find>TransformToMatrix</find>
+      <find>gazebo</find>
+      <find>Gazebo</find>
+      <find>pose</find>
+      <find>use_sim_tim</find>
+      <find>params=</find>
+      <find>/camera</find>
+      <find>subscribe_rgb</find>
+      <find>/head</find>
+      <find>Could not get transform from</find>
+      <find>waitForTran</find>
+      <find>map_negative_poses_ignored</find>
+      <find>Optimizer/Slam2D</find>
+      <find>Reg/Force3DoF</find>
+      <find>BETAGO_3D_SENSOR</find>
+      <find>camera_depth_optical_frame</find>
+      <find>costmap</find>
+      <find>map</find>
+      <find>depth_optical_frame</find>
+      <find>rgbd_odometry</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>betago_tutorial</replace>
       <replace>TdRosLib</replace>
       <replace>td_ros</replace>
+      <replace>/head_camera</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/betago_tutorial</dir>
@@ -400,62 +384,66 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/betago_navigation/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.urdf.xacro" />
-        <option value="$PROJECT_DIR$/betago_description/launch/ridgeback/description.launch" />
-        <option value="$USER_HOME$/CLionProjects/TdRosLibrary/src/arm_moveit.cpp" />
-        <option value="$PROJECT_DIR$/betago_tutorials/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/betago_tutorials/package.xml" />
-        <option value="$PROJECT_DIR$/betago_tutorials/src/tf_listener.cpp" />
-        <option value="$PROJECT_DIR$/betago_tutorials/README.md" />
-        <option value="$PROJECT_DIR$/betago_tutorials/src/motion_planning_pipeline_tutorial.cpp" />
-        <option value="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/planning_context.launch" />
-        <option value="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/betago_moveit_planning_execution.launch" />
-        <option value="$USER_HOME$/CLionProjects/TdRosLibrary/README.md" />
         <option value="$USER_HOME$/CLionProjects/TdRosLibrary/include/TdRosLib/tool.h" />
         <option value="$USER_HOME$/CLionProjects/TdRosLibrary/src/tool.cpp" />
         <option value="$PROJECT_DIR$/betago_manipulation/betago_bringup/src/test.cpp" />
         <option value="$PROJECT_DIR$/TdRosLib/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/TdRosLib/package.xml" />
         <option value="$PROJECT_DIR$/betago_manipulation/betago_bringup/package.xml" />
-        <option value="$PROJECT_DIR$/td_ros/package.xml" />
-        <option value="$PROJECT_DIR$/betago_calibration/package.xml" />
         <option value="$PROJECT_DIR$/td_ros/src/arm_moveit.cpp" />
         <option value="$PROJECT_DIR$/.gitmodules" />
-        <option value="$PROJECT_DIR$/betago_calibration/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/betago_manipulation/betago_bringup/src/to_default_pose.cpp" />
         <option value="$PROJECT_DIR$/betago_manipulation/betago_bringup/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/td_ros/src/to_default_pose.cpp" />
-        <option value="$PROJECT_DIR$/td_ros/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/test_package/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/test_package/src/test.cpp" />
         <option value="$PROJECT_DIR$/betago_tutorials/src/motion_planning_api_tutorial.cpp" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_scan_odom.launch" />
-        <option value="$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_odom.launch" />
         <option value="$PROJECT_DIR$/td_ros/src/tool.cpp" />
         <option value="$PROJECT_DIR$/td_ros/include/td_ros/tool.h" />
         <option value="$PROJECT_DIR$/betago_navigation/launch/navigation_world.launch" />
         <option value="$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch" />
-        <option value="$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch" />
         <option value="$PROJECT_DIR$/betago_navigation/README.md" />
         <option value="$PROJECT_DIR$/betago_calibration/launch/rviz.launch" />
-        <option value="$PROJECT_DIR$/betago_calibration/src/run_cam_laser_calibration.cpp" />
-        <option value="$PROJECT_DIR$/betago_calibration/include/betago_calibration/Calibration.h" />
-        <option value="$PROJECT_DIR$/betago_calibration/src/Calibration.cpp" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/betago_calibration/kalibr_tag/april_6x6.yaml" />
         <option value="$PROJECT_DIR$/betago_calibration/kalibr_tag/README.md" />
         <option value="$PROJECT_DIR$/betago_calibration/kalibr_tag/model.config" />
         <option value="$PROJECT_DIR$/betago_calibration/kalibr_tag/model.sdf" />
+        <option value="$PROJECT_DIR$/betago_manipulation/README.md" />
+        <option value="$PROJECT_DIR$/betago_calibration/config/sim_kinect_calib_result/README.md" />
+        <option value="$PROJECT_DIR$/td_ros/src/publisher/tf_broadcaster.cpp" />
+        <option value="$PROJECT_DIR$/td_ros/include/td_ros/publisher/tf_broadcaster.hpp" />
+        <option value="$PROJECT_DIR$/betago_calibration/src/listener_test.cpp" />
+        <option value="$PROJECT_DIR$/td_ros/package.xml" />
+        <option value="$PROJECT_DIR$/betago_calibration/src/utilities.cpp" />
+        <option value="$PROJECT_DIR$/betago_calibration/include/betago_calibration/Calibration.h" />
+        <option value="$PROJECT_DIR$/td_ros/include/td_ros/tf_listener/tf_listener.hpp" />
+        <option value="$PROJECT_DIR$/betago_calibration/package.xml" />
+        <option value="$PROJECT_DIR$/betago_calibration/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/td_ros/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/betago_calibration/src/run_cam_laser_calibration.cpp" />
+        <option value="$PROJECT_DIR$/td_ros/src/tf_listener/tf_lisener.cpp" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch" />
         <option value="$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch" />
-        <option value="$PROJECT_DIR$/betago_calibration/README.md" />
+        <option value="$PROJECT_DIR$/betago_calibration/src/Calibration.cpp" />
+        <option value="$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.urdf.xacro" />
+        <option value="$PROJECT_DIR$/betago_description/urdf/sensors/kinect.urdf.xacro" />
+        <option value="$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_odom.launch" />
+        <option value="$PROJECT_DIR$/betago_navigation/launch/3dsensor.launch" />
         <option value="$PROJECT_DIR$/betago_description/urdf/sensors/kinect_gazebo.urdf.xacro" />
+        <option value="$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_only_kinect.launch" />
+        <option value="$PROJECT_DIR$/betago_calibration/README.md" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-calibration" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1080" />
     <option name="y" value="-4" />
     <option name="width" value="1920" />
     <option name="height" value="1084" />
@@ -489,33 +477,22 @@
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="betago_calibration" type="462c0819:PsiDirectoryNode" />
-              <item name="kalibr_tag" type="462c0819:PsiDirectoryNode" />
+              <item name="calib_raw_data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="betago_calibration" type="462c0819:PsiDirectoryNode" />
-              <item name="kalibr_tag" type="462c0819:PsiDirectoryNode" />
-              <item name="materials" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="betago_calibration" type="462c0819:PsiDirectoryNode" />
-              <item name="kalibr_tag" type="462c0819:PsiDirectoryNode" />
-              <item name="materials" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
               <item name="betago_calibration" type="462c0819:PsiDirectoryNode" />
-              <item name="kalibr_tag" type="462c0819:PsiDirectoryNode" />
-              <item name="materials" type="462c0819:PsiDirectoryNode" />
-              <item name="textures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
@@ -528,7 +505,149 @@
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_calibration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_description" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_description" type="462c0819:PsiDirectoryNode" />
+              <item name="urdf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_description" type="462c0819:PsiDirectoryNode" />
+              <item name="urdf" type="462c0819:PsiDirectoryNode" />
+              <item name="betago" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_description" type="462c0819:PsiDirectoryNode" />
+              <item name="urdf" type="462c0819:PsiDirectoryNode" />
+              <item name="ridgeback" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_description" type="462c0819:PsiDirectoryNode" />
+              <item name="urdf" type="462c0819:PsiDirectoryNode" />
+              <item name="sensors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_description" type="462c0819:PsiDirectoryNode" />
+              <item name="urdf" type="462c0819:PsiDirectoryNode" />
+              <item name="ur5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="betago_gazebo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_gazebo" type="462c0819:PsiDirectoryNode" />
+              <item name="launch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_gazebo" type="462c0819:PsiDirectoryNode" />
+              <item name="launch" type="462c0819:PsiDirectoryNode" />
+              <item name="betago" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="launch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="launch" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="launch" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="3dsensor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="td_ros" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="td_ros" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="td_ros" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="td_ros" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="td_ros" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="td_ros" type="462c0819:PsiDirectoryNode" />
+              <item name="tf_listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="td_ros" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="td_ros" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tf_listener" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -541,7 +660,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../LaserCameraCal_ws/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -555,17 +674,17 @@
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/textures" />
-      <recent name="$PROJECT_DIR$/betago_calibration/kalibr_tag" />
-      <recent name="$PROJECT_DIR$/betago_navigation/launch" />
-      <recent name="$PROJECT_DIR$/td_ros/src" />
-      <recent name="$PROJECT_DIR$/betago_calibration/src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/betago_manipulation/betago_bringup/src" />
       <recent name="$PROJECT_DIR$/betago_navigation/src" />
       <recent name="$PROJECT_DIR$/media" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/betago_calibration/include/betago_calibration" />
+      <recent name="$PROJECT_DIR$/betago_calibration/src" />
+      <recent name="$PROJECT_DIR$/td_ros/include/td_ros/tf_listener" />
+      <recent name="$PROJECT_DIR$/td_ros/src/tf_listener" />
+      <recent name="$PROJECT_DIR$/betago_calibration/config/sim_kinect_calib_result" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1977,12 +2096,31 @@
       <workItem from="1601739555340" duration="2181000" />
       <workItem from="1601790676869" duration="8592000" />
       <workItem from="1602074645091" duration="5859000" />
-      <workItem from="1602161041002" duration="6080000" />
+      <workItem from="1602161041002" duration="6657000" />
+      <workItem from="1602679351008" duration="35000" />
+      <workItem from="1602684045847" duration="1666000" />
+      <workItem from="1602738362102" duration="2888000" />
+      <workItem from="1602771034848" duration="24000" />
+      <workItem from="1602773234972" duration="1258000" />
+      <workItem from="1602988018345" duration="87000" />
+      <workItem from="1603071451062" duration="2443000" />
+      <workItem from="1603100322995" duration="728000" />
+      <workItem from="1603246407201" duration="633000" />
+      <workItem from="1603848735227" duration="14420000" />
+      <workItem from="1603897884562" duration="1256000" />
+      <workItem from="1603937737208" duration="8038000" />
+      <workItem from="1603968998724" duration="8061000" />
+      <workItem from="1603980566284" duration="4016000" />
+      <workItem from="1604051712393" duration="81000" />
+      <workItem from="1604051837350" duration="10000" />
+      <workItem from="1604109043174" duration="16223000" />
+      <workItem from="1604156397739" duration="2522000" />
+      <workItem from="1604197381154" duration="4684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195268000" />
+    <option name="totallyTimeSpent" value="264918000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1994,24 +2132,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <frame x="1080" y="-4" width="1920" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49557522" visible="true" weight="0.20299146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49557522" visible="true" weight="0.22702992" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50442475" side_tool="true" weight="0.15384616" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946582" visible="true" weight="0.3510204" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946582" weight="0.3510204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946582" weight="0.2867347" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946582" visible="true" weight="0.35204083" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005342" side_tool="true" weight="0.2867347" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32959184" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.31779662" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.28061223" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946582" weight="0.3265306" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -2057,332 +2195,362 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitmodules">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/package.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/td_ros/src/arm_moveit.cpp">
+    <entry file="file://$USER_HOME$/CLionProjects/TdLibrary/install/include/TdLibrary/FileOperation/file_manager.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/general-message-pkgs/object_msgs_tools/src/object_tf_broadcaster_node.cpp">
+    <entry file="file:///opt/ros/kinetic/include/ros/duration.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="260">
+          <caret line="118" column="11" selection-start-line="118" selection-start-column="11" selection-end-line="118" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_navigation/package.xml">
+    <entry file="file:///opt/ros/kinetic/include/tf2_ros/buffer.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+        <state relative-caret-position="280">
+          <caret line="74" column="43" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_navigation/CMakeLists.txt">
+    <entry file="file:///opt/ros/kinetic/include/tf2/buffer_core.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1824" />
+        <state relative-caret-position="184">
+          <caret line="124" column="2" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="33" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/td_ros/src/to_default_pose.cpp" />
-    <entry file="file://$PROJECT_DIR$/test_package/CMakeLists.txt" />
-    <entry file="file://$PROJECT_DIR$/test_package/package.xml" />
-    <entry file="file://$PROJECT_DIR$/test_package/src/test.cpp" />
-    <entry file="file://$PROJECT_DIR$/betago_tutorials/src/motion_planning_api_tutorial.cpp">
+    <entry file="file:///opt/ros/kinetic/include/tf2_ros/transform_listener.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="311" column="72" selection-start-line="311" selection-start-column="48" selection-end-line="311" selection-end-column="72" />
+        <state relative-caret-position="203">
+          <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/tf/LinearMath/Quaternion.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_calibration/src/listener_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
           <folding>
-            <element signature="e#1914#1971#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/betago_calibration/include/betago_calibration/utilities.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="168" column="77" selection-start-line="168" selection-end-line="168" selection-end-column="77" />
+        <state relative-caret-position="133">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="e#99#118#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-159">
-            <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/betago_calibration/src/utilities.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="235" column="12" selection-start-line="235" selection-start-column="12" selection-end-line="235" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/betago_calibration/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3515">
-          <caret line="185" column="80" selection-start-line="185" selection-start-column="69" selection-end-line="185" selection-end-column="80" />
+        <state relative-caret-position="3724">
+          <caret line="196" column="71" selection-start-line="196" selection-start-column="46" selection-end-line="196" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_scan_odom.launch">
+    <entry file="file://$PROJECT_DIR$/betago_calibration/package.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1862">
-          <caret line="98" column="76" selection-start-line="98" selection-start-column="76" selection-end-line="98" selection-end-column="76" />
+        <state relative-caret-position="1482">
+          <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_odom.launch">
+    <entry file="file://$PROJECT_DIR$/td_ros/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="115" column="42" selection-start-line="115" selection-start-column="42" selection-end-line="115" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_tutorials/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="836">
-            <caret line="44" selection-start-line="44" selection-end-line="44" selection-end-column="63" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="1007">
+          <caret line="53" column="59" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/td_ros/package.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="817">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/CLionProjects/TdLibrary/install/include/TdLibrary/slam_tool/motion_transformation.h">
+    <entry file="file://$PROJECT_DIR$/td_ros/include/td_ros/tf_listener/tf_listener.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="380">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="e#171#188#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/td_ros/src/tool.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/td_ros/include/td_ros/tool.h">
+    <entry file="file:///opt/ros/kinetic/include/sophus/se3.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="e#13#33#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="203">
+          <caret line="611" column="6" selection-start-line="611" selection-start-column="6" selection-end-line="611" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/td_ros/CMakeLists.txt">
+    <entry file="file:///opt/ros/kinetic/include/tf/tf.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1463">
-          <caret line="77" column="26" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
+        <state relative-caret-position="203">
+          <caret line="372" column="36" selection-start-line="372" selection-start-column="36" selection-end-line="372" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/package.xml">
+    <entry file="file:///opt/ros/kinetic/include/std_msgs/Header.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+        <state relative-caret-position="185">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/src/to_default_pose.cpp">
+    <entry file="file:///opt/ros/kinetic/include/ros/time.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/hatchery/lib/hatchery.zip!/edu/umontreal/hatchery/roslaunch/roslaunch.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="257" column="12" selection-start-line="257" selection-start-column="12" selection-end-line="257" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.gazebo">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.urdf.xacro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="305" column="73" selection-start-line="305" selection-start-column="73" selection-end-line="305" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/ros/kinetic/include/rosbag/bag.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/ros/kinetic/include/sensor_msgs/Image.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="83">
+          <caret line="137" column="29" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/betago_calibration/src/run_cam_laser_calibration.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="266">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/rosbag/bag.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="336" column="10" selection-start-line="336" selection-start-column="10" selection-end-line="336" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/td_ros/src/tf_listener/tf_lisener.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#82#127#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/betago_calibration/include/betago_calibration/Calibration.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        <state relative-caret-position="603">
+          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
           <folding>
             <element signature="e#121#145#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/betago_calibration/src/Calibration.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+        <state relative-caret-position="342">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+          <folding>
+            <element signature="e#38#81#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/launch/rviz.launch">
+    <entry file="file://$PROJECT_DIR$/betago_calibration/calib_raw_data/truth_pose.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.urdf.xacro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="315" column="77" selection-start-line="315" selection-start-column="77" selection-end-line="315" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_description/urdf/betago/ridgeback_urdf_extras.xacro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="86" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_description/urdf/ur5/ur5.urdf.xacro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4445">
+          <caret line="86" column="25" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_description/urdf/betago/ridgeback_dual_ur5_description.urdf.xacro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_description/urdf/sensors/kinect.urdf.xacro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="60" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/hatchery/lib/hatchery.zip!/edu/umontreal/hatchery/roslaunch/roslaunch.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="113" column="12" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_control/config/joint_state_controller.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_gazebo/launch/betago/betago_world.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_description/urdf/sensors/kinect_properties.urdf.xacro">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/kinematics.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_navigation/package.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="69" lean-forward="true" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ompl_planning.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5554" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_control/launch/betago/betago_states_gazebo.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_navigation/launch/include/3dsensor/kinect.launch.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_navigation/launch/navigation_world.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/textures/ar0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/textures/mark.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/betago_description/urdf/sensors/kinect_gazebo.urdf.xacro">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="57">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="173" selection-start-line="4" selection-start-column="173" selection-end-line="4" selection-end-column="173" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_scan_odom.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="50" selection-start-line="50" selection-end-line="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/betago_navigation/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="399">
-            <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <first_editor relative-caret-position="152">
+            <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="76" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_description/launch/ridgeback/description.launch">
+    <entry file="file://$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_only_kinect.launch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
+        <state relative-caret-position="266">
+          <caret line="59" column="82" selection-start-line="59" selection-start-column="82" selection-end-line="59" selection-end-column="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_navigation/launch/navigation_world.launch">
+    <entry file="file://$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_odom.launch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="92" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
+        <state relative-caret-position="-798">
+          <caret line="75" column="33" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/textures/april_6x6_80x80cm_A0_cut.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/april_6x6_80x80cm.yaml">
+    <entry file="file://$PROJECT_DIR$/betago_navigation/launch/3dsensor.launch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/scripts/mark.material">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/model.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/model.sdf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_description/urdf/sensors/kinect_gazebo.urdf.xacro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        <state relative-caret-position="379">
+          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/betago_calibration/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="304">
-            <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="227" />
+          <first_editor relative-caret-position="513">
+            <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
           </first_editor>
           <second_editor />
         </state>

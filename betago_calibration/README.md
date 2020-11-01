@@ -20,7 +20,7 @@ put this file in to `~/.gazebo/models/`, then you can load the kalibr_tag direct
 4. Calibratie camera intrinsic. Refer to [kalibr](https://github.com/ethz-asl/kalibr/wiki/multiple-camera-calibration#2-running-the-calibration). An example:
 
     ```
-    kalibr_calibrate_cameras --bag ../BetaGo/BetaGo_ws/src/betago_calibration/test.bag --topics /camera/rgb/image_raw --models pinhole-radtan --target ../BetaGo/BetaGo_ws/src/betago_calibration/kalibr_tag/april_6x6_80x80cm.yaml
+    kalibr_calibrate_cameras --bag ../BetaGo/BetaGo_ws/src/betago_calibration/calib_raw_data/image_scan.bag --topics /camera/rgb/image_raw --models pinhole-radtan --target ../BetaGo/BetaGo_ws/src/betago_calibration/kalibr_tag/april_6x6_80x80cm.yaml
     ```
 
     If error about initialization of focal length occur, set the initial value of focal length by:
@@ -28,3 +28,21 @@ put this file in to `~/.gazebo/models/`, then you can load the kalibr_tag direct
     `export KALIBR_MANUAL_FOCAL_LENGTH_INIT=[init_guess]`
     
     then run the previous command again. After that, you need write down the initial value in the terminal then the calibration program can go on.
+
+5. Calibration validator
+
+    In Kalibr workspace, open a terminal, then
+    ```asm
+    source devel/setup.bash
+    kalibr_camera_vidator --cam camchain-..BetaGoBetaGo_wssrcbetago_calibrationtest.yaml --target ../BetaGo/BetaGo_ws/src/betago_calibration/kalibr_tag/april_6x6_80x80cm.yaml
+    ```
+    
+6. copy the intrinsic calibration result to the config file of CamLaserCalibraTool.
+
+7. Compute pose of calibration target
+
+    `roslaunch lasercamcal_ros kalibra_apriltag.launch `
+
+8. Cam-laser calibration
+
+    `roslaunch lasercamcal_ros calibra_offline.launch`

@@ -13,21 +13,11 @@
 #include <image_transport/image_transport.h>
 #include <sensor_msgs/LaserScan.h>
 #include <rosbag/bag.h>
-
+#include <TdLibrary/FileOperation/file_manager.hpp>
+#include <td_ros/tf_listener/tf_listener.hpp>
 class Calibration {
 public:
-    Calibration(const std::string& calibr_board_name, ros::NodeHandle &nh){
-        nh_ = nh;
-        calibr_board_name_ = calibr_board_name;
-        pose_pub_ = nh_.advertise<gazebo_msgs::ModelState>("/gazebo/set_model_state", 10);
-        init_euler_ = {3.14,-1.5708,3.14};
-        init_pos_ = {1.54,-0.02,0.5};
-        std::string bag_path = ros::package::getPath("betago_calibration") + "/test.bag";
-        if(!bag_.isOpen())
-            bag_.open(bag_path, rosbag::bagmode::Write);
-        topic_name_ = "camera/rgb/image_raw";
-
-    }
+    Calibration(const std::string& calibr_board_name, ros::NodeHandle &nh);
     void SpawnCalibrBoard(){
         std::string sdf_path = ros::package::getPath("betago_calibration") +"/kalibr_tag/model.sdf";
         SpawnModel(nh_,sdf_path,calibr_board_name_, init_pos_);
@@ -70,7 +60,7 @@ private:
         client_spwn.call(model);
     }
     void recordBag(ros::NodeHandle &nh, const std::string& topic, rosbag::Bag& bag);
-
+    void initData();
     ros::NodeHandle nh_;
     ros::Publisher pose_pub_;
     std::string calibr_board_name_;
@@ -78,7 +68,7 @@ private:
     Eigen::Vector3d init_pos_;
     static rosbag::Bag bag_;
     std::string topic_name_;
-
+    std::string calib_raw_data_path_;
 public:
     EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
 };
