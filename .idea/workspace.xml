@@ -230,19 +230,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79ad5185-a615-4161-96b5-a3ffc365e309" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/betago_calibration/launch/handeye_calib_world.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/.setup_assistant" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/.setup_assistant" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/fake_controllers.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/fake_controllers.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/joint_limits.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/joint_limits.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_calibration/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/betago_calibration/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_calibration/kalibr_tag/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_calibration/kalibr_tag/april_6x6_80x80cm.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/scripts/mark.material" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/textures/april_6x6_80x80cm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/textures/ar0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/textures/mark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/textures/sans.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_calibration/kalibr_tag/model.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_calibration/kalibr_tag/model.sdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch" beforeDir="false" afterPath="$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_control/config/arm_controller.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/betago_control/config/arm_controller.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_bringup/src/to_default_pose.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_bringup/src/to_default_pose.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ompl_planning.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ompl_planning.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ridgeback.srdf" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ridgeback.srdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ros_controllers.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ros_controllers.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/chomp_planning_pipeline.launch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/chomp_planning_pipeline.launch.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/demo.launch" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/demo.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/moveit.rviz" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/moveit.rviz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/planning_context.launch" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/planning_context.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/ros_controllers.launch" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/ros_controllers.launch" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/../build/" />
@@ -262,11 +266,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_manipulation/README.md">
+        <entry file="file://$PROJECT_DIR$/betago_calibration/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="323">
-                <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <first_editor relative-caret-position="988">
+                <caret line="52" selection-start-line="52" selection-end-line="52" />
               </first_editor>
               <second_editor />
             </state>
@@ -274,10 +278,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/betago_calibration/launch/handeye_calib_world.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/src/to_default_pose.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="29" column="62" lean-forward="true" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+            <state relative-caret-position="779">
+              <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -286,46 +299,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/controllers.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/betago_moveit_planning_execution.launch">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/demo_gazebo.launch">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/gazebo.launch">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/demo.launch">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/moveit_rviz.launch">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/ridgeback_moveit_controller_manager.launch.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/td_ros/src/arm_moveit.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>TdRosLib</find>
-      <find>TdRos</find>
       <find>to_de</find>
       <find>betago_navigation</find>
       <find>TdLib</find>
@@ -354,6 +348,8 @@
       <find>rgbd_odometry</find>
       <find>pi</find>
       <find>ros_controllers.yam</find>
+      <find>constraints</find>
+      <find>longest_valid_segment_fraction</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -372,15 +368,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/betago_manipulation/betago_bringup/src/test.cpp" />
-        <option value="$PROJECT_DIR$/TdRosLib/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/TdRosLib/package.xml" />
-        <option value="$PROJECT_DIR$/betago_manipulation/betago_bringup/package.xml" />
-        <option value="$PROJECT_DIR$/td_ros/src/arm_moveit.cpp" />
-        <option value="$PROJECT_DIR$/.gitmodules" />
-        <option value="$PROJECT_DIR$/betago_manipulation/betago_bringup/src/to_default_pose.cpp" />
-        <option value="$PROJECT_DIR$/betago_manipulation/betago_bringup/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/td_ros/src/to_default_pose.cpp" />
         <option value="$PROJECT_DIR$/test_package/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/test_package/src/test.cpp" />
         <option value="$PROJECT_DIR$/betago_tutorials/src/motion_planning_api_tutorial.cpp" />
@@ -389,7 +376,6 @@
         <option value="$PROJECT_DIR$/td_ros/src/tool.cpp" />
         <option value="$PROJECT_DIR$/td_ros/include/td_ros/tool.h" />
         <option value="$PROJECT_DIR$/betago_navigation/launch/navigation_world.launch" />
-        <option value="$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch" />
         <option value="$PROJECT_DIR$/betago_navigation/README.md" />
         <option value="$PROJECT_DIR$/betago_calibration/launch/rviz.launch" />
         <option value="$PROJECT_DIR$/betago_calibration/kalibr_tag/april_6x6.yaml" />
@@ -411,18 +397,28 @@
         <option value="$PROJECT_DIR$/td_ros/src/tf_listener/tf_lisener.cpp" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch" />
-        <option value="$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch" />
         <option value="$PROJECT_DIR$/betago_calibration/src/Calibration.cpp" />
         <option value="$PROJECT_DIR$/betago_description/urdf/sensors/kinect.urdf.xacro" />
         <option value="$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_odom.launch" />
         <option value="$PROJECT_DIR$/betago_navigation/launch/3dsensor.launch" />
         <option value="$PROJECT_DIR$/betago_description/urdf/sensors/kinect_gazebo.urdf.xacro" />
         <option value="$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_only_kinect.launch" />
-        <option value="$PROJECT_DIR$/betago_calibration/README.md" />
         <option value="$PROJECT_DIR$/betago_description/urdf/sensors/kinect_gazebo_prefix.urdf.xacro" />
         <option value="$PROJECT_DIR$/betago_description/urdf/sensors/kinect_prefix.urdf.xacro" />
         <option value="$PROJECT_DIR$/betago_description/urdf/ridgeback/ridgeback.urdf.xacro" />
         <option value="$PROJECT_DIR$/betago_manipulation/README.md" />
+        <option value="$PROJECT_DIR$/betago_control/config/arm_controller.yaml" />
+        <option value="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ompl_planning.yaml" />
+        <option value="$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch" />
+        <option value="$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch" />
+        <option value="$PROJECT_DIR$/betago_manipulation/betago_bringup/src/to_default_pose.cpp" />
+        <option value="$PROJECT_DIR$/betago_calibration/ArUcoA4100x100/model.config" />
+        <option value="$PROJECT_DIR$/betago_calibration/ArUcoA4100x100/model.sdf" />
+        <option value="$PROJECT_DIR$/betago_calibration/aruco_a4_100x100/model.config" />
+        <option value="$PROJECT_DIR$/betago_calibration/aruco_a4_100x100/materials/scripts/mark.material" />
+        <option value="$PROJECT_DIR$/betago_calibration/aruco_a4_100x100/model.sdf" />
+        <option value="$PROJECT_DIR$/betago_calibration/README.md" />
+        <option value="$PROJECT_DIR$/betago_calibration/launch/handeye_calib_world.launch" />
       </list>
     </option>
   </component>
@@ -465,15 +461,22 @@
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="betago_calibration" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="calibration_target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="betago_calibration" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="betago_calibration" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="sim_kinect_calib_result" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
@@ -481,13 +484,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="betago_calibration" type="462c0819:PsiDirectoryNode" />
               <item name="launch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="betago_calibration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
@@ -574,7 +570,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="betago_manipulation" type="462c0819:PsiDirectoryNode" />
               <item name="betago_bringup" type="462c0819:PsiDirectoryNode" />
+              <item name="launch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_manipulation" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_bringup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_manipulation" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_moveit_config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_manipulation" type="462c0819:PsiDirectoryNode" />
+              <item name="betago_moveit_config" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
@@ -662,7 +681,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/betago_description/urdf/sensors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -677,13 +696,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/betago_calibration/launch" />
+      <recent name="$PROJECT_DIR$/betago_calibration/ArUcoA4100x100" />
       <recent name="$PROJECT_DIR$/betago_description/urdf/sensors" />
       <recent name="$PROJECT_DIR$/betago_calibration/include/betago_calibration" />
       <recent name="$PROJECT_DIR$/betago_calibration/src" />
-      <recent name="$PROJECT_DIR$/td_ros/include/td_ros/tf_listener" />
-      <recent name="$PROJECT_DIR$/td_ros/src/tf_listener" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/betago_calibration/aruco_a4_100x100/materials/textures" />
       <recent name="$PROJECT_DIR$/betago_manipulation/betago_bringup/src" />
       <recent name="$PROJECT_DIR$/betago_navigation/src" />
       <recent name="$PROJECT_DIR$/media" />
@@ -2117,12 +2137,13 @@
       <workItem from="1604051837350" duration="10000" />
       <workItem from="1604109043174" duration="16223000" />
       <workItem from="1604156397739" duration="2522000" />
-      <workItem from="1604197381154" duration="15657000" />
+      <workItem from="1604197381154" duration="25701000" />
+      <workItem from="1604232539444" duration="2536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275891000" />
+    <option name="totallyTimeSpent" value="288471000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2134,9 +2155,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-4" width="1920" height="1084" extended-state="6" />
+    <frame x="1080" y="-4" width="1920" height="1084" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49557522" visible="true" weight="0.22702992" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49557522" visible="true" weight="0.22970085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50442475" side_tool="true" weight="0.15384616" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2147,10 +2168,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49946582" visible="true" weight="0.35204083" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946582" visible="true" weight="0.34387755" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005342" side_tool="true" weight="0.2867347" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32959184" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.28061223" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.28046218" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946582" weight="0.3265306" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -2196,117 +2217,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/betago_calibration/src/run_cam_laser_calibration.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/ros/kinetic/include/rosbag/bag.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="336" column="10" selection-start-line="336" selection-start-column="10" selection-end-line="336" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/td_ros/src/tf_listener/tf_lisener.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="e#82#127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/include/betago_calibration/Calibration.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="61" column="33" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
-          <folding>
-            <element signature="e#121#145#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/src/Calibration.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
-          <folding>
-            <element signature="e#38#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/calib_raw_data/truth_pose.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/hatchery/lib/hatchery.zip!/edu/umontreal/hatchery/roslaunch/roslaunch.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="113" column="12" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_control/config/joint_state_controller.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_gazebo/launch/ridgeback/ridgeback_world.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_gazebo/launch/betago/betago_world.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_navigation/package.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="69" lean-forward="true" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_control/launch/betago/betago_states_gazebo.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_navigation/launch/include/3dsensor/kinect.launch.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_navigation/launch/navigation_world.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/betago_navigation/launch/rtabmap_sim_kinect_scan_odom.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -2342,16 +2252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-400">
-            <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -2426,11 +2326,6 @@
         <state relative-caret-position="-557" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ridgeback.srdf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4403" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/sensors_3d.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2449,11 +2344,6 @@
         <state>
           <caret line="36" column="15" lean-forward="true" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ompl_planning.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2565" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/kinematics.yaml">
@@ -2482,21 +2372,74 @@
     <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/ridgeback_moveit_controller_manager.launch.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/controllers.yaml">
+    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ridgeback.srdf">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/controllers.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1165" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ompl_planning.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="128" column="13" lean-forward="true" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_control/launch/ur5/arm_trajectory_controller.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="87" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_calibration/launch/cam_laser_calib_world.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_control/config/arm_controller.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+        </state>
+      </provider>
     </entry>
     <entry file="file:///opt/ros/kinetic/include/ros/spinner.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
-          <caret line="99" column="2" selection-start-line="99" selection-start-column="2" selection-end-line="99" selection-end-column="2" />
+          <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/README.md" />
+    <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/textures/ar0.png" />
+    <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/textures/mark.png" />
+    <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/textures/sans.png" />
+    <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/materials/scripts/mark.material" />
+    <entry file="file://$PROJECT_DIR$/betago_calibration/kalibr_tag/model.config" />
+    <entry file="file://$PROJECT_DIR$/betago_calibration/aruco_a4_100x100/model.config" />
+    <entry file="file://$PROJECT_DIR$/betago_calibration/aruco_a4_100x100/materials/textures/aruco_a4_100x100.png" />
+    <entry file="file://$PROJECT_DIR$/betago_calibration/aruco_a4_100x100/materials/scripts/mark.material" />
+    <entry file="file://$PROJECT_DIR$/betago_calibration/aruco_a4_100x100/model.sdf" />
     <entry file="file://$PROJECT_DIR$/betago_manipulation/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <first_editor relative-caret-position="361">
+            <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_calibration/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="988">
+            <caret line="52" selection-start-line="52" selection-end-line="52" />
           </first_editor>
           <second_editor />
         </state>
@@ -2504,11 +2447,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/src/to_default_pose.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="29" column="62" lean-forward="true" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+        <state relative-caret-position="779">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/td_ros/src/arm_moveit.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_calibration/launch/handeye_calib_world.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

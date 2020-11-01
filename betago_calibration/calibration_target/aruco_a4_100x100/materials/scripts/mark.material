@@ -1,0 +1,15 @@
+material aruco_a4_100x100/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture aruco_a4_100x100.png
+        filtering anistropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

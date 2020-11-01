@@ -16,19 +16,19 @@ arm:
         - right_ur_arm_wrist_3_joint
     constraints:
         goal_time: 0.6
-        stopped_velocity_tolerance: 0.05
+        stopped_velocity_tolerance: 0.1
         left_ur_arm_shoulder_pan_joint: {trajectory: 0.1, goal: 0.1}
         left_ur_arm_shoulder_lift_joint: {trajectory: 0.1, goal: 0.1}
         left_ur_arm_elbow_joint: {trajectory: 0.1, goal: 0.1}
         left_ur_arm_wrist_1_joint: {trajectory: 0.1, goal: 0.1}
         left_ur_arm_wrist_2_joint: {trajectory: 0.1, goal: 0.1}
-        left_ur_arm_wrist_3_joint: {trajectory: 0.1, goal: 0.1}
+        left_ur_arm_wrist_3_joint: {trajectory: 0.2, goal: 0.2}
         right_ur_arm_shoulder_pan_joint: {trajectory: 0.1, goal: 0.1}
         right_ur_arm_shoulder_lift_joint: {trajectory: 0.1, goal: 0.1}
         right_ur_arm_elbow_joint: {trajectory: 0.1, goal: 0.1}
-        right_ur_arm_wrist_1_joint: {trajectory: 0.1, goal: 0.1}
-        right_ur_arm_wrist_2_joint: {trajectory: 0.1, goal: 0.1}
-        right_ur_arm_wrist_3_joint: {trajectory: 0.1, goal: 0.1}
+        right_ur_arm_wrist_1_joint: {trajectory: 0.2, goal: 0.2}
+        right_ur_arm_wrist_2_joint: {trajectory: 0.2, goal: 0.2}
+        right_ur_arm_wrist_3_joint: {trajectory: 0.2, goal: 0.2}
     gains:
         left_ur_arm_shoulder_pan_joint:   {p: 1000.0, i: 0.01, d: 0.1, i_clamp: 0.0}
         left_ur_arm_shoulder_lift_joint: {p: 1000.0, i: 0.01, d: 0.1, i_clamp: 0.0}
@@ -57,13 +57,13 @@ arm:
         - left_ur_arm_wrist_3_joint
     constraints:
         goal_time: 0.6
-        stopped_velocity_tolerance: 0.05
+        stopped_velocity_tolerance: 0.1
         left_ur_arm_shoulder_pan_joint: {trajectory: 0.1, goal: 0.1}
         left_ur_arm_shoulder_lift_joint: {trajectory: 0.1, goal: 0.1}
         left_ur_arm_elbow_joint: {trajectory: 0.1, goal: 0.1}
-        left_ur_arm_wrist_1_joint: {trajectory: 0.1, goal: 0.1}
-        left_ur_arm_wrist_2_joint: {trajectory: 0.1, goal: 0.1}
-        left_ur_arm_wrist_3_joint: {trajectory: 0.1, goal: 0.1}
+        left_ur_arm_wrist_1_joint: {trajectory: 0.2, goal: 0.2}
+        left_ur_arm_wrist_2_joint: {trajectory: 0.2, goal: 0.2}
+        left_ur_arm_wrist_3_joint: {trajectory: 0.2, goal: 0.2}
     gains:
         left_ur_arm_shoulder_pan_joint:   {p: 1000.0, i: 0.01, d: 0.1, i_clamp: 0.0}
         left_ur_arm_shoulder_lift_joint: {p: 1000.0, i: 0.01, d: 0.1, i_clamp: 0.0}

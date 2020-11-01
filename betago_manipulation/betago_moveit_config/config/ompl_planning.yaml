@@ -121,7 +121,7 @@ planner_configs:
     dense_delta_fraction: 0.001  # delta fraction for interface detection. default: 0.001
     max_failures: 5000  # maximum consecutive failure limit. default: 5000
 left_ur_arm:
-  default_planner_config: SBL
+  default_planner_config: ""
   planner_configs:
     - SBL
     - EST
@@ -147,7 +147,7 @@ left_ur_arm:
     - SPARS
     - SPARStwo
 right_ur_arm:
-  default_planner_config: SBL
+  default_planner_config: ""
   planner_configs:
     - SBL
     - EST

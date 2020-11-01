@@ -47,3 +47,6 @@ put this file in to `~/.gazebo/models/`, then you can load the kalibr_tag direct
 8. Cam-laser calibration
 
     `roslaunch lasercamcal_ros calibra_offline.launch`
+    
+### Hand-Eye Calibration
+
