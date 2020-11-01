@@ -33,6 +33,16 @@ args of `betago_bringup_moveit.launch`:
 3. copy the controllers.yaml to betago_moveit_config/config and change the content to suit your model.
 4. copy the content in the launch/ridgeback_moveit_controller_manager.launch.xml to the same file in your package.
 
+5. everytime you run setup assistant to modify the model config, some files don't need to be overwritten.
+    
+    - confg :
+    
+        - controller.yaml: this is used to replace the ros_controller.yaml, everytime you add or delete the joint need to be drive, add or delete the corresponding config in the controller.yaml.
+        
+    - launch:
+
+        - moveit_rvi.launch generally dose not need to be overwritten.
+        - ridgeback_moveit_controller_manager.launch.xml
 
 ## File explanation
 None

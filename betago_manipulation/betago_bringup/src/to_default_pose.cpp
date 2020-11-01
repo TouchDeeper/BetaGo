@@ -26,7 +26,7 @@ int main(int argc, char** argv)
 //    toJointSpace(planning_group_left,joint_group_positions_left);
 
     std::string planning_group = "manipulator";
-    std::vector<double> joint_group_positions = {0,-1.20,2.31,0,0,0.0,3.14,1.27,-2.52,-1.58,1.76,0.0};//left first
+    std::vector<double> joint_group_positions = {0,-1.38,2.58,-2.76,-1.62,-3.14,3.14,1.27,-2.52,-1.58,1.76,0.0};//left first
     tdros::toJointSpace(planning_group,joint_group_positions);
   ros::shutdown();
   return 0;

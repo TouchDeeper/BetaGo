@@ -72,6 +72,27 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
+        camera_depth_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_depth_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        camera_rgb_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_rgb_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         chassis_link:
           Alpha: 1
           Show Axes: false
@@ -107,27 +128,6 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        head_camera_depth_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        head_camera_depth_optical_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        head_camera_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        head_camera_rgb_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        head_camera_rgb_optical_frame:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
         imu_link:
           Alpha: 1
           Show Axes: false
@@ -294,7 +294,7 @@ Visualization Manager:
       Value: false
     - Class: rviz/Image
       Enabled: true
-      Image Topic: /head_camera/rgb/image_raw
+      Image Topic: /camera/rgb/image_raw
       Max Value: 1
       Median window: 5
       Min Value: 0
