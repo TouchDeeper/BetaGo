@@ -6,7 +6,7 @@ material Kalibr_tag/Diffuse
     {
       texture_unit
       {
-        texture april_6x6_80x80cm_A0_cut.png
+        texture april_6x6_80x80cm.png
         filtering anistropic
         max_anisotropy 16
       }

@@ -53,7 +53,10 @@ catkin_make
         
 - Check if the model has been downloaded in `~/.Gazebo/`, if not, you need to download the model first and put it in `~/.Gazebo/`. [Download link](https://bitbucket.org/osrf/gazebo_models/downloads/).
 For Chinese, download from [rosclub.cn](http://www.rosclub.cn/post-37.html) : link: http://pan.baidu.com/s/1pKaeg0F, password:cmxc
-
+    - set GAZEBO_MODEL_PATH:
+        1. terminal:`sudo gedit ~/.bashrc`
+        2. add `export GAZEBO_MODEL_PATH="/home/wang/.gazebo/models"` in the end.
+        3. terminal:`source ~/.bashrc`
 ### Real robot
 #### Step to connect to the ridgeback by wired connection
 1. plug in the network cable.

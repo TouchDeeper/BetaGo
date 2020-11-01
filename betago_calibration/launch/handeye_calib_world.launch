@@ -3,9 +3,9 @@
     <arg name="world_name" default="$(find ridgeback_gazebo)/worlds/ridgeback_race.world" />
     <node name="sdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
           args="
-          -file $(env GAZEBO_MODEL_PATH)/kalibr_tag/model.sdf
+          -file $(env GAZEBO_MODEL_PATH)/aruco_a4_100x100/model.sdf
           -sdf
-          -model kalibr_tag
+          -model aruco_a4
           -x 4.54
           -y -2.02
           -z 0.5
