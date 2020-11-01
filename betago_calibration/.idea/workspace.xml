@@ -12,18 +12,18 @@
       <config projectName="betago_calibration" targetName="topic_tools_generate_messages_py" />
       <config projectName="betago_calibration" targetName="actionlib_msgs_generate_messages_eus" />
       <config projectName="betago_calibration" targetName="download_extra_data" />
-      <config projectName="betago_calibration" targetName="actionlib_msgs_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="sensor_msgs_generate_messages_eus" />
       <config projectName="betago_calibration" targetName="topic_tools_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="sensor_msgs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="actionlib_msgs_generate_messages_nodejs" />
       <config projectName="betago_calibration" targetName="actionlib_msgs_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="cam_laser_calibration_node" />
       <config projectName="betago_calibration" targetName="moveit_ros_manipulation_gencfg" />
+      <config projectName="betago_calibration" targetName="cam_laser_calibration_node" />
       <config projectName="betago_calibration" targetName="std_msgs_generate_messages_lisp" />
       <config projectName="betago_calibration" targetName="object_recognition_msgs_generate_messages_nodejs" />
       <config projectName="betago_calibration" targetName="doxygen" />
       <config projectName="betago_calibration" targetName="moveit_msgs_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="actionlib_generate_messages_lisp" />
       <config projectName="betago_calibration" targetName="geometry_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="actionlib_generate_messages_lisp" />
       <config projectName="betago_calibration" targetName="octomap_msgs_generate_messages_lisp" />
       <config projectName="betago_calibration" targetName="actionlib_msgs_generate_messages_cpp" />
       <config projectName="betago_calibration" targetName="trajectory_msgs_generate_messages_nodejs" />
@@ -32,14 +32,14 @@
       <config projectName="betago_calibration" targetName="roscpp_generate_messages_lisp" />
       <config projectName="betago_calibration" targetName="tf_generate_messages_lisp" />
       <config projectName="betago_calibration" targetName="shape_msgs_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="actionlib_generate_messages_nodejs" />
       <config projectName="betago_calibration" targetName="topic_tools_generate_messages_nodejs" />
+      <config projectName="betago_calibration" targetName="actionlib_generate_messages_nodejs" />
       <config projectName="betago_calibration" targetName="rosgraph_msgs_generate_messages_lisp" />
       <config projectName="betago_calibration" targetName="roscpp_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="calibration" />
       <config projectName="betago_calibration" targetName="visualization_msgs_generate_messages_nodejs" />
-      <config projectName="betago_calibration" targetName="actionlib_msgs_generate_messages_lisp" />
+      <config projectName="betago_calibration" targetName="calibration" />
       <config projectName="betago_calibration" targetName="trajectory_msgs_generate_messages_cpp" />
+      <config projectName="betago_calibration" targetName="actionlib_msgs_generate_messages_lisp" />
       <config projectName="betago_calibration" targetName="moveit_msgs_generate_messages_nodejs" />
       <config projectName="betago_calibration" targetName="std_msgs_generate_messages_nodejs" />
       <config projectName="betago_calibration" targetName="tf2_msgs_generate_messages_cpp" />
@@ -67,21 +67,21 @@
       <config projectName="betago_calibration" targetName="tests" />
       <config projectName="betago_calibration" targetName="run_tests" />
       <config projectName="betago_calibration" targetName="std_srvs_generate_messages_lisp" />
-      <config projectName="betago_calibration" targetName="object_recognition_msgs_generate_messages_py" />
       <config projectName="betago_calibration" targetName="sensor_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="object_recognition_msgs_generate_messages_py" />
       <config projectName="betago_calibration" targetName="graph_msgs_generate_messages_cpp" />
       <config projectName="betago_calibration" targetName="std_srvs_generate_messages_eus" />
       <config projectName="betago_calibration" targetName="trajectory_msgs_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="sensor_msgs_generate_messages_nodejs" />
       <config projectName="betago_calibration" targetName="visualization_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="sensor_msgs_generate_messages_nodejs" />
       <config projectName="betago_calibration" targetName="graph_msgs_generate_messages_py" />
       <config projectName="betago_calibration" targetName="visualization_msgs_generate_messages_lisp" />
       <config projectName="betago_calibration" targetName="visualization_msgs_generate_messages_eus" />
       <config projectName="betago_calibration" targetName="std_srvs_generate_messages_py" />
       <config projectName="betago_calibration" targetName="octomap_msgs_generate_messages_nodejs" />
       <config projectName="betago_calibration" targetName="graph_msgs_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="geometry_msgs_generate_messages_eus" />
       <config projectName="betago_calibration" targetName="moveit_msgs_generate_messages_eus" />
+      <config projectName="betago_calibration" targetName="geometry_msgs_generate_messages_eus" />
       <config projectName="betago_calibration" targetName="actionlib_generate_messages_py" />
       <config projectName="betago_calibration" targetName="rosgraph_msgs_generate_messages_cpp" />
       <config projectName="betago_calibration" targetName="std_msgs_generate_messages_cpp" />
@@ -90,16 +90,16 @@
       <config projectName="betago_calibration" targetName="gtest" />
       <config projectName="betago_calibration" targetName="trajectory_msgs_generate_messages_py" />
       <config projectName="betago_calibration" targetName="moveit_ros_planning_gencfg" />
-      <config projectName="betago_calibration" targetName="actionlib_generate_messages_eus" />
       <config projectName="betago_calibration" targetName="shape_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="actionlib_generate_messages_eus" />
       <config projectName="betago_calibration" targetName="roscpp_generate_messages_nodejs" />
       <config projectName="betago_calibration" targetName="geometry_msgs_generate_messages_cpp" />
-      <config projectName="betago_calibration" targetName="moveit_msgs_generate_messages_cpp" />
       <config projectName="betago_calibration" targetName="object_recognition_msgs_generate_messages_eus" />
-      <config projectName="betago_calibration" targetName="moveit_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="moveit_msgs_generate_messages_cpp" />
       <config projectName="betago_calibration" targetName="std_msgs_generate_messages_py" />
-      <config projectName="betago_calibration" targetName="octomap_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="moveit_msgs_generate_messages_py" />
       <config projectName="betago_calibration" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="betago_calibration" targetName="octomap_msgs_generate_messages_py" />
       <config projectName="betago_calibration" targetName="octomap_msgs_generate_messages_eus" />
       <config projectName="betago_calibration" targetName="rosgraph_msgs_generate_messages_eus" />
       <config projectName="betago_calibration" targetName="graph_msgs_generate_messages_lisp" />
@@ -114,24 +114,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9bd8f98-3af3-40e1-84fc-4b01170a32b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/betago_calibration.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/betago_calibration/Calibration.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calibration.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/run_cam_laser_calibration.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gazebo-pkgs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../general-message-pkgs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../td_ros" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kalibr_tag/model.sdf" beforeDir="false" afterPath="$PROJECT_DIR$/kalibr_tag/model.sdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/package.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../betago_manipulation/betago_bringup/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../betago_manipulation/betago_bringup/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../betago_manipulation/betago_bringup/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../betago_manipulation/betago_bringup/package.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../betago_manipulation/betago_bringup/src/to_default_pose.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../betago_manipulation/betago_bringup/src/to_default_pose.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/betago_calibration/Calibration.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/betago_calibration/Calibration.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calibration.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calibration.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/run_cam_laser_calibration.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/run_cam_laser_calibration.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/../../build/" />
@@ -148,31 +134,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/run_cam_laser_calibration.cpp">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#37#61#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="380">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/gazebo-7/gazebo/Server.hh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calibration.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            <state relative-caret-position="434">
+              <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -180,8 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/betago_calibration/Calibration.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            <state relative-caret-position="1471">
+              <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
               <folding>
                 <element signature="e#121#145#0" expanded="true" />
               </folding>
@@ -190,33 +164,83 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kalibr_tag/model.sdf">
+        <entry file="file://$PROJECT_DIR$/src/run_cam_laser_calibration.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+            <state relative-caret-position="190">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="e#37#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.xml">
+        <entry file="file://$USER_HOME$/CLionProjects/TdLibrary/install/include/TdLibrary/slam_tool/motion_transformation.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+            <state relative-caret-position="323">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="133">
+                <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="855">
+                <caret line="45" column="14" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/launch/rviz.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/launch/cam_laser_calib_world.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kalibr_tag/model.sdf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>model_name</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -227,20 +251,18 @@
         <option value="$PROJECT_DIR$/include/betago_calibration/calibration.h" />
         <option value="$PROJECT_DIR$/kalibr_tag/model.sdf" />
         <option value="$PROJECT_DIR$/package.xml" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/launch/cam_laser_calib_world.launch" />
+        <option value="$PROJECT_DIR$/launch/rviz.launch" />
+        <option value="$PROJECT_DIR$/../README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/run_cam_laser_calibration.cpp" />
         <option value="$PROJECT_DIR$/include/betago_calibration/Calibration.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/Calibration.cpp" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/../betago_tutorials/.idea/betago_tutorials.iml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="-4" />
     <option name="width" value="1920" />
@@ -252,6 +274,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,20 +291,7 @@
               <item name="betago_calibration" type="b2602c69:ProjectViewProjectNode" />
               <item name="betago_calibration" type="47feb1d3:ProjectViewModuleNode" />
               <item name="betago_calibration" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="betago_calibration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="betago_calibration" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="betago_calibration" type="462c0819:PsiDirectoryNode" />
-              <item name="kalibr_tag" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="betago_calibration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="betago_calibration" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="betago_calibration" type="462c0819:PsiDirectoryNode" />
-              <item name="kalibr_tag" type="462c0819:PsiDirectoryNode" />
-              <item name="materials" type="462c0819:PsiDirectoryNode" />
+              <item name="launch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="betago_calibration" type="b2602c69:ProjectViewProjectNode" />
@@ -293,18 +303,21 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../betago_tutorials/CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../td_ros" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/launch" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/include/betago_calibration" />
     </key>
@@ -956,32 +969,44 @@
       <workItem from="1595608287827" duration="13000" />
       <workItem from="1595608313405" duration="558000" />
       <workItem from="1595682502713" duration="13434000" />
+      <workItem from="1600940136586" duration="340000" />
+      <workItem from="1600940495805" duration="13176000" />
+      <workItem from="1601019880897" duration="28000" />
+      <workItem from="1601019920312" duration="16000" />
+      <workItem from="1601019946173" duration="85000" />
+      <workItem from="1601020046920" duration="13000" />
+      <workItem from="1601020086368" duration="2949000" />
+      <workItem from="1601123225874" duration="5298000" />
+      <workItem from="1601470184423" duration="5830000" />
+      <workItem from="1601552980788" duration="9342000" />
+      <workItem from="1601603604175" duration="25000" />
+      <workItem from="1601603636910" duration="2759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14005000" />
+    <option name="totallyTimeSpent" value="53866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25641027" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49925926" visible="true" weight="0.086538464" />
+      <window_info id="Structure" order="1" sideWeight="0.50074077" side_tool="true" weight="0.08012821" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32959184" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32959184" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29897958" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.32142857" />
+      <window_info active="true" anchor="bottom" id="CMake" order="11" visible="true" weight="0.29285714" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3377551" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -992,17 +1017,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/include/betago_calibration/Calibration.h</url>
-          <line>23</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file:///opt/ros/kinetic/include/ros/publisher.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -1011,82 +1025,196 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="60" column="37" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/gazebo-7/gazebo/physics/PhysicsIface.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_iterator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="740" selection-start-line="740" selection-end-line="740" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/ext/new_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="455" selection-start-line="455" selection-end-line="455" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/ostream">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="560" selection-start-line="560" selection-end-line="560" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/gazebo-7/gazebo/physics/Hinge2Joint.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-899" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/gazebo-7/gazebo/physics/physics.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/ros/tutorial_ws/src/gazebo-pkgs/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/gazebo-7/gazebo/Server.hh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/ros/node_handle.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="248" column="14" selection-start-line="248" selection-start-column="14" selection-end-line="248" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/geometry_msgs/Pose.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/gazebo_msgs/ModelState.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="64" column="58" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../td_ros/include/td_ros/tool.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="380">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
             <element signature="e#13#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kalibr_tag/model.sdf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+    <entry file="file://$PROJECT_DIR$/kalibr_tag/model.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../betago_manipulation/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/CLionProjects/TdLibrary/install/include/TdLibrary/slam_tool/motion_transformation.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="323">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/gazebo-7/gazebo/physics/PhysicsIface.hh">
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="855">
+            <caret line="45" column="14" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/launch/rviz.launch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-671">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        <state relative-caret-position="95">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kalibr_tag/model.sdf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/launch/cam_laser_calib_world.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/run_cam_laser_calibration.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="e#37#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/gazebo-7/gazebo/Server.hh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calibration.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/betago_calibration/Calibration.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="1471">
+          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
           <folding>
             <element signature="e#121#145#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/src/Calibration.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+        <state relative-caret-position="434">
+          <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
         </state>
       </provider>
     </entry>

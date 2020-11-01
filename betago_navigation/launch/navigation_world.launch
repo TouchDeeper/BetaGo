@@ -1,0 +1,9 @@
+<launch>
+    <arg name="dual_arm" default="true" />
+    <arg name="world_name" default="$(find ridgeback_gazebo)/worlds/ridgeback_race.world" />
+    <include file="$(find betago_bringup)/launch/betago_bringup_moveit.launch">
+        <arg name="dual_arm" value="$(arg dual_arm)" />
+        <arg name="world_name" value="$(arg world_name)" />
+    </include>
+
+</launch>

@@ -1,7 +1,10 @@
 <launch>
-    <arg name="dual_arm" default="true" />
+    <arg name="dual_arm" default="false" />
+    <arg name="world_name" default="worlds/empty.world" />
     <!-- Launch Gazebo ur_gazebo_controller -->
-    <include file="$(find betago_gazebo)/launch/ridgeback/ridgeback_world.launch" />
+    <include file="$(find betago_gazebo)/launch/ridgeback/ridgeback_world.launch" >
+        <arg name="world_name" value="$(arg world_name)" />
+    </include>
 
     <!-- ros_control arm launch file -->
     <include file="$(find betago_control)/launch/betago/betago_states_gazebo.launch" />
@@ -19,6 +22,7 @@
     <node name="to_default_pose" pkg="betago_bringup" type="to_default_pose" respawn="false" output="screen" >
         <rosparam command="load" file="$(find betago_moveit_config)/config/kinematics.yaml"/>
         <param name="/planning_plugin" value="ompl_interface/OMPLPlanner"/>
+        <param name="dual_arm" value="${dual_arm}"/>
         <rosparam command="load" file="$(find betago_moveit_config)/config/ompl_planning.yaml"/>
     </node>
 </launch>

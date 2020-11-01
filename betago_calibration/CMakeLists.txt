@@ -21,10 +21,12 @@ find_package(catkin REQUIRED COMPONENTS
 #    pcl_ros
 #    pcl_conversions
     rosbag
+        tf
     tf2_ros
     tf2_eigen
     tf2_geometry_msgs
      td_ros
+        cv_bridge
 )
 
 ## System dependencies are found with CMake's conventions
@@ -36,6 +38,16 @@ find_package(TdLib REQUIRED)
 include_directories(${TdLib_INCLUDE_DIRS})
 MESSAGE(STATUS "TdLib_INCLUDE_DIRS = " ${TdLib_INCLUDE_DIRS})
 
+set(OpenCV_DIR "/usr/local/share/OpenCV")
+# OpenCV
+find_package(OpenCV REQUIRED)
+include_directories(${OPENCV_INCLUDE_DIRS})
+link_directories(${OpenCV_LIBRARY_DIRS})
+if(OpenCV_FOUND)
+ MESSAGE(STATUS "OPENCV_INCLUDE_DIRS =  ${OPENCV_INCLUDE_DIRS}")
+ MESSAGE(STATUS "OpenCV_LIBRARY_DIRS =  ${OpenCV_LIBRARY_DIRS}")
+ MESSAGE(STATUS "OpenCV_LIBRARIES =  ${OpenCV_LIBRARIES}")
+endif()
 
 find_package(gazebo REQUIRED)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${GAZEBO_CXX_FLAGS}")
@@ -128,7 +140,7 @@ link_directories(${GAZEBO_LIBRARY_DIRS})
 catkin_package(
        INCLUDE_DIRS include
        #  LIBRARIES betago_tutorials
-       CATKIN_DEPENDS roscpp rospy std_msgs moveit_core
+       CATKIN_DEPENDS roscpp rospy std_msgs moveit_core tf
        moveit_visual_tools
        moveit_ros_planning_interface
        interactive_markers
@@ -180,10 +192,11 @@ include_directories( "/usr/local/include/eigen3" )
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
-add_library(calibration src/Calibration.cpp)
-target_link_libraries(calibration ${catkin_LIBRARIES} TdLib)
+add_library(calibration src/Calibration.cpp src/utilities.cpp)
+target_link_libraries(calibration ${catkin_LIBRARIES} TdLib ${OpenCV_LIBS})
 add_executable(cam_laser_calibration_node src/run_cam_laser_calibration.cpp)
 target_link_libraries(cam_laser_calibration_node ${catkin_LIBRARIES} calibration  ${GAZEBO_LIBRARIES})
+#add_executable(tf_listener_test src/listener_test.cpp)
 #############
 ## Install ##
 #############
