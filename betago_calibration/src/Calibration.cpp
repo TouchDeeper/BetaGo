@@ -5,17 +5,28 @@
 #include "betago_calibration/Calibration.h"
 #include <td_ros/tf_listener/tf_listener.hpp>
 #include "betago_calibration/utilities.h"
+rosbag::Bag Calibration::bag_;
+std::string Calibration::mode_ = "cam_laser";
+
 Calibration::Calibration(const std::string& calibr_board_name, ros::NodeHandle &nh):nh_(nh){
     calibr_board_name_ = calibr_board_name;
     pose_pub_ = nh_.advertise<gazebo_msgs::ModelState>("/gazebo/set_model_state", 10);
     init_euler_ = {3.14,-1.5708,3.14};
     init_pos_ = {4.54,-2.02,0.5};
+    if(!nh_.getParam("mode",mode_))
+        ROS_INFO("did not set the mode");
+    ROS_INFO("RUN MODE: %s", mode_.c_str());
     initData();
 
 
 }
 void Calibration::initData() {
-    calib_raw_data_path_ = ros::package::getPath("betago_calibration") + "/calib_raw_data/";
+    calib_raw_data_path_ = ros::package::getPath("betago_calibration");
+    if(mode_ == "intrinsic")
+        calib_raw_data_path_ += "/calib_raw_data/intrinsic/";
+    else
+        calib_raw_data_path_ += "/calib_raw_data/cam_laser/";
+
     td::FileManager::InitDirectory(calib_raw_data_path_,"calib_raw_data");
     std::string bag_path  = calib_raw_data_path_ + "image_scan.bag";
     if(!bag_.isOpen())
@@ -53,6 +64,14 @@ void Calibration::SetMultiplePoseofCalibrBoard(){
     min_max[0][1] = init_pos_(0) + 1;
     min_max[1][0] = init_pos_(1) - 0.86;
     min_max[1][1] = init_pos_(1) + 0.94;
+    if(mode_ == "intrinsic"){
+        min_max[2][0] = 0.85;
+        min_max[2][1] = 1.34;
+    } else{
+        min_max[2][0] = 0.4;
+        min_max[2][1] = 0.6;
+    }
+
     //z is fixed
     min_max[3] = EulerRange(0,eulerZ1, init_euler_, eulerZ3);
     min_max[4] = EulerRange(1,eulerY1, init_euler_, eulerY3);
@@ -66,6 +85,9 @@ void Calibration::SetMultiplePoseofCalibrBoard(){
         for (int j = 0; j < 2; ++j) {
             translate_euler[j] = td::UniformSampling(min_max[j][0],min_max[j][1]);
         }
+        if(mode_ == "intrinsic")
+            translate_euler[2] = td::UniformSampling(min_max[2][0], min_max[2][1]);
+
         Eigen::Vector3d _euler2n;
         for (int k = 0; k < 3; ++k) {
             _euler2n[k] = td::UniformSampling(min_max[k+3][0],min_max[k+3][1]);
@@ -96,7 +118,7 @@ void Calibration::recordBag(ros::NodeHandle &nh, const std::string& topic, rosba
 //    image_transport::Subscriber sub_image = it.subscribe("/head_camera/rgb/image_raw", 1, boost::bind(imageCallback,_1,std::ref(bag)));//you must hold on the sub object until you want to unsubscribe.
     bool flag_image = true;
     bool flag_scan = true;
-    ros::Subscriber sub_image = nh.subscribe<sensor_msgs::Image>("/head_camera/rgb/image_raw", 1, boost::bind(imageCallback,_1,flag_image));//you must hold on the sub object until you want to unsubscribe.
+    ros::Subscriber sub_image = nh.subscribe<sensor_msgs::Image>("/camera/rgb/image_raw", 1, boost::bind(imageCallback,_1,flag_image));//you must hold on the sub object until you want to unsubscribe.
     ros::Subscriber sub_scan = nh.subscribe<sensor_msgs::LaserScan>("/front/scan", 1, boost::bind(scanCallback,_1,flag_scan));//you must hold on the sub object until you want to unsubscribe.
     flag_image = false;
     flag_scan = false;
@@ -114,14 +136,14 @@ void Calibration::imageCallback(const sensor_msgs::ImageConstPtr& msg, bool& fla
 {
     if(flag){
         ROS_INFO("receive image at %f", msg->header.stamp.toSec());
-        bag_.write("/head_camera/rgb/image_raw",msg->header.stamp,*msg);
+        bag_.write("/camera/rgb/image_raw",msg->header.stamp,*msg);
         flag = false;
     }
 
 }
 void Calibration::scanCallback(const sensor_msgs::LaserScanConstPtr& msg, bool& flag)
 {
-    if(flag){
+    if(flag && mode_ == "cam_laser"){
         ROS_INFO("receive scan at %f", msg->header.stamp.toSec());
         bag_.write("/front/scan",msg->header.stamp,*msg);
         flag = false;

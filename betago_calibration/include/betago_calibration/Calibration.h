@@ -69,10 +69,10 @@ private:
     static rosbag::Bag bag_;
     std::string topic_name_;
     std::string calib_raw_data_path_;
+    static std::string mode_;
 public:
     EIGEN_MAKE_ALIGNED_OPERATOR_NEW;
 };
-rosbag::Bag Calibration::bag_;
 
 
 #endif //BETAGO_CALIBRATION_CALIBRATION_H
