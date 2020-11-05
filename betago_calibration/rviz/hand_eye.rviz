@@ -6,7 +6,10 @@ Panels:
       Expanded:
         - /Global Options1
         - /RobotModel1/Links1
+        - /TF1
         - /TF1/Frames1
+        - /TF1/Frames1/left_ur_arm_tool01
+        - /TF1/Frames1/left_ur_arm_tool01/Position1
       Splitter Ratio: 0.832884073
     Tree Height: 467
   - Class: rviz/Selection
@@ -497,7 +500,7 @@ Visualization Manager:
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: left_ur_arm_base
+    Fixed Frame: base_link
     Frame Rate: 30
   Name: root
   Tools:
@@ -518,25 +521,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 3.96365738
+      Distance: 3.79488134
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0.0696510598
-        Y: -0.266919106
-        Z: -0.198708951
+        X: -0.170753688
+        Y: -0.31170103
+        Z: -0.0017549044
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.0500000007
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 0.569795668
+      Pitch: 0.499795616
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 4.2985878
+      Yaw: 1.3104043
     Saved: ~
 Window Geometry:
   Displays:

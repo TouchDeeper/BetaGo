@@ -81,7 +81,7 @@ int main(int argc, char** argv)
   // Getting Basic Information
   // ^^^^^^^^^^^^^^^^^^^^^^^^^
   //
-  std::string reference = move_group.getPlanningFrame();
+  std::string reference = move_group.getPlanningFrame();//get model's root frame
   // We can print the name of the reference frame for this robot.
   ROS_INFO_NAMED("tutorial", "Reference frame: %s", reference.c_str());
 
@@ -91,7 +91,7 @@ int main(int argc, char** argv)
 
     std::ofstream ofs;
     std::string file_path = ros::package::getPath("betago_calibration") + "/calib_raw_data/hand_eye/path.txt";
-    ofs.open(file_path.c_str(), std::ios::out);
+    ofs.open(file_path.c_str(), std::ios::app);
     if (!ofs) {
         std::cout << "无法生成文件: " << std::endl << file_path << std::endl << std::endl;
     }

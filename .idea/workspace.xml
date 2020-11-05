@@ -231,34 +231,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79ad5185-a615-4161-96b5-a3ffc365e309" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/betago_calibration/calibration_result/intricsic/sim_kinect_calib_result/camchain-..BetaGoBetaGo_wssrcbetago_calibrationcalib_raw_dataimage_scan.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/betago_calibration/calibration_result/intricsic/sim_kinect_calib_result/report-cam-..BetaGoBetaGo_wssrcbetago_calibrationcalib_raw_dataimage_scan.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/betago_calibration/calibration_result/intricsic/sim_kinect_calib_result/results-cam-..BetaGoBetaGo_wssrcbetago_calibrationcalib_raw_dataimage_scan.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/betago_calibration/launch/export.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/betago_calibration/launch/hand_eye_rviz.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/betago_calibration/launch/handeye_move.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/betago_calibration/rviz/hand_eye.rviz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/betago_calibration/src/hand_eye_move.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/td_ros/launch/export.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_calibration/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/betago_calibration/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_calibration/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/betago_calibration/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_calibration/config/sim_kinect_calib_result/camchain-..BetaGoBetaGo_wssrcbetago_calibrationtest.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_calibration/config/sim_kinect_calib_result/report-cam-..BetaGoBetaGo_wssrcbetago_calibrationtest.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_calibration/config/sim_kinect_calib_result/results-cam-..BetaGoBetaGo_wssrcbetago_calibrationtest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_calibration/include/betago_calibration/Calibration.h" beforeDir="false" afterPath="$PROJECT_DIR$/betago_calibration/include/betago_calibration/Calibration.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_calibration/launch/handeye_calib_world.launch" beforeDir="false" afterPath="$PROJECT_DIR$/betago_calibration/launch/handeye_calib_world.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_calibration/src/Calibration.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/betago_calibration/src/Calibration.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_description/urdf/sensors/kinect_gazebo.urdf.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/betago_description/urdf/sensors/kinect_gazebo.urdf.xacro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_bringup/src/to_default_pose.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_bringup/src/to_default_pose.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/.setup_assistant" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/.setup_assistant" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ridgeback.srdf" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/ridgeback.srdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/sensors_3d.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/sensors_3d.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/demo.launch" beforeDir="false" afterPath="$PROJECT_DIR$/betago_manipulation/betago_moveit_config/launch/demo.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/betago_tutorials/src/move_group_interface_tutorial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/betago_tutorials/src/move_group_interface_tutorial.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/td_ros" beforeDir="false" afterPath="$PROJECT_DIR$/td_ros" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_calibration/rviz/hand_eye.rviz" beforeDir="false" afterPath="$PROJECT_DIR$/betago_calibration/rviz/hand_eye.rviz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/betago_calibration/src/hand_eye_move.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/betago_calibration/src/hand_eye_move.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/../build/" />
@@ -278,15 +252,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/betago_tutorials/launch/move_group_interface_tutorial.launch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/betago_tutorials/src/move_group_interface_tutorial.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="865">
@@ -304,16 +269,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/betago_calibration/calib_raw_data/hand_eye/path.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/betago_calibration/src/hand_eye_move.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="94" column="70" selection-start-line="94" selection-start-column="70" selection-end-line="94" selection-end-column="70" />
+            <state relative-caret-position="335">
+              <caret line="106" column="20" lean-forward="true" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
               <folding>
                 <element signature="e#1858#1919#0" expanded="true" />
               </folding>
@@ -324,8 +293,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/CLionProjects/TdLibrary/install/include/TdLibrary/FileOperation/file_manager.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="190">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -418,7 +387,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/betago_calibration/launch/rviz.launch" />
         <option value="$PROJECT_DIR$/betago_calibration/kalibr_tag/april_6x6.yaml" />
         <option value="$PROJECT_DIR$/betago_calibration/kalibr_tag/README.md" />
         <option value="$PROJECT_DIR$/betago_calibration/kalibr_tag/model.config" />
@@ -467,15 +435,16 @@
         <option value="$PROJECT_DIR$/betago_calibration/rviz/calib.rviz" />
         <option value="$PROJECT_DIR$/betago_calibration/rviz/hand_eye.rviz" />
         <option value="$PROJECT_DIR$/betago_calibration/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/betago_calibration/src/hand_eye_move.cpp" />
         <option value="$PROJECT_DIR$/betago_calibration/launch/hand_eye_rviz.launch" />
+        <option value="$PROJECT_DIR$/betago_calibration/src/hand_eye_move.cpp" />
+        <option value="$PROJECT_DIR$/betago_calibration/calib_raw_data/hand_eye/path.txt" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1080" />
-    <option name="y" value="-1924" />
+    <option name="y" value="-4" />
     <option name="width" value="1920" />
     <option name="height" value="1084" />
   </component>
@@ -2057,12 +2026,12 @@
       <workItem from="1604282135529" duration="6000" />
       <workItem from="1604282171000" duration="23189000" />
       <workItem from="1604408219057" duration="699000" />
-      <workItem from="1604470919807" duration="16476000" />
+      <workItem from="1604470919807" duration="22688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334643000" />
+    <option name="totallyTimeSpent" value="340855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2074,10 +2043,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-4" width="1920" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="1080" y="-4" width="1920" height="1084" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49557522" visible="true" weight="0.125" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49557522" visible="true" weight="0.125" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50442475" side_tool="true" weight="0.15384616" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2088,7 +2056,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946582" visible="true" weight="0.31632653" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49946582" visible="true" weight="0.3112245" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005342" side_tool="true" weight="0.2867347" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32959184" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.27959183" />
@@ -2137,9 +2105,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_moveit_config/config/kinematics.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/betago_manipulation/betago_bringup/launch/betago_bringup_moveit.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -2374,13 +2339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/CLionProjects/TdLibrary/install/include/TdLibrary/FileOperation/file_manager.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/betago_calibration/src/Calibration.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -2391,27 +2349,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="846" column="29" selection-start-line="846" selection-start-column="29" selection-end-line="846" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/betago_calibration/launch/hand_eye_rviz.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="101" selection-start-line="4" selection-start-column="101" selection-end-line="4" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/calib_raw_data/hand_eye/path.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/betago_calibration/launch/handeye_move.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -2422,13 +2363,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/CLionProjects/TdLibrary/install/include/TdLibrary/FileOperation/file_manager.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/ios_base.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="448" column="26" selection-start-line="448" selection-start-column="26" selection-end-line="448" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_calibration/launch/handeye_move.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="193" column="37" selection-start-line="193" selection-start-column="21" selection-end-line="193" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/betago_calibration/src/hand_eye_move.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="94" column="70" selection-start-line="94" selection-start-column="70" selection-end-line="94" selection-end-column="70" />
+        <state relative-caret-position="335">
+          <caret line="106" column="20" lean-forward="true" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
           <folding>
             <element signature="e#1858#1919#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/betago_calibration/calib_raw_data/hand_eye/path.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
