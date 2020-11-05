@@ -141,8 +141,9 @@ catkin_package(
        INCLUDE_DIRS include
        #  LIBRARIES betago_tutorials
        CATKIN_DEPENDS roscpp rospy std_msgs moveit_core tf
-       moveit_visual_tools
-       moveit_ros_planning_interface
+        moveit_core
+        moveit_visual_tools
+        moveit_ros_planning_interface
        interactive_markers
         gazebo_ros
         td_ros
@@ -196,6 +197,9 @@ add_library(calibration src/Calibration.cpp src/utilities.cpp)
 target_link_libraries(calibration ${catkin_LIBRARIES} TdLib ${OpenCV_LIBS})
 add_executable(cam_laser_calibration_node src/run_cam_laser_calibration.cpp)
 target_link_libraries(cam_laser_calibration_node ${catkin_LIBRARIES} calibration  ${GAZEBO_LIBRARIES})
+
+add_executable(hand_eye_move src/hand_eye_move.cpp)
+target_link_libraries(hand_eye_move ${catkin_LIBRARIES} ${Boost_LIBRARIES} TdLib)
 #add_executable(tf_listener_test src/listener_test.cpp)
 #############
 ## Install ##
