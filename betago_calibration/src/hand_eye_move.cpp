@@ -44,7 +44,7 @@
 #include <moveit_msgs/CollisionObject.h>
 
 #include <moveit_visual_tools/moveit_visual_tools.h>
-
+#include <TdLibrary/FileOperation/file_manager.hpp>
 int main(int argc, char** argv)
 {
     // TODO trajectory line visual problem
@@ -61,10 +61,11 @@ int main(int argc, char** argv)
   // MoveIt! operates on sets of joints called "planning groups" and stores them in an object called
   // the `JointModelGroup`. Throughout MoveIt! the terms "planning group" and "joint model group"
   // are used interchangably.
-  static const std::string PLANNING_GROUP = "right_ur_arm";
+  static const std::string PLANNING_GROUP = "left_ur_arm";
 
   // The :move_group_interface:`MoveGroup` class can be easily
   // setup using just the name of the planning group you would like to control and plan for.
+
   moveit::planning_interface::MoveGroupInterface move_group(PLANNING_GROUP);
 
   // We will use the :planning_scene_interface:`PlanningSceneInterface`
@@ -80,12 +81,25 @@ int main(int argc, char** argv)
   // Getting Basic Information
   // ^^^^^^^^^^^^^^^^^^^^^^^^^
   //
+  std::string reference = move_group.getPlanningFrame();//get model's root frame
   // We can print the name of the reference frame for this robot.
-  std::string reference = move_group.getPlanningFrame();
-  ROS_INFO_NAMED("tutorial", "Reference frame: %s", move_group.getPlanningFrame().c_str());
+  ROS_INFO_NAMED("tutorial", "Reference frame: %s", reference.c_str());
 
   // We can also print the name of the end-effector link for this group.
   ROS_INFO_NAMED("tutorial", "End effector link: %s", move_group.getEndEffectorLink().c_str());
+
+
+    std::ofstream ofs;
+    std::string file_path = ros::package::getPath("betago_calibration") + "/calib_raw_data/hand_eye/path.txt";
+    ofs.open(file_path.c_str(), std::ios::app);
+    if (!ofs) {
+        std::cout << "无法生成文件: " << std::endl << file_path << std::endl << std::endl;
+    }
+    geometry_msgs::Pose now_pose = move_group.getCurrentPose().pose;
+    ofs<<now_pose.position.x<<" "<<now_pose.position.y<<" "<<now_pose.position.z<<" "
+       <<now_pose.orientation.x<<" "<<now_pose.orientation.y<<" "<<now_pose.orientation.z<<" "<<now_pose.orientation.w<<std::endl;
+    ofs.close();
+    ros::spin();
 
   // Start the demo
   // ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -123,13 +137,13 @@ int main(int argc, char** argv)
 //  target_pose1.position.x = 0.1;
 //  target_pose1.position.y = -0.008;
 //  target_pose1.position.z = 1.18;
-    target_pose1.orientation.x = 0;
-    target_pose1.orientation.y = 0;
-    target_pose1.orientation.z = 0;
-    target_pose1.orientation.w = 1;
-    target_pose1.position.x = -0.3;
-    target_pose1.position.y = 0;
-    target_pose1.position.z = 0.5;
+    target_pose1.orientation.x = 0.640268;
+    target_pose1.orientation.y = 0.46711;
+    target_pose1.orientation.z = 0.380572;
+    target_pose1.orientation.w = 0.476476;
+    target_pose1.position.x = 0.319766;
+    target_pose1.position.y = 0.307596;
+    target_pose1.position.z = 0.691348;
   move_group.setPoseTarget(target_pose1);
 
   // Now, we call the planner to compute the plan and visualize it.
@@ -149,7 +163,7 @@ int main(int argc, char** argv)
   visual_tools.publishText(text_pose, "Pose Goal", rvt::WHITE, rvt::XLARGE);
   visual_tools.publishTrajectoryLine(my_plan.trajectory_, joint_model_group);
   visual_tools.trigger();
-
+  visual_tools.prompt("Press 'next' in the RvizVisualToolsGui window to continue the demo");
 
   // Moving to a pose goal
   // ^^^^^^^^^^^^^^^^^^^^^
@@ -164,7 +178,7 @@ int main(int argc, char** argv)
 
   /* Uncomment below line when working with a real robot */
   move_group.move();
-  visual_tools.prompt("Press 'next' in the RvizVisualToolsGui window to continue the demo");
+
   // Planning to a joint-space goal
   // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   //
@@ -273,7 +287,7 @@ int main(int argc, char** argv)
   std::vector<geometry_msgs::Pose> waypoints;
   waypoints.push_back(target_pose3);
 
-  target_pose3.position.z -= 0.2;
+  target_pose3.position.x = -0.187771;
   waypoints.push_back(target_pose3);  // down
 
   target_pose3.position.y -= 0.2;

@@ -76,6 +76,30 @@
         <joint name="right_ur_arm_wrist_2_joint" value="1.7606" />
         <joint name="right_ur_arm_wrist_3_joint" value="0" />
     </group_state>
+    <group_state name="default" group="left_ur_arm">
+        <joint name="left_ur_arm_elbow_joint" value="2.5891" />
+        <joint name="left_ur_arm_shoulder_lift_joint" value="-1.3809" />
+        <joint name="left_ur_arm_shoulder_pan_joint" value="0" />
+        <joint name="left_ur_arm_wrist_1_joint" value="-2.7618" />
+        <joint name="left_ur_arm_wrist_2_joint" value="-1.6225" />
+        <joint name="left_ur_arm_wrist_3_joint" value="-3.1415" />
+    </group_state>
+    <group_state name="default" group="right_ur_arm">
+        <joint name="right_ur_arm_elbow_joint" value="-2.5201" />
+        <joint name="right_ur_arm_shoulder_lift_joint" value="1.2773" />
+        <joint name="right_ur_arm_shoulder_pan_joint" value="3.1415" />
+        <joint name="right_ur_arm_wrist_1_joint" value="-1.588" />
+        <joint name="right_ur_arm_wrist_2_joint" value="1.7606" />
+        <joint name="right_ur_arm_wrist_3_joint" value="0" />
+    </group_state>
+    <group_state name="hand_eye" group="left_ur_arm">
+        <joint name="left_ur_arm_elbow_joint" value="1.7951" />
+        <joint name="left_ur_arm_shoulder_lift_joint" value="-0.1036" />
+        <joint name="left_ur_arm_shoulder_pan_joint" value="0.069" />
+        <joint name="left_ur_arm_wrist_1_joint" value="-1.7261" />
+        <joint name="left_ur_arm_wrist_2_joint" value="-1.6225" />
+        <joint name="left_ur_arm_wrist_3_joint" value="-3.1415" />
+    </group_state>
     <!--PASSIVE JOINT: Purpose: this element is used to mark joints that are not actuated-->
     <passive_joint name="front_rocker" />
     <passive_joint name="front_left_wheel" />

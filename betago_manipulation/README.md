@@ -19,6 +19,7 @@ The difference is `Only Moveit!` will create a fake joint state controller and a
 
 args of `betago_bringup_moveit.launch`:
 - `dual_arm:=(default:true/false)` : single-arm controller or dual-arm controller
+
 ## Step to construct the package for moveit+gazebo
 1. use moveit setup_assistant to construct the initial package.
 ![moveit_config_1.png](../media/moveit_config_1.png)
@@ -43,6 +44,7 @@ args of `betago_bringup_moveit.launch`:
 
         - moveit_rvi.launch generally dose not need to be overwritten.
         - ridgeback_moveit_controller_manager.launch.xml
+        - demo.launch generally dose not need to be overwritten.
 
 ## File explanation
 None
