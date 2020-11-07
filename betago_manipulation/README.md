@@ -37,12 +37,13 @@ args of `betago_bringup_moveit.launch`:
 5. everytime you run setup assistant to modify the model config, some files don't need to be overwritten.
     
     - confg :
-    
+        
         - controller.yaml: this is used to replace the ros_controller.yaml, everytime you add or delete the joint need to be drive, add or delete the corresponding config in the controller.yaml.
+        - ompl_planning.yaml: this is used to set planner.
         
     - launch:
-
-        - moveit_rvi.launch generally dose not need to be overwritten.
+        - moveit.rviz
+        - moveit_rviz.launch generally dose not need to be overwritten.
         - ridgeback_moveit_controller_manager.launch.xml
         - demo.launch generally dose not need to be overwritten.
 

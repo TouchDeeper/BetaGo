@@ -146,6 +146,9 @@ left_ur_arm:
     - LazyPRMstar
     - SPARS
     - SPARStwo
+  ##Note: commenting the following line lets moveit chose RRTConnect as default planner rather than LBKPIECE
+  projection_evaluator: joints(left_ur_arm_shoulder_pan_joint,left_ur_arm_shoulder_lift_joint)
+  longest_valid_segment_fraction: 0.01
 right_ur_arm:
   default_planner_config: ""
   planner_configs:
