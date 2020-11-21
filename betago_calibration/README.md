@@ -21,7 +21,7 @@ put this file in to `~/.gazebo/models/`, then you can load the kalibr_tag direct
     roslaunch betago_calibration rviz.launch
     rosrun betago_calibration cam_laser_calibration_node _mode:=intrinsic
     ```
-2. Calibratie camera intrinsic. Refer to [kalibr](https://github.com/ethz-asl/kalibr/wiki/multiple-camera-calibration#2-running-the-calibration). An example:
+2. Calibrate camera intrinsic. Refer to [kalibr](https://github.com/ethz-asl/kalibr/wiki/multiple-camera-calibration#2-running-the-calibration). An example:
 
     ```
     kalibr_calibrate_cameras --bag ../BetaGo/BetaGo_ws/src/betago_calibration/calib_raw_data/intrinsic/image_scan.bag --topics /camera/rgb/image_raw --models pinhole-radtan --target ../BetaGo/BetaGo_ws/src/betago_calibration/calibration_target/kalibr_tag/april_6x6_80x80cm.yaml

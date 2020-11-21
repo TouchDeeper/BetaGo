@@ -2,9 +2,15 @@
     <arg name="dual_arm" default="false" />
     <arg name="world_name" default="worlds/empty.world" />
     <arg name="eye_on_hand" default="false"/>
+    <arg name="init_x" default="3"/>
+    <arg name="init_y" default="-2"/>
+    <arg name="init_z" default="4"/>
     <!-- Launch Gazebo ur_gazebo_controller -->
     <include file="$(find betago_gazebo)/launch/ridgeback/ridgeback_world.launch" >
         <arg name="world_name" value="$(arg world_name)" />
+        <arg name="init_x" value="$(arg init_x)"/>
+        <arg name="init_y" value="$(arg init_y)"/>
+        <arg name="init_z" value="$(arg init_z)"/>
     </include>
 
     <!-- ros_control arm launch file -->

@@ -83,24 +83,21 @@ void Calibration::SetMultiplePoseofCalibrBoard(){
     for(int i=0;i<100;i++){
         std::vector<double> translate_euler_n = translate_euler;
         for (int j = 0; j < 2; ++j) {
-            translate_euler[j] = td::UniformSampling(min_max[j][0],min_max[j][1]);
+            translate_euler_n[j] = td::UniformSampling(min_max[j][0],min_max[j][1]);
         }
         if(mode_ == "intrinsic")
-            translate_euler[2] = td::UniformSampling(min_max[2][0], min_max[2][1]);
+            translate_euler_n[2] = td::UniformSampling(min_max[2][0], min_max[2][1]);
 
-        Eigen::Vector3d _euler2n;
+        Eigen::Vector3d _euler2n = Eigen::Vector3d::Zero();
         for (int k = 0; k < 3; ++k) {
             _euler2n[k] = td::UniformSampling(min_max[k+3][0],min_max[k+3][1]);
         }
+//        _euler2n[2] = td::UniformSampling(min_max[5][0],min_max[5][1]);
         Eigen::Matrix3d _R2n = td::EulerToRotation(_euler2n);
         Eigen::Matrix3d _Rn = R2 * _R2n;
-        Eigen::Vector3d _eulern = td::RotationToEulerAngle(_Rn);
 
-        translate_euler_n[3] = _eulern[0];
-        translate_euler_n[4] = _eulern[1];
-        translate_euler_n[5] = _eulern[2];
-
-        Sophus::SE3d posen =  td::EulerTranslatetoSE3(translate_euler_n);
+        Eigen::Vector3d tn(translate_euler_n[0],translate_euler_n[1],translate_euler_n[2]);
+        Sophus::SE3d posen(_Rn,tn);
         tdros::SetPosition(pose_pub_,calibr_board_name_,posen,60,80);
         recordBag(nh_,topic_name_,bag_);
         ros::Duration(1).sleep();
