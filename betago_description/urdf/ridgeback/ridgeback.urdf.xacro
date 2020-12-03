@@ -317,6 +317,9 @@
   <xacro:include filename="$(find betago_description)/urdf/sensors/kinect_prefix.urdf.xacro" />
   <sensor_kinect  parent="base_link"/>
   <prefix_sensor_kinect prefix="left_hand" parent="left_ur_arm_ee_link" cam_px="0.05" cam_py="0" cam_pz="-0.1" cam_or="${pi}" cam_op="0" cam_oy="0"/>
+
+
+
 <!--  <xacro:include filename="$(find betago_description)/urdf/sensors/kinect_gazebo.xacro" />-->
 <!--  <xacro:kinect_camera prefix="kinect" />-->
 <!--  <joint name="camera_joint" type="fixed">-->
