@@ -2,16 +2,34 @@ cmake_minimum_required(VERSION 2.8.3)
 project(betago_navigation)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
-# add_compile_options(-std=c++11)
+ add_compile_options(-std=c++11)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  roscpp
-  rospy
-  std_msgs
+  td_ros
+  roscpp rospy std_msgs tf
 )
+set(OpenCV_DIR "/usr/local/share/OpenCV")
+# OpenCV
+find_package(OpenCV REQUIRED)
+include_directories(${OPENCV_INCLUDE_DIRS})
+link_directories(${OpenCV_LIBRARY_DIRS})
+if(OpenCV_FOUND)
+ MESSAGE(STATUS "OPENCV_INCLUDE_DIRS =  ${OPENCV_INCLUDE_DIRS}")
+ MESSAGE(STATUS "OpenCV_LIBRARY_DIRS =  ${OpenCV_LIBRARY_DIRS}")
+ MESSAGE(STATUS "OpenCV_LIBRARIES =  ${OpenCV_LIBRARIES}")
+endif()
+
+#TdLib
+set(TdLib_DIR "/home/wang/CLionProjects/TdLibrary/install/lib/CMake/TdLib/")
+find_package(TdLib REQUIRED)
+include_directories(${TdLib_INCLUDE_DIRS})
+MESSAGE(STATUS "TdLib_INCLUDE_DIRS = " ${TdLib_INCLUDE_DIRS})
+
+#template sophus
+include_directories(/home/wang/slam/thirdparty/Sophus/install/include)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -103,9 +121,9 @@ find_package(catkin REQUIRED COMPONENTS
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
+  INCLUDE_DIRS include
 #  LIBRARIES betago_navigation
-#  CATKIN_DEPENDS roscpp rospy std_msgs
+   CATKIN_DEPENDS roscpp rospy std_msgs tf
 #  DEPENDS system_lib
 )
 
@@ -116,7 +134,7 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
+ include
   ${catkin_INCLUDE_DIRS}
 )
 
@@ -133,8 +151,12 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/betago_navigation_node.cpp)
-
+add_executable(odometry_output_node src/odometry_output_node.cpp)
+target_link_libraries(odometry_output_node
+        TdLib
+        ${catkin_LIBRARIES}
+        ${OpenCV_LIBRARIES}
+        )
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
