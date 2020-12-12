@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+        gazebo_ros
     interactive_markers
     moveit_core
     moveit_visual_tools
