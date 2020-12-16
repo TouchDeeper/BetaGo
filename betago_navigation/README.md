@@ -27,7 +27,7 @@ This is navigation package for BetaGo.
 ![kinect + lidar + odom mapping result](../media/rtabmap_3.png)
 
 ### VINS-Fusion
-1. calibrate the realsense d435i first according to `betago_calibration/doc/rs_d435i_calibration.launch`
+1. calibrate the realsense d435i first according to `betago_calibration/doc/rs_d435i_calibration.md`
 2. copy the `rs_vins_fusion.launch` to realsense_ws and `roslaunch realsense2_camera rs_vins_fusion.launch `
 3. copy the yaml file in `config/vins-fusion` to `vins_fusion_ws/VINS-Fsuion/realsense_d443i/`
 4. in vins_ws:
