@@ -1,4 +1,16 @@
 # D435i Calibration
+## SDK installation
+| Required Info                         |                                                                |
+|---------------------------------|------------------------------------------- |
+| Camera Model                       | D400 | 
+| Firmware Version                   | 05.12.09.00 | 
+| Operating System & Version |   Ubuntu 16 | 
+| Kernel Version (Linux Only)    |  4.15.0-128-generic             | 
+| Platform                                 | PC |
+| SDK Version                            |  2.40.0                      | 
+| Language                            | C                         | 
+| Segment			|  Robot                  | 
+| installation Method			|  backend installation refer to https://github.com/IntelRealSense/librealsense/blob/master/doc/libuvc_installation.md                  | 
 ## IMU
 ### Intrinsic calibration
 refert to [IMU_calibration_tool](https://dev.intelrealsense.com/docs/imu-calibration-tool-for-intel-realsense-depth-camera)
@@ -6,7 +18,26 @@ refert to [IMU_calibration_tool](https://dev.intelrealsense.com/docs/imu-calibra
 the `rs-imu-calibration` is in the [librealsense root]//tools/rs-imu-calibration
 
 ### Allan analysis
-- matlab installation. Refer to [csdn](https://blog.csdn.net/hitzijiyingcai/article/details/81989031)
+- matlab installation. Refer to [here](https://www.jianshu.com/p/3db9122e5bec)
+    - choose the `license_standalone.lic` instead of the `license_server.lic`.
+    - install `matlab-support`, `sudo apt-get install matlab-support`
+    - start matlab, `sudo /usr/local/MATALB/R2018a/bin/matlab`
+        - if error `Version `GLIBCXX_3.4.22' not found` occur, refer to [solution](https://stackoverflow.com/a/46613765)
+    - make start up icon. `sudo gedit /usr/share/applications/matlab.desktop`, add the content to the gedit and modify to your case.
+        ```
+        [Desktop Entry]
+        Type=Application
+        Name=Matlab
+        GenericName=MATLAB
+        Comment=Matlab:The Language of Technical Computing
+        Exec=sh /home/td/MATLAB/R2018a/bin/matlab -desktop
+        Icon=/home/td/MATLAB/R2018a/toolbox/shared/dastudio/resources/MatlabIcon.png
+        StartupNotify=true
+        Terminal=false
+        Categories=Development;Matlab;
+        ```
+     - In the end, `sudo rm -rf .matlab`.
+
 - record the imu bag exceeds 2 hours.
     1. move the `rs_d435i_calibration.launch` in this directory to the realsense_ws and run it to start the realsense d435i. The mainly modification is to set `<arg name="unite_imu_method"          default="linear_interpolation"/>`.
     2. ` rosbag record -O imu_calibration /camera/imu`
@@ -33,13 +64,17 @@ the `rs-imu-calibration` is in the [librealsense root]//tools/rs-imu-calibration
         1. replace `find_package(Eigen3 REQUIRED)` to `include_directories("/usr/local/include/eigen3" )` in the CMakeLists.txt
         2. delete the Eigen in `catkin_package` in the CMakeLists.txt
  3. if Matlab is not found
-    - set the `MATLAB_ROOT` to your installation path, in my case, add `set(MATLAB_ROOT /home/td/MATLAB/R2016b)` in the CMakeLists.txt.
+    - change the `MATLAB_EXE_PATH` in `bagconvert//FindMatlab.cmake` like below:
+        ```
+          find_program(MATLAB_EXE_PATH matlab
+              PATHS /usr/local/MATLAB/R2018a/bin)
+        ```
     - delete the `build` and `devel` and `catkin_make`.
  4. `rosrun bagconvert bagconvert [your.bag] [imu_topic_name]` to convert the bag to mat
  5. modify the `mat_path` and `update_rate` to your case in SCRIPT_allan_matparallel.m, then run it.
  
  ## Camera
- ### Intrinsic and extrinsic of infra1, infra2 and color camera joint calibration using Kalibr
+ ### <a id="multi-camera">  Intrinsic and extrinsic of infra1, infra2 and color camera joint calibration using Kalibr </a>
  
  1. Install Kalibr
  2. prepare calibration target.
@@ -68,10 +103,20 @@ the `rs-imu-calibration` is in the [librealsense root]//tools/rs-imu-calibration
         cam2:
             T_cn_cnm1:
         ```
- ## Camera-imu joint calibration
- 1. 
- 2. record bag, `rosbag record -O imu_infra_left.bag /infra_left /imu`
+ ## infra1, infra2, imu joint calibration
+ 1. copy the `rs_imu_camera_kalibr.launch` in this directory to realsense_ws,
+ 2. `roslaunch realsense2_camera rs_imu_camera_kalibr.launch`
+    - you can check the fps of `/infra1_left`, `/infra_right` and `/IMU` by `rostopic hz /infra_left /infra_right /imu`, then modify the fps argument in the below node in `rs_imu_camera_kalibr.launch` to make the image fps approximately 
+    ```
+      <node name="throttle_infra1" pkg="topic_tools" type="throttle" args="messages /camera/infra1/image_rect_raw 30.0 /infra_left" />
+      <node name="throttle_infra2" pkg="topic_tools" type="throttle" args="messages /camera/infra2/image_rect_raw 30.0 /infra_right" />
+      <node name="throttle_imu" pkg="topic_tools" type="throttle" args="messages /camera/imu 262 /imu" />
+    ```
+    - If timestamp of IMU have two kinds of base number, sometime the secs of timestamp is like 1608015601, sometime the secs of timestamp is like 3216031523, you can refer to this [issuse](https://github.com/IntelRealSense/realsense-ros/issues/1569) for detail. A quick fix is set the `initial_rest` to true in `rs_imu_camera_kalibr.launch`
+ 2. record bag, `rosbag record -O imu_infra_left.bag /infra_left /infra_right /imu`
  3. calibration
     ```
-    kalibr_calibrate_imu_camera --bag imu_infra_left.bag --cam camchain-multi_camera1.yaml --imu imu.yaml --target ../kalibr_target/april_6x6_50x50cm.yaml
+    kalibr_calibrate_imu_camera --bag imu_infra1_infra2.bag --cam camera-imu-yaml/camchain-multi_camera1.yaml --imu camera-imu-yaml/imu.yaml --target ../kalibr_target/april_6x6_50x50cm.yaml
     ```
+    - the `camchain-multi_camera1.yaml` is the result of [multi-camera-calibration](#multi-camera). Here we just calibrate the `/infra1_left`, `/infra_right` and `/IMU`, so we need to delete the color camera related content.
+    - `imu.yaml` is the result of `imu_utils`, but you need to write the `imu.yaml` by yourself according to this [tutorial](https://github.com/ethz-asl/kalibr/wiki/yaml-formats#imu-configuration-imuyaml)

@@ -15,7 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
         td_ros
 )
 #TdLib
-set(TdLib_DIR "/home/wang/CLionProjects/TdLibrary/install/lib/CMake/TdLib/")
+set(TdLib_DIR "/home/td/slam/install/TdLib/lib/CMake/TdLib/")
 find_package(TdLib REQUIRED)
 include_directories(${TdLib_INCLUDE_DIRS})
 MESSAGE(STATUS "TdLib_INCLUDE_DIRS = " ${TdLib_INCLUDE_DIRS})

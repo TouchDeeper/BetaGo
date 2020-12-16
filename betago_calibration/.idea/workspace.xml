@@ -10,8 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9bd8f98-3af3-40e1-84fc-4b01170a32b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/rs_d435i_calibration.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/rs_d435i_calibration.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +93,7 @@
       <workItem from="1607678241488" duration="9027000" />
       <workItem from="1607699830199" duration="846000" />
       <workItem from="1607752661965" duration="8292000" />
+      <workItem from="1607837778089" duration="9000" />
     </task>
     <servers />
   </component>

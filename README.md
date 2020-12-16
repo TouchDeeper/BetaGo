@@ -42,7 +42,15 @@ clone this repositories and build
 git clone --recursive git@github.com:TouchDeeper/BetaGo.git src/
 catkin_make
 ```
-
+Possible problem: 
+1. 
+ ```
+  catkin_package() include dir 'include' does not exist relative to
+    '[package_path]'
+  ```
+   - solution: add `include` directory in the `[package_path]`
+2. `No rule to make target '/usr/lib/x86_64-linux-gnu/libproj.so`
+    - solution: `sudo ln -s  /usr/lib/x86_64-linux-gnu/libproj.so.9 /usr/lib/x86_64-linux-gnu/libproj.so`
 ### Simulation
 - ur5 and allegro_hand are imported by environment variable RIDGEBACK_URDF_EXTRAS. RIDGEBACK_URDF_EXTRAS = your workspace path/src/betago_description/urdf/betago/ridgeback_urdf_extras.xacro
      - method1: set temporary environment variable:`export RIDGEBACK_URDF_EXTRAS=~/BetaGo_ws/src/betago_description/urdf/betago/ridgeback_urdf_extras.xacro`

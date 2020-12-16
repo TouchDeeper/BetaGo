@@ -32,9 +32,12 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## System dependencies are found with CMake's conventions
 find_package(Boost REQUIRED system filesystem date_time thread)
-
+# add Eigen header files
+include_directories( "/usr/local/include/eigen3" )
+#template sophus
+include_directories("/home/td/slam/install/sophus/include")
 #TdLib
-set(TdLib_DIR "/home/wang/CLionProjects/TdLibrary/install/lib/CMake/TdLib/")
+set(TdLib_DIR "/home/td/slam/install/TdLib/lib/CMake/TdLib/")
 find_package(TdLib REQUIRED)
 include_directories(${TdLib_INCLUDE_DIRS})
 MESSAGE(STATUS "TdLib_INCLUDE_DIRS = " ${TdLib_INCLUDE_DIRS})
@@ -162,8 +165,7 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
   ${GAZEBO_INCLUDE_DIRS}
 )
-# add Eigen header files
-include_directories( "/usr/local/include/eigen3" )
+
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/betago_calibration.cpp
@@ -201,6 +203,11 @@ target_link_libraries(cam_laser_calibration_node ${catkin_LIBRARIES} calibration
 
 add_executable(hand_eye_move src/hand_eye_move.cpp)
 target_link_libraries(hand_eye_move ${catkin_LIBRARIES} ${Boost_LIBRARIES} TdLib)
+
+add_executable(output_timestamp src/output_timestamp.cpp)
+target_link_libraries(output_timestamp ${catkin_LIBRARIES} TdLib)
+
+add_executable(inverse src/inverese.cpp)
 #add_executable(tf_listener_test src/listener_test.cpp)
 #############
 ## Install ##

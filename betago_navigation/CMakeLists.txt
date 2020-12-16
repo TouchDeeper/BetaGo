@@ -21,15 +21,16 @@ if(OpenCV_FOUND)
  MESSAGE(STATUS "OpenCV_LIBRARY_DIRS =  ${OpenCV_LIBRARY_DIRS}")
  MESSAGE(STATUS "OpenCV_LIBRARIES =  ${OpenCV_LIBRARIES}")
 endif()
-
+# add Eigen header files
+include_directories( "/usr/local/include/eigen3" )
 #TdLib
-set(TdLib_DIR "/home/wang/CLionProjects/TdLibrary/install/lib/CMake/TdLib/")
+set(TdLib_DIR "/home/td/slam/install/TdLib/lib/CMake/TdLib/")
 find_package(TdLib REQUIRED)
 include_directories(${TdLib_INCLUDE_DIRS})
 MESSAGE(STATUS "TdLib_INCLUDE_DIRS = " ${TdLib_INCLUDE_DIRS})
 
 #template sophus
-include_directories(/home/wang/slam/thirdparty/Sophus/install/include)
+include_directories(/home/td/slam/install/sophus/include)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)

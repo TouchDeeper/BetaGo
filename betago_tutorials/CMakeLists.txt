@@ -133,12 +133,13 @@ catkin_package(
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
-include_directories(
-# include
-  ${catkin_INCLUDE_DIRS}
-)
 # add Eigen header files
 include_directories( "/usr/local/include/eigen3" )
+include_directories(
+ include
+  ${catkin_INCLUDE_DIRS}
+)
+
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}

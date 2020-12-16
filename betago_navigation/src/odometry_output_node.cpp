@@ -8,7 +8,7 @@
 #include <td_ros/publisher/odometry_publisher.hpp>
 #include <TdLibrary/slam_tool/output.hpp>
 #include <TdLibrary/FileOperation/file_manager.hpp>
-#include <sophus/se3.hpp>
+#include "sophus/se3.hpp"
 
 using namespace tdros;
 
