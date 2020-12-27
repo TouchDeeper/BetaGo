@@ -26,8 +26,8 @@
     <arg name="config" value="$(arg config)" />
   </include>
   <include file="$(find betago_control)/launch/ridgeback/control.launch" />
-  <include file="$(find ridgeback_control)/launch/teleop.launch">
-    <arg name="joystick" value="false"/>
+  <include file="$(find betago_control)/launch/ridgeback/teleop.launch">
+    <arg name="joystick" value="true"/>
   </include>
 
   <rosparam param="/gazebo_ros_control/pid_gains">

@@ -1,9 +1,54 @@
 # rqt Tutorial for BetaGo 
+## Dependencies
+- `pip install matplotlib`
+- 
+```
+  sudo apt-get install ros-kinetic-rqt
+  sudo apt-get install ros-kinetic-rqt-common-plugins
+  ```
 ## rqt_bag
 `rosrun rqt_bag rqt_bag`
 record or open a  bag.
 - Troubleshooting 
     - Unindexed bag: `rosbag reindex [your_bag]`
+
+## [rqt_plot](http://wiki.ros.org/rqt_plot)
+
+note:
+ 1. the format of the value, for example, we want to view the angular velocity along Z axis of `/ridgeback_velocity_controller/odom`, 
+    - `rostopic info /ridgeback_velocity_controller/odom `, it is a type of `nav_msgs/Odometry`
+    - `rosmsg show nav_msgs/Odometry`, the output is below, so the topic you need type in rqt_plot_gui is `/ridgeback_velocity_controller/odom/twist/twist/angular/z`
+        ```
+        std_msgs/Header header
+          uint32 seq
+          time stamp
+          string frame_id
+        string child_frame_id
+        geometry_msgs/PoseWithCovariance pose
+          geometry_msgs/Pose pose
+            geometry_msgs/Point position
+              float64 x
+              float64 y
+              float64 z
+            geometry_msgs/Quaternion orientation
+              float64 x
+              float64 y
+              float64 z
+              float64 w
+          float64[36] covariance
+        geometry_msgs/TwistWithCovariance twist
+          geometry_msgs/Twist twist
+            geometry_msgs/Vector3 linear
+              float64 x
+              float64 y
+              float64 z
+            geometry_msgs/Vector3 angular
+              float64 x
+              float64 y
+              float64 z
+          float64[36] covariance
+        ```
+   2. zoom out. in the `zoom to rectangle` tool, the left click in zoom in, and the right click is zoom out.
 ## Moveit!
 ### move_group_interface_tutorial
 This section is refer to the  [tutorial](http://docs.ros.org/kinetic/api/moveit_tutorials/html/doc/move_group_interface/move_group_interface_tutorial.html) of the Moveit!

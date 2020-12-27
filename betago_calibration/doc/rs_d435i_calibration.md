@@ -5,6 +5,7 @@
 | Camera Model                       | D400 | 
 | Firmware Version                   | 05.12.09.00 | 
 | Operating System & Version |   Ubuntu 16 | 
+| ros Version |   kinetic | 
 | Kernel Version (Linux Only)    |  4.15.0-128-generic             | 
 | Platform                                 | PC |
 | SDK Version                            |  2.40.0                      | 

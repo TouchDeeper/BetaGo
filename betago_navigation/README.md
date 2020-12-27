@@ -1,10 +1,22 @@
 # Navigation Package for BetaGo 
 This is navigation package for BetaGo.
+## Dependencies
+- Gmapping: `sudo apt-get install ros-kinetic-gmapping*`
+- Cartographer: `sudo apt-get install ros-kinetic-cartographer*`
 ## Simulation
 ### Gmapping
 - read the navigation [tutorial](http://www.clearpathrobotics.com/assets/guides/ridgeback/navigation.html) of the ridgeback
-- change `roslaunch ridgeback_gazebo ridgeback_world.launch` to `roslaunch betago_bringup betago_bringup_moveit.launch`
+- change `roslaunch ridgeback_gazebo ridgeback_world.launch` to `roslaunch betago_navigation navigation_world.launch`
 - The rest is the same as the tutorial said.
+
+### Hector-SLAM
+```
+ roslaunch betago_navigation navigation_world.launch
+ roslaunch betago_navigation hector_demo.launch
+```
+### Cartographer
+
+
 ### rtabmap
 - only kinect
 ```asm
