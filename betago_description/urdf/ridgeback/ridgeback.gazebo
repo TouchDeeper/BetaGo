@@ -61,6 +61,9 @@
   <gazebo reference="front_rocker_link"><material>Gazebo/DarkGrey</material></gazebo>
   <gazebo reference="rear_rocker_link"><material>Gazebo/DarkGrey</material></gazebo>
   <gazebo reference="axle_link"><material>Gazebo/DarkGrey</material></gazebo>
+  <gazebo reference="frame_link"><material>Gazebo/White</material></gazebo>
+  <gazebo reference="connect_Link"><material>Gazebo/White</material></gazebo>
+  <gazebo reference="connect2_Link"><material>Gazebo/White</material></gazebo>
 
   <!-- Wheel friction to zero, as movement is handled by applying forces at
        the body level. -->
