@@ -1,0 +1,236 @@
+allegro:
+  right_1_controller:
+    type: "effort_controllers/JointTrajectoryController"
+    joints:
+      - joint_0
+      - joint_1
+      - joint_2
+      - joint_3
+
+    gains:
+      joint_0:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_1:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_2:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_3:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+    constraints:
+        goal_time: 0.6
+        stopped_velocity_tolerance: 0.05
+        joint_0: {trajectory: 0.1, goal: 0.1}
+        joint_1: {trajectory: 0.1, goal: 0.1}
+        joint_2 : {trajectory: 0.1, goal: 0.1}
+        joint_3: {trajectory: 0.1, goal: 0.1}
+    stop_trajectory_duration: 0.5
+    state_publish_rate:  25
+    action_monitor_rate: 10
+#  right_3_controller:
+#    type: "effort_controllers/JointTrajectoryController"
+#    joints:
+#      - joint_4
+#      - joint_5
+#      - joint_6
+#      - joint_7
+#    gains:
+#      joint_4:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      joint_5:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      joint_6:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      joint_7:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#
+#  right_4_controller:
+#    type: "effort_controllers/JointTrajectoryController"
+#    joints:
+#      - joint_8
+#      - joint_9
+#      - joint_10
+#      - joint_11
+#    gains:
+#      joint_8:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      joint_9:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      joint_10:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      joint_11:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#
+#  right_2_controller:
+#    type: "effort_controllers/JointTrajectoryController"
+#    joints:
+#      - joint_12
+#      - joint_13
+#      - joint_14
+#      - joint_15
+#    gains:
+#      joint_12:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      joint_13:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      joint_14:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      joint_15:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#
+  right_hand_controller:
+    type: "effort_controllers/JointTrajectoryController"
+    joints:
+      - joint_0
+      - joint_1
+      - joint_2
+      - joint_3
+      - joint_12
+      - joint_13
+      - joint_14
+      - joint_15
+      - joint_4
+      - joint_5
+      - joint_6
+      - joint_7
+      - joint_8
+      - joint_9
+      - joint_10
+      - joint_11
+
+    gains:
+      joint_0:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_1:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_2:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_3:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_4:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_5:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_6:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_7:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_8:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_9:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_10:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_11:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_12:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_13:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_14:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+      joint_15:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+
+    constraints:
+      goal_time: 0.6
+      stopped_velocity_tolerance: 0.05
+      joint_0: {trajectory: 0.1, goal: 0.1}
+      joint_1: {trajectory: 0.1, goal: 0.1}
+      joint_2 : {trajectory: 0.1, goal: 0.1}
+      joint_3: {trajectory: 0.1, goal: 0.1}
+      joint_4: {trajectory: 0.1, goal: 0.1}
+      joint_5: {trajectory: 0.1, goal: 0.1}
+      joint_6: {trajectory: 0.1, goal: 0.1}
+      joint_7: {trajectory: 0.1, goal: 0.1}
+      joint_8: {trajectory: 0.1, goal: 0.1}
+      joint_9: {trajectory: 0.1, goal: 0.1}
+      joint_10: {trajectory: 0.1, goal: 0.1}
+      joint_11: {trajectory: 0.1, goal: 0.1}
+      joint_12: {trajectory: 0.1, goal: 0.1}
+      joint_13: {trajectory: 0.1, goal: 0.1}
+      joint_14: {trajectory: 0.1, goal: 0.1}
+      joint_15: {trajectory: 0.1, goal: 0.1}
+    stop_trajectory_duration: 0.5
+    state_publish_rate:  25
+    action_monitor_rate: 10
+#  left_1_controller:
+#    type: "effort_controllers/JointTrajectoryController"
+#    joints:
+#      - left_joint_0
+#      - left_joint_1
+#      - left_joint_2
+#      - left_joint_3
+#
+#    gains:
+#      left_joint_0:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_1:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_2:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_3:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#
+#  left_3_controller:
+#    type: "effort_controllers/JointTrajectoryController"
+#    joints:
+#      - left_joint_4
+#      - left_joint_5
+#      - left_joint_6
+#      - left_joint_7
+#    gains:
+#      left_joint_4:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_5:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_6:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_7:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#
+#  left_4_controller:
+#    type: "effort_controllers/JointTrajectoryController"
+#    joints:
+#      - left_joint_8
+#      - left_joint_9
+#      - left_joint_10
+#      - left_joint_11
+#    gains:
+#      left_joint_8:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_9:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_10:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_11:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#
+#  left_2_controller:
+#    type: "effort_controllers/JointTrajectoryController"
+#    joints:
+#      - left_joint_12
+#      - left_joint_13
+#      - left_joint_14
+#      - left_joint_15
+#    gains:
+#      left_joint_12:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_13:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_14:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_15:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#
+#  left_hand_controller:
+#    type: "effort_controllers/JointTrajectoryController"
+#    joints:
+#      - left_joint_0
+#      - left_joint_1
+#      - left_joint_2
+#      - left_joint_3
+#      - left_joint_12
+#      - left_joint_13
+#      - left_joint_14
+#      - left_joint_15
+#      - left_joint_4
+#      - left_joint_5
+#      - left_joint_6
+#      - left_joint_7
+#      - left_joint_8
+#      - left_joint_9
+#      - left_joint_10
+#      - left_joint_11
+#
+#    gains:
+#      left_joint_0:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_1:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_2:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_3:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_4:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_5:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_6:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_7:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_8:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_9:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_10:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_11:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_12:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_13:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_14:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#      left_joint_15:  {p: 50.0, d: 0.1, i: 0.01, i_clamp: 0.0}
+#
+#    constraints:
+#        goal_time: 0.6
+#        stopped_velocity_tolerance: 0.05
+#        left_joint_0: {trajectory: 0.1, goal: 0.1}
+#        left_joint_1: {trajectory: 0.1, goal: 0.1}
+#        left_joint_2 : {trajectory: 0.1, goal: 0.1}
+#        left_joint_3: {trajectory: 0.1, goal: 0.1}
+#        left_joint_4: {trajectory: 0.1, goal: 0.1}
+#        left_joint_5: {trajectory: 0.1, goal: 0.1}
+#        left_joint_6: {trajectory: 0.1, goal: 0.1}
+#        left_joint_7: {trajectory: 0.1, goal: 0.1}
+#        left_joint_8: {trajectory: 0.1, goal: 0.1}
+#        left_joint_9: {trajectory: 0.1, goal: 0.1}
+#        left_joint_10: {trajectory: 0.1, goal: 0.1}
+#        left_joint_11: {trajectory: 0.1, goal: 0.1}
+#        left_joint_12: {trajectory: 0.1, goal: 0.1}
+#        left_joint_13: {trajectory: 0.1, goal: 0.1}
+#        left_joint_14: {trajectory: 0.1, goal: 0.1}
+#        left_joint_15: {trajectory: 0.1, goal: 0.1}
+#    stop_trajectory_duration: 0.5
+#    state_publish_rate:  25
+#    action_monitor_rate: 10

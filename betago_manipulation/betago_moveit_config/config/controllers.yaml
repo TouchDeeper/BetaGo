@@ -17,52 +17,52 @@ controller_list:
       - right_ur_arm_wrist_1_joint
       - right_ur_arm_wrist_2_joint
       - right_ur_arm_wrist_3_joint
-#  - name: arm/left_ur_arm_controller
-#    action_ns: follow_joint_trajectory
-#    type: FollowJointTrajectory
-#    default: true
-#    joints:
-#      - left_ur_arm_shoulder_pan_joint
-#      - left_ur_arm_shoulder_lift_joint
-#      - left_ur_arm_elbow_joint
-#      - left_ur_arm_wrist_1_joint
-#      - left_ur_arm_wrist_2_joint
-#      - left_ur_arm_wrist_3_joint
-#
-#  - name: arm/right_ur_arm_controller
-#    action_ns: follow_joint_trajectory
-#    type: FollowJointTrajectory
-#    default: true
-#    joints:
-#      - right_ur_arm_shoulder_pan_joint
-#      - right_ur_arm_shoulder_lift_joint
-#      - right_ur_arm_elbow_joint
-#      - right_ur_arm_wrist_1_joint
-#      - right_ur_arm_wrist_2_joint
-#      - right_ur_arm_wrist_3_joint
-  - name: allegro/right_hand_controller
+  - name: arm/left_ur_arm_controller
     action_ns: follow_joint_trajectory
     type: FollowJointTrajectory
     default: true
     joints:
-      - joint_0
-      - joint_1
-      - joint_2
-      - joint_3
-      - joint_12
-      - joint_13
-      - joint_14
-      - joint_15
-      - joint_4
-      - joint_5
-      - joint_6
-      - joint_7
-      - joint_8
-      - joint_9
-      - joint_10
-      - joint_11
+      - left_ur_arm_shoulder_pan_joint
+      - left_ur_arm_shoulder_lift_joint
+      - left_ur_arm_elbow_joint
+      - left_ur_arm_wrist_1_joint
+      - left_ur_arm_wrist_2_joint
+      - left_ur_arm_wrist_3_joint
 
-# 
+  - name: arm/right_ur_arm_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - right_ur_arm_shoulder_pan_joint
+      - right_ur_arm_shoulder_lift_joint
+      - right_ur_arm_elbow_joint
+      - right_ur_arm_wrist_1_joint
+      - right_ur_arm_wrist_2_joint
+      - right_ur_arm_wrist_3_joint
+#  - name: allegro/right_hand_controller
+#    action_ns: follow_joint_trajectory
+#    type: FollowJointTrajectory
+#    default: true
+#    joints:
+#      - joint_0
+#      - joint_1
+#      - joint_2
+#      - joint_3
+#      - joint_12
+#      - joint_13
+#      - joint_14
+#      - joint_15
+#      - joint_4
+#      - joint_5
+#      - joint_6
+#      - joint_7
+#      - joint_8
+#      - joint_9
+#      - joint_10
+#      - joint_11
+
+
 #  - name: arm/left_hand_controller
 #    action_ns: follow_joint_trajectory
 #    type: FollowJointTrajectory

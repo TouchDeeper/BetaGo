@@ -1,5 +1,5 @@
  <launch>
-    <!-- publish joint state of the simulation robot -->
+    <!-- publish /joint_state of the simulation robot -->
     <rosparam file="$(find betago_control)/config/joint_state_controller.yaml" command="load"/>
 
     <node name="joint_controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
@@ -8,6 +8,8 @@
     <!-- publish tf  -->
     <!--node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
         respawn="false" output="screen"-->
-    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" >
+        <param name="publish_frequency" type="double" value="10.0" />
+    </node>
 
 </launch>

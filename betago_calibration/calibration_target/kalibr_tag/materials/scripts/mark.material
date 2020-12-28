@@ -1,0 +1,15 @@
+material Kalibr_tag/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture april_6x6_80x80cm.png
+        filtering anistropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

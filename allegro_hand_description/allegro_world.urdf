@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <link name="virtuallink" />
+    <gazebo reference="virtuallink">
+        <material>Gazebo/Gray</material>
+    </gazebo>
+    <joint name="virtualjoint" type="fixed">
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <parent link="virtuallink" />
+        <child link="base_link" />
+    </joint>
+    <link name="base_link">
+        <visual>
+			    <origin xyz=" 0 0 0.02"  rpy="0 0 0"/>
+			    <geometry>
+				      <box size="1 1 0.02" />
+			    </geometry>
+			    <material name="Black" />
+        </visual>
+        <collision>
+            <origin xyz=" 0 0 0.02"  rpy="0 0 0"/>
+            <geometry>
+                <box size="1 1 0.02" />
+            </geometry>
+        </collision>
+        <box_inertial_matrix m="1000" w="1" h="0.02" d="1"/>
+    </link>
+    <joint name="base_stand_joint" type="fixed">
+        <origin xyz="0 0 0.095" rpy="0 0 0" />        
+        <parent link="base_link"/>
+        <child link="palm_link" />
+    </joint>
+</robot>

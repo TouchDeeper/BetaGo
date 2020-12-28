@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<sdf version='1.4'>
+  <model name="aruco_a4_100x100">
+    <static>true</static>
+    <link name='link'>
+<!--      <gravity>0</gravity>-->
+
+      <pose>0 0 0 0 0 0</pose>
+      <inertial>
+        <mass>0.1</mass>
+          <inertia>
+          <ixx>0.000166667</ixx>
+          <iyy>0.000166667</iyy>
+          <izz>0.000166667</izz>
+        </inertia>
+      </inertial>
+      <collision name='collision'>
+        <geometry>
+                <box>
+<!--                    A4 paper-->
+                  <size>0.297 0.21 0.005</size>
+                </box>
+        </geometry>
+      </collision>
+
+      <visual name='visual'>
+        <geometry>
+                <box>
+                  <size>0.297 0.21 0.005</size>
+                </box>
+        </geometry>
+
+        <material>
+          <script>
+            <uri>model://aruco_a4_100x100/materials/scripts</uri>
+            <uri>model://aruco_a4_100x100/materials/textures</uri>
+            <name>aruco_a4_100x100/Diffuse</name>
+          </script>
+        </material>
+      </visual>
+    </link>     
+  </model>
+</sdf>

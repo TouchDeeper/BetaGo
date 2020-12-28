@@ -1,0 +1,7 @@
+<launch>
+
+  <!-- By default, we are not in debug mode -->
+  <arg name="debug" default="false" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find betago_calibration)/rviz/hand_eye.rviz" />
+
+</launch>

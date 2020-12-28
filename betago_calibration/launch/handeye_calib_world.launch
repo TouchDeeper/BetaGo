@@ -1,0 +1,22 @@
+<launch>
+    <arg name="dual_arm" default="false" />
+    <arg name="world_name" default="$(find ridgeback_gazebo)/worlds/ridgeback_race.world" />
+    <node name="sdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+          args="
+          -file $(env GAZEBO_MODEL_PATH)/aruco_a4_100x100/model.sdf
+          -sdf
+          -model aruco_a4
+          -x 3.81
+          -y -1.70
+          -z 0.345
+          -R 0.00
+          -P 0.00
+          -Y 3.10"/>
+
+    <include file="$(find betago_bringup)/launch/betago_bringup_moveit.launch">
+        <arg name="dual_arm" value="$(arg dual_arm)" />
+        <arg name="world_name" value="$(arg world_name)" />
+        <arg name="eye_on_hand" value="true"/>
+    </include>
+
+</launch>

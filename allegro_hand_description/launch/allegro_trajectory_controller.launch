@@ -1,0 +1,5 @@
+<launch>
+    <rosparam file="$(find allegro_hand_description)/controller/allegro_controller.yaml" command="load"/>
+    <node name="allegro_controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+          output="screen" args="allegro/right_hand_controller"/>
+</launch>

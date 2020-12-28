@@ -1,0 +1,11 @@
+ <launch>
+    <rosparam file="$(find allegro_hand_description)/controller/joint_state_controller.yaml" command="load"/>
+
+    <node name="joint_controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+          output="screen" args="joint_state_controller" />
+
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+        respawn="false" output="screen">
+    </node>
+
+</launch>

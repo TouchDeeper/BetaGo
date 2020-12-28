@@ -1,20 +1,38 @@
 <launch>
   <arg name="sim" default="false" />
+  <!-- By default, we do not start a database (it can be large) -->
+  <arg name="db" default="false" />
+  <!-- Allow user to specify database location -->
+  <arg name="db_path" default="$(find betago_moveit_config)/default_warehouse_mongo_db" />
+
+  <!-- By default, we are not in debug mode -->
   <arg name="debug" default="false" />
+
+  <!-- Load the URDF, SRDF and other .yaml configuration files on the param server -->
+  <include file="$(find betago_moveit_config)/launch/planning_context.launch">
+<!--    we have load robot_description in description.launch, here is no need to load robot description-->
+    <arg name="load_robot_description" value="false"/>
+  </include>
 
   <!-- Remap follow_joint_trajectory -->
   <!--remap if="$(arg sim)" from="/follow_joint_trajectory" to="/left_ur_arm_controller/follow_joint_trajectory"/-->
-
+  <!-- Load the URDF, SRDF and other .yaml configuration files on the param server -->
+<!--  <include file="$(find betago_moveit_config)/launch/planning_context.launch">-->
+<!--    <arg name="load_robot_description" value="true"/>-->
+<!--  </include>-->
   <!-- Launch moveit -->
   <include file="$(find betago_moveit_config)/launch/move_group.launch">
     <arg name="debug" default="$(arg debug)" />
   </include>
   <!--The visualization component of MoveIt!-->
-  <include file="$(find betago_moveit_config)/launch/moveit_rviz.launch"/>
+<!--  <include file="$(find betago_moveit_config)/launch/moveit_rviz.launch"/>-->
   <!-- We do not have a robot connected, so publish fake joint states -->
   <!--node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
-    <param name="/use_gui" value="false"/> 
+    <param name="/use_gui" value="false"/>
     <rosparam param="/source_list">[/arm/joint_states]</rosparam>
   </node-->
-
+  <!-- If database loading was enabled, start mongodb as well -->
+  <include file="$(find betago_moveit_config)/launch/default_warehouse_db.launch" if="$(arg db)">
+    <arg name="moveit_warehouse_database_path" value="$(arg db_path)"/>
+  </include>
 </launch>

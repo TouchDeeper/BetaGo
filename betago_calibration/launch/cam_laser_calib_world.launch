@@ -1,0 +1,21 @@
+<launch>
+    <arg name="dual_arm" default="false" />
+    <arg name="world_name" default="$(find ridgeback_gazebo)/worlds/ridgeback_race.world" />
+    <node name="sdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+          args="
+          -file $(env GAZEBO_MODEL_PATH)/kalibr_tag/model.sdf
+          -sdf
+          -model kalibr_tag
+          -x 4.54
+          -y -2.02
+          -z 0.5
+          -R 3.14
+          -P -1.570
+          -Y 3.14"/>
+
+    <include file="$(find betago_bringup)/launch/betago_bringup_moveit.launch">
+        <arg name="dual_arm" value="$(arg dual_arm)" />
+        <arg name="world_name" value="$(arg world_name)" />
+    </include>
+
+</launch>

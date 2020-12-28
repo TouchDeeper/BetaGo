@@ -1,14 +1,14 @@
 <launch>
     <arg name="dual_arm" default="true" />
+    <arg name="3d_sensor" value="$(optenv BETAGO_3D_SENSOR kinect)"/>  <!-- kinect, asus_xtion_pro -->
     <!-- Launch Gazebo ur_gazebo_controller -->
     <include file="$(find betago_gazebo)/launch/ridgeback/ridgeback_world.launch" />
 
     <!-- ros_control arm launch file -->
     <include file="$(find betago_control)/launch/betago/betago_states_gazebo.launch" />   
     <!-- ros_control trajectory control dof arm launch file -->
-    <include file="$(find betago_control)/launch/ur5/arm_trajectory_controller.launch">
-      <arg name="dual_arm" value="$(arg dual_arm)" />
-    </include>
-    <include file="$(find betago_control)/launch/allegro_hand/allegro_trajectory_controller.launch" />
-
+<!--    <include file="$(find betago_control)/launch/ur5/arm_trajectory_controller.launch">-->
+<!--      <arg name="dual_arm" value="$(arg dual_arm)" />-->
+<!--    </include>-->
+<!--    <include file="$(find betago_control)/launch/allegro_hand/allegro_trajectory_controller.launch" />-->
 </launch>

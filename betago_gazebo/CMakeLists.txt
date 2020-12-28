@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(betago_gazebo)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
-# add_compile_options(-std=c++11)
+ add_compile_options(-std=c++11)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -11,7 +11,14 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+        gazebo_ros
+        td_ros
 )
+#TdLib
+set(TdLib_DIR "/home/td/slam/install/TdLib/lib/CMake/TdLib/")
+find_package(TdLib REQUIRED)
+include_directories(${TdLib_INCLUDE_DIRS})
+MESSAGE(STATUS "TdLib_INCLUDE_DIRS = " ${TdLib_INCLUDE_DIRS})
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -103,9 +110,9 @@ find_package(catkin REQUIRED COMPONENTS
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES betago_gazebo
-#  CATKIN_DEPENDS roscpp rospy std_msgs
+  INCLUDE_DIRS include
+  LIBRARIES betago_gazebo
+  CATKIN_DEPENDS roscpp rospy std_msgs gazebo_ros td_ros
 #  DEPENDS system_lib
 )
 
@@ -116,8 +123,9 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
+ include
   ${catkin_INCLUDE_DIRS}
+        ${GAZEBO_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
@@ -134,7 +142,12 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/betago_gazebo_node.cpp)
-
+add_executable(set_betago_pose src/set_betago_pose.cpp)
+target_link_libraries(set_betago_pose
+        ${catkin_LIBRARIES}
+        ${GAZEBO_LIBRARIES}
+        TdLib
+        )
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
