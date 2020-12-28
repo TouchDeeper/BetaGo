@@ -97,7 +97,7 @@ export ROS_IP=192.168.131.100
    127.0.1.1	[your-computer-name]
    ```
 6.`rostopic list` in your desktop to see if the topics in the ridgeback have been send to your desktop. If receive the topic, the connection is valid.
-
+7. note!!!: after connection with ridgeback's computer, if your pc also need to run ros, comment out the content added in step 4 and 5 and re-source.
 ### step to login the ridgeback's pc by ssh
 1. `ssh administrator@[IP_ridgeback]`
 ### Step to run the package
