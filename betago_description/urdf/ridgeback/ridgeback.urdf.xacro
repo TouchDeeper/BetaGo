@@ -314,9 +314,13 @@
   <xacro:include filename="$(optenv RIDGEBACK_URDF_EXTRAS empty.urdf)" />
   <!-- sensors -->
   <xacro:include filename="$(find betago_description)/urdf/sensors/kinect.urdf.xacro" />
-  <xacro:include filename="$(find betago_description)/urdf/sensors/kinect_prefix.urdf.xacro" />
   <sensor_kinect  parent="base_link"/>
-  <prefix_sensor_kinect prefix="left_hand" parent="left_ur_arm_ee_link" cam_px="0.05" cam_py="0" cam_pz="-0.1" cam_or="${pi}" cam_op="0" cam_oy="0"/>
+
+  <xacro:include filename="$(find realsense_gazebo_description)/urdf/_d435i.urdf.xacro"/>
+  <xacro:sensor_d435i parent="base_link" name="D435i_camera" topics_ns="D435i_camera"
+                      enable_pointCloud="true" unite_imu_method="linear_interpolation"> <!-- unite_imu_method can be false, copy or linear_interpolation -->
+    <origin xyz="0.25 0.0 0.7" rpy="0.0 0.0 0.0"/>
+  </xacro:sensor_d435i>
 
 
 

@@ -8,6 +8,10 @@ This repository is about the BetaGo robot maintained by South China University o
 ![BetaGo](media/moveit+gazebo.gif)
 
 ## Dependencies
+- ros related
+```
+ sudo apt-get install ros-kinetic-joint-state-publisher-gui
+```
 - moveit-ros packages:
 ```
 sudo apt-get install ros-kinetic-moveit-ros-*

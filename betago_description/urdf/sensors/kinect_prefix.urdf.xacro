@@ -4,7 +4,7 @@
   <xacro:include filename="$(find betago_description)/urdf/sensors/kinect_gazebo_prefix.urdf.xacro"/>
 <!--  <xacro:include filename="$(find betago_description)/urdf/sensors/kinect_properties.urdf.xacro"/>-->
 
-<!--  <xacro:property name="kinect_cam_py" value="-0.0125"/>-->
+  <xacro:property name="kinect_cam_py" value="-0.0125"/>
   <!-- Parameterised in part by the values in kinect_properties.urdf.xacro -->
   <xacro:macro name="prefix_sensor_kinect" params="prefix parent cam_px cam_py cam_pz cam_or cam_op cam_oy">
     <joint name="${prefix}_camera_rgb_joint" type="fixed">

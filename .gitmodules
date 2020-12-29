@@ -7,3 +7,9 @@
 [submodule "gazebo-pkgs"]
 	path = gazebo-pkgs
 	url = https://github.com/JenniferBuehler/gazebo-pkgs.git
+[submodule "realsense_gazebo_description"]
+	path = realsense/realsense_gazebo_description
+	url = https://github.com/TouchDeeper/realsense_gazebo_description.git
+[submodule "realsense/realsense_gazebo_plugin"]
+	path = realsense/realsense_gazebo_plugin
+	url = https://github.com/TouchDeeper/realsense_gazebo_plugin.git
