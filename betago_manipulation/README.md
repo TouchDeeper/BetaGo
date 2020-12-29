@@ -89,8 +89,7 @@ In `name` tag, enter the controller you set in `arm_controller.yaml`.
 this launch file is mainly used to find `ridgeback_world.launch`, `betago_states_gazebo.launch`, `arm_trajectory_controller.launch` and `betago_moveit_planning_executation.launch`.
 
 
-
-5. everytime you run setup assistant to modify the model config, some files don't need to be overwritten.
+11. everytime you run setup assistant to modify the model config, some files don't need to be overwritten.
     
     - confg :
         

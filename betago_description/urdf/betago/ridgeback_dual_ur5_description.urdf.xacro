@@ -10,14 +10,14 @@
   </joint>
   
   <joint name="left_arm_mount_joint" type="fixed">
-    <parent link="connect_Link" />
+    <parent link="connect2_Link" />
     <child link="left_ur_arm_base_link" />
     <origin xyz="0.0 0.0 0.0" rpy="1.5708 0 0" />
   <!--<origin xyz="$(optenv RIDGEBACK_LEFT_UR_XYZ 0.21 0.20 0.0)" rpy="$(optenv RIDGEBACK_LEFT_UR_RPY 0 0 0)"/> -->
   </joint>
 
   <joint name="right_arm_mount_joint" type="fixed">
-    <parent link="connect2_Link" />
+    <parent link="connect_Link" />
     <child link="right_ur_arm_base_link" />
     <origin xyz="0.0 0.0 0.0" rpy="1.5708 3.1416 0" />
   <!-- <origin xyz="$(optenv RIDGEBACK_RIGHT_UR_XYZ 0.21 -0.20 0.0)" rpy="$(optenv RIDGEBACK_RIGHT_UR_RPY 0 0 0)"/> -->
