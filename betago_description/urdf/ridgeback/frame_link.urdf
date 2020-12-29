@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="frame">
+  <link name="basef_link" />
+  <joint name="basef_joint" type="fixed">
+    <parent link="basef_link" />
+    <child link="frame_link" />
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+
+   <link
+    name="frame_link">
+    <inertial>
+      <origin
+        xyz="5.78026897381369E-05 -0.33861916546703 0.000395324389703199"
+        rpy="-1.5708 0 1.5708" />
+      <mass
+        value="10.5685383554963" />
+      <inertia
+        ixx="0.0435712998080926"
+        ixy="-2.98299886391108E-08"
+        ixz="1.99151151521228E-08"
+        iyy="0.131287379245747"
+        iyz="-6.75667263234967E-06"
+        izz="0.147347100303717" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="-1.5708 0 1.5708" />
+      <geometry>
+        <mesh
+          filename="package://betago_description/meshes/frame_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://betago_description/meshes/frame_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="connect_Link">
+    <inertial>
+      <origin
+        xyz="-2.99217641515819E-15 0.0100625141067177 -1.55431223447522E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.388684361906885" />
+      <inertia
+        ixx="0.000636425749580159"
+        ixy="7.47498207053617E-19"
+        ixz="-3.11178702787472E-20"
+        iyy="0.00124694224633402"
+        iyz="-1.16551733542192E-18"
+        izz="0.00063642574958016" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://betago_description/meshes/connect_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://betago_description/meshes/connect_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="connect_joint"
+    type="fixed">
+    <origin
+      xyz="0 -0.30475 0.41354"
+      rpy="-0.7854 0 0" />
+    <parent
+      link="frame_link" />
+    <child
+      link="connect_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="connect2_Link">
+    <inertial>
+      <origin
+        xyz="-2.90414121825462E-15 0.0100625141067187 -2.4980018054066E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.388684361906885" />
+      <inertia
+        ixx="0.000636425749580159"
+        ixy="3.13888285214542E-18"
+        ixz="-2.31541182463055E-20"
+        iyy="0.00124694224633402"
+        iyz="1.24683249835833E-18"
+        izz="0.000636425749580159" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://betago_description/meshes/connect2_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://betago_description/meshes/connect2_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="connect2_jiont"
+    type="fixed">
+    <origin
+      xyz="0 0.30475 0.41354"
+      rpy="-2.3562 0 0" />
+    <parent
+      link="frame_link" />
+    <child
+      link="connect2_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

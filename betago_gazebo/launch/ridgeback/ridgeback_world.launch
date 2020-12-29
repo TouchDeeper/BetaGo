@@ -10,6 +10,7 @@
   <arg name="init_x" default="3"/>
   <arg name="init_y" default="-2"/>
   <arg name="init_z" default="4"/>
+  <arg name="joystick" default="false"/>
 
   <!-- Launch Gazebo with the specified world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
@@ -27,7 +28,7 @@
   </include>
   <include file="$(find betago_control)/launch/ridgeback/control.launch" />
   <include file="$(find betago_control)/launch/ridgeback/teleop.launch">
-    <arg name="joystick" value="true"/>
+    <arg name="joystick" value="$(arg joystick)"/>
   </include>
 
   <rosparam param="/gazebo_ros_control/pid_gains">
