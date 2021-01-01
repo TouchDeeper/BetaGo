@@ -59,18 +59,31 @@ note: this is only test in `ros-kinetic-rtabmap-ros`
 ![kinect + lidar + odom mapping result](../media/rtabmap_3.png)
 
 ### VINS-Fusion
+#### Realsense d435i
 1. calibrate the realsense d435i first according to `betago_calibration/doc/rs_d435i_calibration.md`
 2. copy the `rs_vins_fusion.launch` to realsense_ws and `roslaunch realsense2_camera rs_vins_fusion.launch `
-3. copy the yaml file in `config/vins-fusion` to `vins_fusion_ws/VINS-Fsuion/realsense_d443i/`
+3. copy the yaml file in `config/vins-fusion` to `vins_fusion_ws/VINS-Fsuion/realsense_d435i/`
 4. in vins_ws:
     ```
    roslaunch vins vins_rviz.launch
    rosrun vins vins_node /home/td/slam/vins_fusion_ws/src/VINS-Fusion/config/realsense_d435i/realsense_stereo_imu_config_me.yaml
    ```
+#### Realsense d435 and ridgeback's IMU
+1. get the initial value of extrinsic parameters from the simulation robot.
+    1. `rosrun tf tf_echo /imu_link /D435i_camera_left_ir_optical_frame`, get the rotation and translation of `body_T_cam0`.
+        output pattern:
+        ```
+        At time 0.000
+        - Translation: [0.042, 0.308, 0.544]
+        - Rotation: in Quaternion [-0.500, 0.500, -0.500, 0.500]
+                    in RPY (radian) [-1.571, 0.000, -1.571]
+                    in RPY (degree) [-90.000, 0.000, -90.000]
+       ```
+         The last value of `Quaternion` is the real part.
+         `RPY` is fixed axis rotation in roll->pitch->yaw order.
+    2. the quaternion can be converted to rotation matrix by this [online tool](https://www.andre-gaschler.com/rotationconverter/).
+        The Euler convention of this [online tool](https://www.andre-gaschler.com/rotationconverter/) is current axis rotation. For example, the `ZYX` convention means rotate by Z axis then rotate by current Y axis then rotate by current X axis.
 ## File explanation
 None
 ## Notes
-None
-
-## Modify on other project used in BetaGo
 None

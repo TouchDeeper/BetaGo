@@ -72,20 +72,22 @@ For Chinese, download from [rosclub.cn](http://www.rosclub.cn/post-37.html) : li
 ### Real robot
 #### Step to connect to the ridgeback by wired connection
 
-1. plug in the network cable.
+1. plug in the network cable to ridgeback's router, plug in the network cable to your pc.
 2. start the ridgeback, then push the E-STOP to release the lock. 
 3. set the wired connection in your desktop, see the [gif](https://github.com/TouchDeeper/BetaGo/blob/ztd/media/set_wire_network.gif).
-4. add the config in the below to your ~/.bashrc, and `source ~/.bashrc`
-```
-export ROS_MASTER_URI=http://192.168.131.1:11311 #Ethernet
-export ROS_IP=192.168.131.100
-```
+4. add the config in the below to your ~/.bashrc, and `source ~/.bashrc`. The `192.168.131.1` is keep the same when wired connection, this IP can also be specified by connecting a screen to ridgeback's computer, and type `ifconfig -a`, this IP is in the `br0` item of output information.
+    the `192.168.131.100` is also keep the same when wired connection,  this IP can also be specified by typing `ifconfig -a`in your pc and is in the first item of output information.
+    ```
+    export ROS_MASTER_URI=http://192.168.131.1:11311 #Ethernet
+    export ROS_IP=192.168.131.100
+    ```
 5.add the config `192.168.131.1 CPR-R100-0057`in the below to your /etc/hosts, the location is after the line like 
-```
-127.0.0.1	localhost
-127.0.1.1	[your-computer-name]
-```
+    ```
+    127.0.0.1	localhost
+    127.0.1.1	[your-computer-name]
+    ```
 6.`rostopic list` in your desktop to see if the topics in the ridgeback have been send to your desktop. If receive the topic, the connection is valid.
+7. note that the wired connection will not bread the connection to the wifi, but ssh to ridgeback's computer by wireless IP will be broken.
 #### Step to connect to the ridgeback by wireless network
 1. connect the ridgeback's computer and your pc to the same Local Area Network.
 2. get the IP of ridgeback by `ifconfig -a` in ridgeback's computer. The IP is in the `wlp3s0` item, and the sentence is `inet addr:[IP_ridgeback]`. 
@@ -104,6 +106,10 @@ export ROS_IP=192.168.131.100
 7. note!!!: after connection with ridgeback's computer, if your pc also need to run ros, comment out the content added in step 4 and 5 and re-source.
 ### step to login the ridgeback's pc by ssh
 1. `ssh administrator@[IP_ridgeback]`
+2. If you want to open multi-terminal, but don't want to login too much user, you can use tmux to split screen.
+    1. ssh to ridgeback's computer.
+    2. install tmux by 'sudo apt-get install tmux'
+    3. refer to [here](https://www.jianshu.com/p/b67567085856) for tmux's usage.
 ### Step to run the package
 - ur5 and allegro_hand are imported by environment variable RIDGEBACK_URDF_EXTRAS. RIDGEBACK_URDF_EXTRAS = your workspace path/src/betago_description/urdf/betago/ridgeback_urdf_extras.xacro
      - method1: set temporary environment variable:`export RIDGEBACK_URDF_EXTRAS=your workspace path/src/betago_description/urdf/betago/ridgeback_urdf_extras.xacro`

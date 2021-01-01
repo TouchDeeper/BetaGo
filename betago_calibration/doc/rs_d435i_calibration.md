@@ -121,3 +121,6 @@ the `rs-imu-calibration` is in the [librealsense root]//tools/rs-imu-calibration
     ```
     - the `camchain-multi_camera1.yaml` is the result of [multi-camera-calibration](#multi-camera). Here we just calibrate the `/infra1_left`, `/infra_right` and `/IMU`, so we need to delete the color camera related content.
     - `imu.yaml` is the result of `imu_utils`, but you need to write the `imu.yaml` by yourself according to this [tutorial](https://github.com/ethz-asl/kalibr/wiki/yaml-formats#imu-configuration-imuyaml)
+ ## Modification in Kalibr
+ - Error like `ImportError: cannot import name NavigationToolbar2Wx ` occurs, a quick fix is [here](https://github.com/ethz-asl/kalibr/issues/202#issuecomment-403417656)
+ - Error like `Spline Coefficient Buffer Exceeded. Set larger buffer margins!` occurs, a quick fix is [here](https://github.com/ethz-asl/kalibr/issues/41#issuecomment-179706154), I set the `timeOffsetPadding` to 0.1.

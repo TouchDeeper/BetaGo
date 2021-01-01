@@ -19,10 +19,13 @@ int main(int argc, char *argv[]) {
     std::ofstream ofs_timestamp;
     ofs_timestamp.setf(std::ios_base::fixed, std::ios_base::floatfield);
     ofs_timestamp.precision(10);
-    std::string imu_timestamp_path = ros::package::getPath("betago_calibration")+"/calib_raw_data/imu_timestamp.txt";
-    file_manager.CreateFile(ofs_timestamp, imu_timestamp_path, 4);
+    std::string imu_timestamp_path = ros::package::getPath("betago_calibration")+"/calib_raw_data";
+    std::string file_name = "imu_timestamp2.txt";
+    file_manager.CreateDirectory(imu_timestamp_path);
+    std::string full_path = imu_timestamp_path + "/" + file_name;
+    file_manager.CreateFile(ofs_timestamp, full_path, 4);
 
-    std::shared_ptr<tdros::IMUSubscriber> imu_sub_ptr = std::make_shared<tdros::IMUSubscriber>(nh, "/camera/imu", 100000);
+    std::shared_ptr<tdros::IMUSubscriber> imu_sub_ptr = std::make_shared<tdros::IMUSubscriber>(nh, "/imu/data", 100000);
 
     std::deque<tdros::IMUData> imu_data_buff;
     int output_index =  0;
