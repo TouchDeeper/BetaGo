@@ -7,6 +7,55 @@ This repository is about the BetaGo robot maintained by South China University o
 
 ![BetaGo](media/moveit+gazebo.gif)
 
+### Topics
+```
+/bluetooth_teleop/joy
+/camera/accel/imu_info
+/camera/gyro/imu_info
+/camera/imu
+/camera/infra1/camera_info
+/camera/infra1/image_rect_raw
+/camera/infra2/camera_info
+/camera/infra2/image_rect_raw
+/camera/motion_module/parameter_descriptions
+/camera/motion_module/parameter_updates
+/camera/realsense2_camera_manager/bond
+/camera/rgb_camera/parameter_descriptions
+/camera/rgb_camera/parameter_updates
+/camera/stereo_module/auto_exposure_roi/parameter_descriptions
+/camera/stereo_module/auto_exposure_roi/parameter_updates
+/camera/stereo_module/parameter_descriptions
+/camera/stereo_module/parameter_updates
+/cmd_lights
+/cmd_vel
+/diagnostics
+/diagnostics_agg
+/diagnostics_toplevel_state
+/feedback
+/imu/data
+/imu/data_raw
+/imu/mag
+/imu_filter/parameter_descriptions
+/imu_filter/parameter_updates
+/joint_states
+/mcu/cmd_fans
+/mcu/cmd_lights
+/mcu/status
+/odometry/filtered
+/ridgeback_velocity_controller/cmd_vel
+/ridgeback_velocity_controller/odom
+/rosout
+/rosout_agg
+/set_pose
+/status
+/tf
+/tf_static
+/twist_marker_server/feedback
+/twist_marker_server/update
+/twist_marker_server/update_full
+/wifi_connected
+```
+
 ## Dependencies
 - ros related
 ```

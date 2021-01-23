@@ -1,0 +1,32 @@
+<launch>
+
+<!-- Example usage of RTAB-Map with VINS-Fusion support for realsense D435i.
+     Make sure to disable the IR emitter or put a tape on the IR emitter to
+     avoid VINS tracking the fixed IR points (that would cause large drifts) -->
+
+<arg name="rtabmapviz" default="true"/>
+<arg name="rviz"       default="false"/>
+<arg name="depth_mode" default="true"/>
+<arg name="odom_strategy" default="9"/> <!-- default VINS -->
+<arg name="unite_imu_method" default="copy"/> <!-- "copy" or "linear_interpolation" -->
+
+   <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+      <arg name="json_file_path"      value="/home/td/realsense/realsense_ws/src/realsense-ros-2.2.20/realsense2_camera/config/kalibr.json"/>
+      <arg name="align_depth"   value="$(arg depth_mode)"/>
+      <arg name="unite_imu_method" value="$(arg unite_imu_method)"/>
+      <arg name="enable_gyro"   value="true"/>
+      <arg name="enable_accel"  value="true"/>
+      <arg name="enable_infra1" value="true"/>
+      <arg name="enable_infra2" value="true"/>
+      <arg name="gyro_fps"      value="200"/>
+      <arg name="accel_fps"     value="250"/>
+      <arg name="enable_sync"   value="true"/>
+      <arg name="initial_reset" value="true"/>
+      <arg name="filters" value="disparity,spatial,temporal,decimation"/>
+      <arg name="clip_distance" value="4"/>
+   </include>
+   <node name="dynamic_reconfigure_load1" pkg="dynamic_reconfigure" type="dynparam" args="load /camera/decimation $(find realsense2_camera)/config/rtabmap_decimation.yaml " />
+   <node name="dynamic_reconfigure_load2" pkg="dynamic_reconfigure" type="dynparam" args="load /camera/spatial $(find realsense2_camera)/config/rtabmap_spatial.yaml" />
+   <node name="dynamic_reconfigure_load3" pkg="dynamic_reconfigure" type="dynparam" args="load /camera/temporal $(find realsense2_camera)/config/rtabmap_temporal.yaml" />
+
+</launch>

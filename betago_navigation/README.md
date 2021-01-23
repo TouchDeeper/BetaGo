@@ -1,8 +1,12 @@
 # Navigation Package for BetaGo 
 This is navigation package for BetaGo.
 ## Dependencies
-- Gmapping: `sudo apt-get install ros-kinetic-gmapping*`
-- Cartographer: `sudo apt-get install ros-kinetic-cartographer*`
+- Gmapping: 
+    - `sudo apt-get install ros-kinetic-gmapping*`
+- Cartographer: 
+    - `sudo apt-get install ros-kinetic-cartographer*`
+- Rtabmap: 
+    - `sudo apt-get install ros-kinetic-octomap*`
 ## Simulation
 ### Gmapping
 - read the navigation [tutorial](http://www.clearpathrobotics.com/assets/guides/ridgeback/navigation.html) of the ridgeback
@@ -56,13 +60,33 @@ note: this is only test in `ros-kinetic-rtabmap-ros`
  roslaunch betago_navigation rtabmap_sim_kinect_scan_odom.launch simulation:=true
  roslaunch betago_navigation rtabmap_rviz.launch
 ```
+#### Bag record
+```
+rosbag record -b 0 --split --size=5120 -O 3d2.bag -a -x "/wifi(.*)|/twist(.*)|/rosout(.*)|/status|/set_pose|/mcu(.*)|/diagnostics(.*)|/cmd_lights|/bluetooth(.*)|/disparity|/gps/fix|/imu_filter_node(.*)|/initialpose|/left/(.*)|/move_base_simple/goal|/rgbd_image_relay|/right/(.*)|/rtabmap(.*)|/tag_detections|/user_data_async|/voxel_cloud|(.*)/compressed(.*)|/feature_tracker(.*)|/feedback|/vins(.*)|/camera/aligned_depth_to_infra1(.*)"
+```
+- `-b 0`: set the bag buffer size to infinite, otherwise the bag buffer will exceed as the warning said `rosbag record buffer exceeded.  Dropping oldest queued message.`.
+- `--split --size=5120`: split the bag if the size reach 5G.
 ![kinect + lidar + odom mapping result](../media/rtabmap_3.png)
 
 ### VINS-Fusion
+#### Bag record
+```
+rosbag record -O rtabmap1.bag -a -x "/wifi(.*)|/twist(.*)|/rosout(.*)|/status|/set_pose|/mcu(.*)|/diagnostics(.*)|/cmd_lights|/bluetooth(.*)|/disparity|/gps/fix|/imu_filter_node(.*)|/initialpose|/left/(.*)|/move_base_simple/goal|/rgbd_image_relay|/right/(.*)|/rtabmap(.*)|/tag_detections|/user_data_async|/voxel_cloud|(.*)/compressed(.*)"
+```
+if some error about `Compressed Depth Image Transport ` occur, it means there is some topic with `compressedDepth`,
+if there is `/camera/infra1/image_rect_raw/compressedDepth/(.*)`, you need to disable the image_transport plugin in launch file by:
+```
+<group ns="/camera/infra1/image_rect_raw" >
+   <rosparam param="disable_pub_plugins">
+      - 'image_transport/compressedDepth'
+      - 'image_transport/theora'
+   </rosparam>
+</group>
+```
 #### Realsense d435i
 1. calibrate the realsense d435i first according to `betago_calibration/doc/rs_d435i_calibration.md`
 2. copy the `rs_vins_fusion.launch` to realsense_ws and `roslaunch realsense2_camera rs_vins_fusion.launch `
-3. copy the yaml file in `config/vins-fusion` to `vins_fusion_ws/VINS-Fsuion/realsense_d435i/`
+3. copy the yaml file(`realsense_stereo_imu_config_me.yaml`,`infra1.yaml`,`infra2.yaml`) in `config/vins-fusion` to `vins_fusion_ws/VINS-Fsuion/realsense_d435i/`
 4. in vins_ws:
     ```
    roslaunch vins vins_rviz.launch
@@ -83,6 +107,12 @@ note: this is only test in `ros-kinetic-rtabmap-ros`
          `RPY` is fixed axis rotation in roll->pitch->yaw order.
     2. the quaternion can be converted to rotation matrix by this [online tool](https://www.andre-gaschler.com/rotationconverter/).
         The Euler convention of this [online tool](https://www.andre-gaschler.com/rotationconverter/) is current axis rotation. For example, the `ZYX` convention means rotate by Z axis then rotate by current Y axis then rotate by current X axis.
+    3. copy the yaml file(`realsense_stereo_imu_config_ridgeback.yaml`, `infra1.yaml`, `infra2.yaml`) in `config/vins-fusion` to `vins_fusion_ws/VINS-Fsuion/realsense_d435i/`
+    4. in vins_ws:
+        ```
+       roslaunch vins vins_rviz.launch
+       rosrun vins vins_node /home/td/slam/vins_fusion_ws/src/VINS-Fusion/config/realsense_d435i/realsense_stereo_imu_config_ridgeback.yaml
+       ```
 ## File explanation
 None
 ## Notes
