@@ -61,6 +61,11 @@ This repository is about the BetaGo robot maintained by South China University o
 ```
  sudo apt-get install ros-kinetic-joint-state-publisher-gui
 ```
+- gazebo7 >= 7.4.0
+
+check version by `gazebo --version`.
+follow [here](http://gazebosim.org/tutorials?cat=install&tut=install_ubuntu&ver=7.0#Alternativeinstallation:step-by-step) to update to newest gazebo7 version
+
 - moveit-ros packages:
 ```
 sudo apt-get install ros-kinetic-moveit-ros-*

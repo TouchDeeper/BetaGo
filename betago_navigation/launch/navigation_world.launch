@@ -1,9 +1,16 @@
 <launch>
     <arg name="dual_arm" default="true" />
-    <arg name="world_name" default="$(find ridgeback_gazebo)/worlds/ridgeback_race.world" />
+
+<!--    <arg name="world_name" default="$(find ridgeback_gazebo)/worlds/ridgeback_race.world" />-->
+<!--    <arg name="init_x" default="3"/>-->
+<!--    <arg name="init_y" default="0"/>-->
+<!--    <arg name="init_z" default="4"/>-->
+
+    <arg name="world_name" default="$(find betago_gazebo)/worlds/factory/factory.world" />
     <arg name="init_x" default="3"/>
-    <arg name="init_y" default="0"/>
+    <arg name="init_y" default="4"/>
     <arg name="init_z" default="4"/>
+
     <include file="$(find betago_bringup)/launch/betago_bringup_moveit.launch">
         <arg name="dual_arm" value="$(arg dual_arm)" />
         <arg name="world_name" value="$(arg world_name)" />

@@ -68,6 +68,18 @@ rosbag record -b 0 --split --size=5120 -O 3d2.bag -a -x "/wifi(.*)|/twist(.*)|/r
 - `--split --size=5120`: split the bag if the size reach 5G.
 ![kinect + lidar + odom mapping result](../media/rtabmap_3.png)
 
+
+### VINS-Fusion
+In betago workspace:
+```asm
+ roslaunch betago_navigation navigation_world.launch
+ roslaunch betago_navigation rviz_control_gazebo.launch
+```
+In vins-fusion workspace:
+```
+rosrun vins vins_node /home/td/slam/vins_fusion_ws/src/VINS-Fusion/config/realsense_d435i/realsense_stereo_imu_config_ridgeback_gazebo.yaml
+```
+## REAL
 ### VINS-Fusion
 #### Bag record
 ```
