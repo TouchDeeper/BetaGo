@@ -1,6 +1,7 @@
 <launch>
     <arg name="dual_arm" default="true" />
-
+    <arg name="joystick" value="true" />
+    <arg name="config" default="vins" />
 <!--    <arg name="world_name" default="$(find ridgeback_gazebo)/worlds/ridgeback_race.world" />-->
 <!--    <arg name="init_x" default="3"/>-->
 <!--    <arg name="init_y" default="0"/>-->
@@ -17,6 +18,8 @@
         <arg name="init_x" value="$(arg init_x)"/>
         <arg name="init_y" value="$(arg init_y)"/>
         <arg name="init_z" value="$(arg init_z)"/>
+        <arg name="joystick" value="$(arg joystick)"/>
+        <arg name="config" value="$(arg config)"/>
     </include>
 
 </launch>
