@@ -8,6 +8,10 @@
         args="0 0 0 0 0 0 world odom 50" />
   <node pkg="tf"
         type="static_transform_publisher"
-        name="imu_body_trans"
-        args="0 0 0 0 0 0 imu_link body 50" />
+        name="world_map_trans"
+        args="0 0 0 0 0 0 world map 50" />
+<!--  <node pkg="tf"-->
+<!--        type="static_transform_publisher"-->
+<!--        name="imu_body_trans"-->
+<!--        args="0 0 0 0 0 0 imu_link body 50" />-->
 </launch>

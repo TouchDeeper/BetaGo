@@ -94,8 +94,8 @@
   <gazebo>
     <plugin name="p3d_base_controller" filename="libgazebo_ros_p3d.so">
       <alwaysOn>true</alwaysOn>
-      <updateRate>30.0</updateRate>
-      <bodyName>/base_link</bodyName>
+      <updateRate>100.0</updateRate>
+      <bodyName>imu_link</bodyName>
       <topicName>ground_truth/state</topicName>
       <gaussianNoise>0.0</gaussianNoise>
       <frameName>map</frameName>

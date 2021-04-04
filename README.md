@@ -58,36 +58,43 @@ This repository is about the BetaGo robot maintained by South China University o
 
 ## Dependencies
 - ros related
-```
- sudo apt-get install ros-kinetic-joint-state-publisher-gui
-```
+    ```
+     sudo apt-get install ros-kinetic-joint-state-publisher-gui
+    ```
 - gazebo7 >= 7.4.0
 
-check version by `gazebo --version`.
-follow [here](http://gazebosim.org/tutorials?cat=install&tut=install_ubuntu&ver=7.0#Alternativeinstallation:step-by-step) to update to newest gazebo7 version
+    check version by `gazebo --version`.
 
+    follow [here](http://gazebosim.org/tutorials?cat=install&tut=install_ubuntu&ver=7.0#Alternativeinstallation:step-by-step) to update to newest gazebo7 version.
+        Problem after update:
+            1. `fatal error: ignition/math/Inertial.hh: No such file or directory`. fix: `sudo apt-get install libignition-math2-dev`
+            
+- realsense2 SDK and Realsense ROS
+
+    SDK installation refer to this [doc](./betago_calibration/doc/rs_d435i_calibration.md), ros package installation refer to [here](https://github.com/IntelRealSense/realsense-ros)
+    
 - moveit-ros packages:
-```
-sudo apt-get install ros-kinetic-moveit-ros-*
-sudo apt-get install ros-kinetic-moveit
-```
+    ```
+    sudo apt-get install ros-kinetic-moveit-ros-*
+    sudo apt-get install ros-kinetic-moveit
+    ```
 - ridgeback packages:
-```
-sudo apt-get install ros-kinetic-ridgeback*
-```
+    ```
+    sudo apt-get install ros-kinetic-ridgeback*
+    ```
 - UR5 packages:
-```
-sudo apt-get install ros-kinetic-ur-*
-sudo apt-get install ros-kinetic-ur5*
-```
+    ```
+    sudo apt-get install ros-kinetic-ur-*
+    sudo apt-get install ros-kinetic-ur5*
+    ```
 
 - [td_ros](https://github.com/TouchDeeper/td_ros):
 
-we add the td_ros directly by submodule.
+    we add the td_ros directly by submodule.
 
 - [TdLib](https://github.com/TouchDeeper/TdLib):
 
-modify all the `TdLib_DIR` in the CMakeLists.txt to your case.
+    modify all the `TdLib_DIR` in the CMakeLists.txt to your case.
 
 ## Usage
 create the workspace
