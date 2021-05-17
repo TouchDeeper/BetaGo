@@ -116,9 +116,9 @@ if there is `/camera/infra1/image_rect_raw/compressedDepth/(.*)`, you need to di
                     in RPY (degree) [-90.000, 0.000, -90.000]
        ```
          The last value of `Quaternion` is the real part.
-         `RPY` is fixed axis rotation in roll->pitch->yaw order.
+         `RPY` is fixed axis rotation in roll->pitch->yaw order, that is `ZYX` convention said below, the number order of `[-1.571, 0.000, -1.571]` is still the `(x,y,z)/(roll, pitch, yaw)` order .
     2. the quaternion can be converted to rotation matrix by this [online tool](https://www.andre-gaschler.com/rotationconverter/).
-        The Euler convention of this [online tool](https://www.andre-gaschler.com/rotationconverter/) is current axis rotation. For example, the `ZYX` convention means rotate by Z axis then rotate by current Y axis then rotate by current X axis.
+        The Euler convention of this [online tool](https://www.andre-gaschler.com/rotationconverter/) is current axis rotation. For example, the `ZYX` convention means rotate by Z axis then rotate by current Y axis then rotate by current X axis, the blank need to fill of (x,y,z) is (roll, pitch, yaw).
     3. copy the yaml file(`realsense_stereo_imu_config_ridgeback.yaml`, `infra1.yaml`, `infra2.yaml`) in `config/vins-fusion` to `vins_fusion_ws/VINS-Fsuion/realsense_d435i/`
     4. in vins_ws:
         ```

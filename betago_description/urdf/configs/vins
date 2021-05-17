@@ -1,7 +1,7 @@
-# The base Ridgeback configuration has only the
-# front laser.
+# The Ridgeback configuration for vins
 
-RIDGEBACK_FRONT_HOKUYO_LASER=1
+RIDGEBACK_FRONT_HOKUYO_LASER=0
 BETAGO_HEAD_D435i=1
+BETAGO_HEAD_D435=0
 BETAGO_HEAD_KINECT=0
 BETAGO_ARM_KINECT=0

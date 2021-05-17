@@ -38,7 +38,7 @@
   <arg name="num_worker_threads" default="4" />
 
   <!-- Laserscan topic -->
-  <arg name="scan_topic" default="scan"/>
+  <arg name="scan_topic" default="/scan"/>
 
   <include file="$(find betago_navigation)/launch/includes/3dsensor/$(arg 3d_sensor).launch.xml">
     <arg name="camera"                          value="$(arg camera)"/>
