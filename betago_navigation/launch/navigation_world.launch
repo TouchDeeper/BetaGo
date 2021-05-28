@@ -1,14 +1,14 @@
 <launch>
     <arg name="dual_arm" default="true" />
     <arg name="joystick" value="true" />
-    <arg name="config" default="kinect_rtabmap" /> <!--base, vins, kinect_rtabmap-->
+    <arg name="config" default="d435_rtabmap" /> <!--base, vins, kinect_rtabmap, d435_rtabmap-->
 
 <!--    <arg name="world_name" default="$(find ridgeback_gazebo)/worlds/ridgeback_race.world" />-->
 <!--    <arg name="init_x" default="3"/>-->
 <!--    <arg name="init_y" default="0"/>-->
 <!--    <arg name="init_z" default="4"/>-->
 
-    <arg name="world_name" default="$(find betago_gazebo)/worlds/factory/factory_raw.world" />
+    <arg name="world_name" default="$(find betago_gazebo)/worlds/factory/factory.world" />
     <arg name="init_x" default="3"/>
     <arg name="init_y" default="4"/>
     <arg name="init_z" default="4"/>
