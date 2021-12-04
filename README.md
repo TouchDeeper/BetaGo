@@ -1,4 +1,8 @@
 # Overview
+<img src = "https://github.com/TouchDeeper/BetaGo/blob/master/media/betago_rviz.png" width = 54% height = 30% />
+
+[//]: # (<img src = "/home/td/BetaGo_ws/src/media/betago_rviz.png" width = 54% height = 30% />)
+
 This repository is about the BetaGo robot maintained by South China University of Technology [PEMT Laboratory](http://www.scut.edu.cn/pemt/).
 
 ![BetaGo](media/BetaGo.gif)
