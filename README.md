@@ -1,5 +1,5 @@
 # Overview
-<img src = "https://github.com/TouchDeeper/BetaGo/blob/master/media/betago_rviz.png" width = 54% height = 30% />
+<img src = "https://github.com/TouchDeeper/BetaGo/blob/ztd/media/betago_rviz.png" width = 54% height = 30% />
 
 [//]: # (<img src = "/home/td/BetaGo_ws/src/media/betago_rviz.png" width = 54% height = 30% />)
 
