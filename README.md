@@ -187,3 +187,14 @@ For Chinese, download from [rosclub.cn](http://www.rosclub.cn/post-37.html) : li
 None
 ## Notes
 None
+
+## 4. Citation
+If you use this package for your research, a footnote with the link to this repository is appreciated: `github.com/TouchDeeper/BetaGo`, or for citation with BibTeX:
+```
+@misc{ztd2021BetaGo,
+  title={BetaGo: a dual_arm moblie robot simulation platform with multiple-sensor based on ROS.},
+  author={Tingda Zhuang},
+  howpublished={\url{https://github.com/TouchDeeper/BetaGo}},
+  year={2021}
+}
+```
